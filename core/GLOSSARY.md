@@ -90,22 +90,50 @@ after all six layers below are addressed.
 
 ## Reference Hierarchy Terms
 
+The Reference Hierarchy defines the three tiers of reference credibility.
+Understanding which tier you are working from changes how you use the
+information and what caveats apply to decisions made from it.
+
+```
+PRIMARY      ████████████  Highest credibility — the real thing
+SECONDARY    ██████░░░░░░  High credibility — close analog, requires translation
+TERTIARY     ███░░░░░░░░░  Moderate credibility — extracted principle, requires testing
+```
+
 **Primary Reference**
-Direct documentation of the exact thing being made. Real-world photographs,
-technical drawings, or footage of the specific subject. Highest credibility,
-lowest availability for fictional subjects.
+Direct documentation of the exact subject being made. Real-world photographs,
+technical drawings, footage, or specifications of the specific thing.
+Highest credibility. Lowest availability for fictional or speculative subjects.
+Decisions made from primary reference require no translation — apply directly.
 
 **Secondary Reference**
 Close analogs — things that share significant properties with the subject
 but are not identical. A sci-fi weapon's secondary reference might include
-real-world firearms with similar functional roles. High credibility for
-extractable principles, requires explicit translation.
+real-world firearms with similar functional roles and mechanical logic.
+High credibility for extractable principles, but requires explicit translation:
+what transfers, what doesn't, and why. Document the translation, don't assume it.
 
 **Tertiary Reference**
 Extracted principles from distant analogs. The rules of how things in a
-category behave, applied to a subject that doesn't fit neatly in that
-category. Lower credibility for specifics, high value for establishing
+broad category behave, applied to a subject that doesn't fit neatly in any
+specific category. Lower credibility for specifics, high value for establishing
 behavioral logic where primary and secondary reference don't exist.
+Tertiary reference requires enough domain knowledge to know which principles
+transfer and which don't. Always flag tertiary reference as requiring validation.
+
+**The Hierarchy in Practice**
+Most production work uses all three tiers simultaneously. A character costume
+might use primary reference for fabric type, secondary reference for how
+similar garments move under similar conditions, and tertiary reference for
+the abstract rules of how the silhouette should read at camera distance.
+Knowing which tier each piece of reference belongs to tells you how much
+weight to put on it and what to verify.
+
+**When Primary Reference Doesn't Exist**
+For fictional subjects (sci-fi, fantasy, speculative), primary reference is
+often unavailable. The professional response is not to stall — it is to
+engineer answers from secondary and tertiary reference systematically.
+See Mistake 05 (The Missing Analog) in `REFERENCE_MISTAKES.md`.
 
 ---
 
