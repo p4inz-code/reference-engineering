@@ -84,7 +84,7 @@ of this UI — which elements are primary, secondary, tertiary?" not just
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
 ```
 
 ---
@@ -204,7 +204,7 @@ audit and reference update. Be specific to this discipline's workflow.]
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
 ```
 
 ---
@@ -248,7 +248,7 @@ recommended for the top 3–5 mistakes.]
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
 ```
 
 ---
@@ -304,7 +304,7 @@ based on your experience.]
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
 ```
 
 ---
@@ -349,7 +349,7 @@ in this discipline.]
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
 ```
 
 ---
@@ -370,4 +370,4 @@ Before opening a PR, confirm:
 
 ---
 
-*Northbyte Studios — Atharva Patil — 2026*
+*P4inz Interactive Labs — Atharva Patil — 2026*

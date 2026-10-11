@@ -258,4 +258,4 @@ does not require elaborate annotation — a simple label is sufficient:
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

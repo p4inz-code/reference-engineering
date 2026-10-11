@@ -3,7 +3,7 @@
 > Systematic pre-production reference methodology for 3D artists working in games, VFX, film, and marketplace production.
 
 **Discipline:** 3D Art
-**Contributed by:** Atharva Patil — Northbyte Studios
+**Contributed by:** Atharva Patil — P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
@@ -87,4 +87,4 @@ If any are unanswered, production will be stopped by them later.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

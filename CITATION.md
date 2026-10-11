@@ -11,7 +11,7 @@ with accurate attribution.
 
 Patil, A. (2026). *Reference Engineering: A systematic methodology for
 pre-production reference gathering across creative and technical disciplines*
-(Version 1.0.0) [Framework]. Northbyte Studios.
+(Version 1.0.0) [Framework]. P4inz Interactive Labs.
 https://github.com/p4inz-code/reference-engineering
 
 ---
@@ -20,21 +20,21 @@ https://github.com/p4inz-code/reference-engineering
 
 Patil, Atharva. *Reference Engineering: A Systematic Methodology for
 Pre-Production Reference Gathering Across Creative and Technical Disciplines*.
-Version 1.0.0. Northbyte Studios, 2026.
+Version 1.0.0. P4inz Interactive Labs, 2026.
 https://github.com/p4inz-code/reference-engineering.
 
 ---
 
 ## Plain English (for tutorials, articles, YouTube descriptions)
 
-> Reference Engineering was developed by Atharva Patil (Northbyte Studios)
+> Reference Engineering was developed by Atharva Patil (P4inz Interactive Labs)
 > in 2026. Free framework: github.com/p4inz-code/reference-engineering
 
 ---
 
 ## Short Credit Line (for social posts, video captions, slide footers)
 
-> Reference Engineering — Atharva Patil, Northbyte Studios, 2026
+> Reference Engineering — Atharva Patil, P4inz Interactive Labs, 2026
 
 ---
 
@@ -42,7 +42,7 @@ https://github.com/p4inz-code/reference-engineering.
 
 ```
 Framework: Reference Engineering
-Author:    Atharva Patil — Northbyte Studios
+Author:    Atharva Patil — P4inz Interactive Labs
 Year:      2026
 Source:    https://github.com/p4inz-code/reference-engineering
 License:   MIT
@@ -60,7 +60,7 @@ License:   MIT
                Technical Disciplines},
   year      = {2026},
   version   = {1.0.0},
-  publisher = {Northbyte Studios},
+  publisher = {P4inz Interactive Labs},
   url       = {https://github.com/p4inz-code/reference-engineering}
 }
 ```

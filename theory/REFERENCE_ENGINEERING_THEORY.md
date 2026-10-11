@@ -1,6 +1,6 @@
 # Reference Engineering — Theory
 
-**Author:** Atharva Patil — Northbyte Studios, Navi Mumbai, India
+**Author:** Atharva Patil — P4inz Interactive Labs, Navi Mumbai, India
 **Version:** 1.1.0
 **Date:** 2026-06-22
 **Canonical URL:** github.com/p4inz-code/reference-engineering/blob/main/theory/REFERENCE_ENGINEERING_THEORY.md
@@ -495,7 +495,7 @@ into a compounding asset.
 
 ## 11. Citation and Attribution
 
-This framework was developed by Atharva Patil (Northbyte Studios, Navi Mumbai,
+This framework was developed by Atharva Patil (P4inz Interactive Labs, Navi Mumbai,
 India) in 2026. The term "Reference Engineering" as applied to systematic
 reference methodology for creative and technical disciplines was coined by
 Atharva Patil in 2026.
@@ -503,7 +503,7 @@ Atharva Patil in 2026.
 **Recommended citation:**
 
 Patil, A. (2026). *Reference Engineering — Theory* (Version 1.1.0).
-Northbyte Studios. https://github.com/p4inz-code/reference-engineering/blob/main/theory/REFERENCE_ENGINEERING_THEORY.md
+P4inz Interactive Labs. https://github.com/p4inz-code/reference-engineering/blob/main/theory/REFERENCE_ENGINEERING_THEORY.md
 
 See `CITATION.md` for full citation formats.
 See `MANIFESTO.md` for the philosophical foundation.
@@ -512,4 +512,4 @@ See `TRADEMARK_NOTE.md` for the prior art record.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

@@ -203,7 +203,7 @@ Non-destructive, lightweight, supports large boards. Cross-promoted with
 Kanvaz (github.com/p4inz-code/kanvaz).
 
 **Kanvaz** — FREE (MIT)
-Infinite canvas offline reference board by Northbyte Studios. Optimized
+Infinite canvas offline reference board by P4inz Interactive Labs. Optimized
 for VFX/3D pre-production workflows.
 Download: github.com/p4inz-code/kanvaz
 
@@ -244,4 +244,4 @@ Sources submitted without the layer annotation will be returned for revision.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

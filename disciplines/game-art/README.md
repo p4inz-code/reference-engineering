@@ -3,7 +3,7 @@
 > Systematic pre-production reference methodology for game artists working on characters, environments, props, and UI for games.
 
 **Discipline:** Game Art
-**Contributed by:** Atharva Patil — Northbyte Studios
+**Contributed by:** Atharva Patil — P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
@@ -88,4 +88,4 @@ polygon budget, the texel density, the LOD chain requirements.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

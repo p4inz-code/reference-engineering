@@ -3,7 +3,7 @@
 Full methodology for gathering, analyzing, and organizing reference across
 the complete 3D production arc: from initial brief through delivery.
 
-**Contributed by:** Atharva Patil — Northbyte Studios
+**Contributed by:** Atharva Patil — P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
@@ -354,4 +354,4 @@ Re-run the brief (run Core Loop again) when:
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

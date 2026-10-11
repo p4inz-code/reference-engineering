@@ -1,6 +1,6 @@
 # The Reference Engineering Manifesto
 
-**Author:** Atharva Patil — Northbyte Studios, Navi Mumbai, India
+**Author:** Atharva Patil — P4inz Interactive Labs, Navi Mumbai, India
 **Date:** 2026-06-22
 **Version:** 1.1.0
 
@@ -145,7 +145,7 @@ The origin belongs to the record.
 This manifesto constitutes the first formal, public, timestamped definition of Reference Engineering as a named discipline.
 
 **Author:** Atharva Patil
-**Studio:** Northbyte Studios
+**Studio:** P4inz Interactive Labs
 **Location:** Navi Mumbai, Maharashtra, India
 **Date:** 2026-06-22
 **Repository:** github.com/p4inz-code/reference-engineering

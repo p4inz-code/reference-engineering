@@ -17,7 +17,7 @@ It is prior art documentation, not a legal trademark claim.
 | Term | Reference Engineering |
 | Applied to | Systematic pre-production reference gathering methodology for creative and technical disciplines |
 | First used by | Atharva Patil |
-| Studio | Northbyte Studios, Navi Mumbai, Maharashtra, India |
+| Studio | P4inz Interactive Labs, Navi Mumbai, Maharashtra, India |
 | First use date | 2026-06-22 |
 | First implementation | github.com/p4inz-code/3d-ref-skills v3.1.0 |
 | First formal definition | github.com/p4inz-code/reference-engineering (this repository) |
@@ -79,4 +79,4 @@ growth honest.
 
 ---
 
-*Author: Atharva Patil — Northbyte Studios — 2026-06-22*
+*Author: Atharva Patil — P4inz Interactive Labs — 2026-06-22*

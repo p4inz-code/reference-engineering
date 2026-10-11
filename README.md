@@ -20,7 +20,7 @@ The difference is not effort — it is methodology. A reference collector asks: 
 
 This repository is the canonical free library for Reference Engineering across every discipline that has a production phase. It defines the methodology, proves it with examples, and provides the tools to practice it.
 
-Reference Engineering was developed by [Atharva Patil](https://github.com/p4inz-code) (Northbyte Studios, Navi Mumbai, India) in 2026. See [`MANIFESTO.md`](./MANIFESTO.md) for the origin and [`CITATION.md`](./CITATION.md) to cite this work.
+Reference Engineering was developed by [Atharva Patil](https://github.com/p4inz-code) (P4inz Interactive Labs, Navi Mumbai, India) in 2026. See [`MANIFESTO.md`](./MANIFESTO.md) for the origin and [`CITATION.md`](./CITATION.md) to cite this work.
 
 ---
 
@@ -186,7 +186,7 @@ I am an animation student and indie developer in Navi Mumbai, India. In 2026, wh
 
 This repository is the attempt to provide that language.
 
-— Atharva Patil, Northbyte Studios
+— Atharva Patil, P4inz Interactive Labs
 
 Cite this work: [`CITATION.md`](./CITATION.md)
 Prior art record: [`TRADEMARK_NOTE.md`](./TRADEMARK_NOTE.md)
@@ -205,7 +205,7 @@ Community: [discord.gg/XFF5nV53ZJ](https://discord.gg/XFF5nV53ZJ)
 
 MIT — see [`LICENSE`](./LICENSE)
 
-*Reference Engineering — coined by Atharva Patil, Northbyte Studios, 2026*
+*Reference Engineering — coined by Atharva Patil, P4inz Interactive Labs, 2026*
 
 ---
 

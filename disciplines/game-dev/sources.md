@@ -2,7 +2,7 @@
 
 Best sources for Reference Engineering in game development, by Pyramid layer.
 
-**Contributed by:** Atharva Patil — Northbyte Studios
+**Contributed by:** Atharva Patil — P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
@@ -160,4 +160,4 @@ Primary-tier measurement tool for Layer 7 input latency targets.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

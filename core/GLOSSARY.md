@@ -10,7 +10,7 @@ All terms used in this library, defined precisely.
 The systematic practice of identifying, gathering, analyzing, and organizing
 reference material before and during production — with the explicit goal of
 answering specific technical and creative questions, not merely collecting
-visual inspiration. Term coined by Atharva Patil (Northbyte Studios, 2026).
+visual inspiration. Term coined by Atharva Patil (P4inz Interactive Labs, 2026).
 
 **Reference Brief**
 A structured document that defines the reference requirements for a specific
@@ -210,4 +210,4 @@ required under MIT.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

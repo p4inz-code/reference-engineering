@@ -3,7 +3,7 @@
 > Systematic pre-production reference methodology for developers building desktop, mobile, and cross-platform applications.
 
 **Discipline:** App Development
-**Contributed by:** Atharva Patil — Northbyte Studios
+**Contributed by:** Atharva Patil — P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
@@ -85,4 +85,4 @@ must be referenced before implementation, not discovered in user reports.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

@@ -2,7 +2,7 @@
 
 **Project type:** Desktop application UI (Electron, Windows)
 **Discipline:** App Development / UI Design
-**Analyst:** Atharva Patil — Northbyte Studios (first-person)
+**Analyst:** Atharva Patil — P4inz Interactive Labs (first-person)
 **Date of project:** 2025–2026
 **Date of analysis:** 2026-06-22
 **Access level:** First-person — I built this
@@ -53,4 +53,4 @@ documentation rather than visual or physical reference.
 ---
 
 *Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — Northbyte Studios — 2026*
+*Framework by Atharva Patil — P4inz Interactive Labs — 2026*

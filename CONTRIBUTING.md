@@ -57,7 +57,7 @@ with a link to the external repo.
 By submitting a pull request to this repository, you agree that:
 
 1. Your contribution is licensed under the MIT License (same as this repository)
-2. The term "Reference Engineering," the Seven Principles, the Reference Pyramid, and the overall framework retain attribution to Atharva Patil (Northbyte Studios) as defined in `MANIFESTO.md` and `TRADEMARK_NOTE.md`
+2. The term "Reference Engineering," the Seven Principles, the Reference Pyramid, and the overall framework retain attribution to Atharva Patil (P4inz Interactive Labs) as defined in `MANIFESTO.md` and `TRADEMARK_NOTE.md`
 3. Your contribution will be credited in `CHANGELOG.md` and the relevant discipline section
 
 You retain authorship credit for any discipline section you create or
@@ -95,4 +95,4 @@ at discord.gg/XFF5nV53ZJ.
 
 ---
 
-*Northbyte Studios — Atharva Patil — 2026*
+*P4inz Interactive Labs — Atharva Patil — 2026*
