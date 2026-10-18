@@ -1,20 +1,20 @@
-# Game Development — Reference Engineering Guide
+# Game development: reference engineering guide
 
-**Contributed by:** Atharva Patil — P4inz Interactive Labs
+**Contributed by:** Atharva Patil, P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
-### What to Find
+### What to find
 
 **Core loop documentation:** The core loop is the 30-second action that
 the player repeats most frequently. Every game has one. Reference comparable
-games' core loops — not as descriptions ("you fight enemies and collect
-loot") but as timed sequences ("combat engagement: 8–15 seconds. Loot
-collection: 3–5 seconds. Movement to next encounter: 10–20 seconds.
-Full loop: 21–40 seconds."). Timing the core loop of reference games
+games' core loops, not as descriptions ("you fight enemies and collect
+loot") but as timed sequences ("combat engagement: 8-15 seconds. Loot
+collection: 3-5 seconds. Movement to next encounter: 10-20 seconds.
+Full loop: 21-40 seconds."). Timing the core loop of reference games
 with a stopwatch is primary-tier Layer 1 reference.
 
 **Player fantasy documentation:** What does the player believe they are
@@ -28,7 +28,7 @@ comparable games and document how their mechanics serve the stated player fantas
 **Genre convention reference:** Every genre has conventions that players
 expect. An FPS player expects iron sights aiming. A roguelite player expects
 permadeath. A puzzle game player expects undo. Departing from genre conventions
-requires explicit justification — the convention exists because players
+requires explicit justification, the convention exists because players
 built a mental model from every other game in the genre.
 
 **Platform context:** Mobile games have different session length expectations
@@ -38,13 +38,13 @@ density, and control mapping.
 
 ---
 
-## Layer 2 — Scale & Proportion (Pacing and Economy)
+## Layer 2: scale & proportion (pacing and economy)
 
-### What to Find
+### What to find
 
 **Session length and loop timing:** How long is a typical play session for
-this game type? How many core loops fit in a session? Mobile: 5–15 minutes.
-Roguelite: 30–90 minutes per run. Open world: 60–180 minutes.
+this game type? How many core loops fit in a session? Mobile: 5-15 minutes.
+Roguelite: 30-90 minutes per run. Open world: 60-180 minutes.
 The session length governs content density, save point design, and
 progression pacing.
 
@@ -61,9 +61,9 @@ how many seconds does it take to traverse the width of a standard level?
 
 ---
 
-## Layer 3 — Stage Reference
+## Layer 3: stage reference
 
-### Game Development Production Stages
+### Game development production stages
 
 | Stage | What You're Building | Reference Needed |
 |---|---|---|
@@ -74,11 +74,11 @@ how many seconds does it take to traverse the width of a standard level?
 | Beta | Full content, balance | Economy reference, progression pacing reference |
 | Polish | Game feel, juice | Input latency targets, feedback parameters |
 
-### Stage-Appropriate Reference Practice
+### Stage-Appropriate reference practice
 
 **At paper prototype stage:** Reference should answer whether the mechanic
 makes sense on paper. Comparable board games and card games that implement
-similar mechanics are useful reference here — they show whether the logic
+similar mechanics are useful reference here. They show whether the logic
 is sound before the implementation cost is incurred.
 
 **At grey-box stage:** Game feel reference becomes active. What are the
@@ -89,14 +89,14 @@ implementation is complete.
 
 **At alpha stage:** Difficulty curve and onboarding reference are active.
 Document how comparable games introduce mechanics: what is shown in level 1,
-what is introduced in levels 2–5, what is withheld until the player
+what is introduced in levels 2-5, what is withheld until the player
 demonstrates competence?
 
 ---
 
-## Layer 4 — Governing Rules
+## Layer 4: governing rules
 
-### The Mechanic Analysis Framework
+### The mechanic analysis framework
 
 The primary Layer 4 practice in game development is mechanic analysis:
 taking a comparable game and extracting its specific mechanical rules
@@ -127,7 +127,7 @@ NOT TRANSFERABLE:
 - [What doesn't transfer and why]
 ```
 
-**Example — Jump Mechanic Analysis (platformer):**
+**Example, Jump Mechanic Analysis (platformer):**
 
 ```
 GAME: Celeste (2018)
@@ -159,9 +159,9 @@ tight level design requires high air control; our more open level design
 may need less
 ```
 
-### Style Rules for Game Feel
+### Style rules for game feel
 
-Layer 4 in game development includes the written rules for game feel —
+Layer 4 in game development includes the written rules for game feel
 how the game responds to player input. These are specific and measurable:
 
 - Input latency target (frames from input to visual response)
@@ -172,9 +172,9 @@ how the game responds to player input. These are specific and measurable:
 
 ---
 
-## Layer 5 — Contextual Conditions
+## Layer 5: contextual conditions
 
-### Platform Input Reference
+### Platform input reference
 
 Each platform's input model constrains what is achievable and what
 players expect. Document the input model before designing controls:
@@ -182,22 +182,22 @@ players expect. Document the input model before designing controls:
 **Mobile:**
 - Touch: tap, swipe, hold, pinch. No precision pointing.
 - No keyboard or mouse unless external peripheral.
-- Sessions interrupted frequently — must be pauseable at any moment.
+- Sessions interrupted frequently: must be pauseable at any moment.
 - One hand or two? Portrait or landscape? Both must be designed for.
 
 **Console (controller):**
 - Analog sticks: precision varies by player and stick wear.
 - Face buttons: 4 + triggers + bumpers. Remapping increasingly expected.
-- Vibration/haptic feedback: use it — it's a communication channel, not decoration.
+- Vibration/haptic feedback: use it: it's a communication channel, not decoration.
 - Couch distance: UI must read at 3m+ from a TV.
 
 **PC:**
 - Mouse + keyboard: highest precision input.
 - WASD + mouse is the genre-specific convention for most PC genres.
-- Key remapping is expected — do not hardcode keys.
-- Monitor distance: ~60–80cm. Much higher UI density than console.
+- Key remapping is expected: do not hardcode keys.
+- Monitor distance: ~60-80cm. Much higher UI density than console.
 
-### Session Context Reference
+### Session context reference
 
 Different session contexts require different design approaches:
 
@@ -210,9 +210,9 @@ Different session contexts require different design approaches:
 
 ---
 
-## Layer 6 — Behavior & Construction
+## Layer 6: behavior & construction
 
-### Physics Parameters
+### Physics parameters
 
 If the game uses physics simulation, document the target parameters before
 implementation. Common parameters requiring reference:
@@ -223,7 +223,7 @@ implementation. Common parameters requiring reference:
 - Projectile behavior: does it follow real ballistics or arcade ballistics?
 - Collision response: rigid body? Soft body? Ragdoll?
 
-### AI Behavior Documentation
+### AI behavior documentation
 
 Enemy AI behavior should be documented as rules before implementation:
 
@@ -237,38 +237,38 @@ comparison: does the implemented AI actually match the documented rules?
 
 ---
 
-## Layer 7 — Precision Detail (Game Feel)
+## Layer 7: precision detail (game feel)
 
 Game feel is the Layer 7 of game development. It is the precision craft
 that makes a game feel good to play rather than merely function correctly.
 
-### Key Game Feel Parameters to Reference and Document
+### Key game feel parameters to reference and document
 
 **Coyote time:** Frames after leaving a platform edge during which the
-player can still jump. Reference: 6–8 frames is the standard in
-precision platformers. More forgiving games: 10–12 frames.
+player can still jump. Reference: 6-8 frames is the standard in
+precision platformers. More forgiving games: 10-12 frames.
 
 **Jump buffer (input buffer):** Frames before landing during which a
-jump input is registered and executed on landing. Standard: 6–10 frames.
+jump input is registered and executed on landing. Standard: 6-10 frames.
 
 **Hit pause (hitstop):** Frames of frozen time on a successful hit.
-Standard: 2–4 frames for light hits, 6–10 for heavy hits. Creates
+Standard: 2-4 frames for light hits, 6-10 for heavy hits. Creates
 the "weight" of combat.
 
-**Screen shake:** Duration: 8–12 frames. Intensity: decreasing curve,
+**Screen shake:** Duration: 8-12 frames. Intensity: decreasing curve,
 not constant. Direction: randomly distributed or physically motivated.
 
 **Input latency target:** Time from player input to visual response.
 Target: under 3 frames (50ms) for responsiveness. Over 5 frames (83ms)
 starts to feel sluggish to experienced players.
 
-**Sound feedback latency:** Sound should trigger within 1–2 frames of
+**Sound feedback latency:** Sound should trigger within 1-2 frames of
 the action it responds to. Sound that arrives late disrupts feel more
 than graphics that arrive late.
 
 ---
 
-## The Game Development Reference Brief
+## The game development reference brief
 
 ```
 PROJECT: [game title]
@@ -323,5 +323,5 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

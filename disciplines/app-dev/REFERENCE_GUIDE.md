@@ -1,19 +1,19 @@
-# App Development — Reference Engineering Guide
+# App development: reference engineering guide
 
 Full methodology for gathering, analyzing, and organizing reference across
 the complete app development production arc.
 
-**Contributed by:** Atharva Patil — P4inz Interactive Labs
+**Contributed by:** Atharva Patil, P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
-### What to Find
+### What to find
 
 **User task reference:** What does the user open this app to accomplish?
-Not what features the app has — what job the user is hiring the app to do.
+Not what features the app has. What job the user is hiring the app to do.
 This distinction matters because apps are judged not by their features
 but by how well they accomplish the user's primary task. An app with
 twenty features that makes the primary task harder has failed Layer 1.
@@ -34,9 +34,9 @@ advantage. Reference the conventions the user already knows.
 **App store review reference:** Reviews of comparable apps in the same
 category on the same platform are primary-tier Layer 1 reference. They
 tell you what users come for, what frustrates them, and what competing
-apps fail to do — all from the users themselves.
+apps fail to do, all from the users themselves.
 
-### Discipline-Specific Questions
+### Discipline-Specific questions
 
 - What is the user's primary task in one sentence?
 - How does the user's day look before and after this app session?
@@ -45,12 +45,12 @@ apps fail to do — all from the users themselves.
 
 ---
 
-## Layer 2 — Scale & Proportion
+## Layer 2: scale & proportion
 
-### What to Find
+### What to find
 
 **Screen size and DPI range:** The minimum and maximum screen sizes in
-the target device range. The minimum is the constraint — everything must
+the target device range. The minimum is the constraint, everything must
 work there. On mobile: smallest supported device. On desktop: minimum
 window size. On Windows: 1366×768 is still the modal screen resolution
 in many markets.
@@ -71,9 +71,9 @@ DPI range before designing.
 
 ---
 
-## Layer 3 — Production Stage Reference
+## Layer 3: production stage reference
 
-### App Development Production Stages
+### App development production stages
 
 | Stage | What You're Building | Reference Needed |
 |---|---|---|
@@ -84,10 +84,10 @@ DPI range before designing.
 | QA / Testing | Cross-device, cross-OS validation | Device test matrix, OS version compatibility |
 | Store Submission | App store compliance | Store guidelines, screenshot specifications |
 
-### Stage-Appropriate Reference Practice
+### Stage-Appropriate reference practice
 
 **At architecture stage:** Gather navigation pattern reference for this
-app category. How do comparable apps structure their navigation — tab bar,
+app category. How do comparable apps structure their navigation, tab bar,
 drawer, hierarchical, modal? The navigation pattern is an architecture
 decision that is expensive to change after implementation begins.
 
@@ -97,55 +97,55 @@ requirements. Google Play will surface warnings for Material Design
 violations. Know what is required before designing against it.
 
 **At implementation stage:** Platform API documentation is the primary
-reference. Not tutorials — official documentation. APIs change between
+reference. Not tutorials, official documentation. APIs change between
 OS versions and tutorials become outdated. The documentation is always
 current.
 
 ---
 
-## Layer 4 — Governing Rules
+## Layer 4: governing rules
 
-### Platform HIG as Layer 4 Reference
+### Platform HIG as layer 4 reference
 
 Platform Human Interface Guidelines are the most important Layer 4
-reference in app development. They are not aesthetic guidelines —
+reference in app development. They are not aesthetic guidelines
 they are behavioral standards that users expect apps on their platform
 to follow. Violating them creates friction the user experiences as bugs.
 
 **Apple Human Interface Guidelines (iOS/macOS):**
 - Navigation: use platform navigation components (NavigationStack,
   TabView) rather than custom equivalents unless there is explicit reason
-- Typography: use Dynamic Type for all text sizes — users with
+- Typography: use Dynamic Type for all text sizes, users with
   accessibility size settings expect apps to respond
 - Controls: use standard UIKit/SwiftUI controls for standard tasks
-- Gestures: swipe to go back is expected on iOS — implementing a custom
+- Gestures: swipe to go back is expected on iOS, implementing a custom
   back button without supporting the swipe gesture breaks a core convention
 
 **Android Material Design 3:**
-- Navigation: bottom navigation bar for 3–5 top-level destinations,
+- Navigation: bottom navigation bar for 3-5 top-level destinations,
   navigation drawer for 6+
-- Typography: use Material Type scale — sp units for text, dp for everything else
+- Typography: use Material Type scale, sp units for text, dp for everything else
 - Color: implement Material You dynamic color or document why not
 - Components: use Material components rather than custom equivalents
 
 **Windows / WPF / WinUI:**
 - Title bar: apps that use the full title bar area must handle custom
   title bar correctly across all Windows themes
-- Dark mode: system theme changes must be handled — apps that don't
+- Dark mode: system theme changes must be handled, apps that don't
   respond to system theme switch have a visible bug
-- Accessibility: Windows Narrator is the primary screen reader — test
+- Accessibility: Windows Narrator is the primary screen reader, test
   against it specifically
 
-### Written Rules Beyond Platform HIG
+### Written rules beyond platform HIG
 
 Beyond platform compliance, document the app-specific visual rules:
-same format as web-dev Layer 4 — numbers, not feelings.
+same format as web-dev Layer 4, numbers, not feelings.
 
 ---
 
-## Layer 5 — Contextual Conditions
+## Layer 5: contextual conditions
 
-### OS Version Range
+### OS version range
 
 The OS version range is Layer 5 reference that constrains what APIs
 are available. An API introduced in iOS 17 is not available on iOS 15.
@@ -158,7 +158,7 @@ Before implementation of any feature, document:
 - The percentage of target users on that OS version or higher
 - The fallback behavior for users below the minimum
 
-### Hardware Minimum Specification
+### Hardware minimum specification
 
 The minimum hardware spec is Layer 5 reference that constrains
 performance budget. RAM minimum affects how much data can be held
@@ -167,10 +167,10 @@ Storage minimum affects caching strategy.
 
 For mobile: the slowest supported device is the performance target.
 If the app runs well on a high-end flagship and poorly on a mid-range
-device from three years ago — and mid-range devices from three years ago
-are in the target market — the performance is insufficient.
+device from three years ago. And mid-range devices from three years ago
+are in the target market. The performance is insufficient.
 
-### Permission Model Reference
+### Permission model reference
 
 Every permission the app requests has a user experience cost.
 Reference how users respond to permission requests in this app category:
@@ -184,9 +184,9 @@ platform documentation on permission best practices.
 
 ---
 
-## Layer 6 — Framework and OS Behavior
+## Layer 6: framework and OS behavior
 
-### What to Find
+### What to find
 
 **Framework lifecycle reference:** Every framework has a specific application
 lifecycle: launch, active, background, suspend, terminate. The behavior
@@ -198,7 +198,7 @@ termination correctly corrupt their state.
 behave when storage is full? When the write fails? When the app is
 terminated mid-write? These are Layer 6 failure mode references.
 Every persistence implementation should have documented behavior for
-each failure mode — sourced from the persistence layer's documentation.
+each failure mode, sourced from the persistence layer's documentation.
 
 **Update mechanism behavior:** How does the app update? Auto-update via
 store, manual update check, in-app update prompt? What happens to user
@@ -213,9 +213,9 @@ documentation that is primary-tier Layer 6 reference.
 
 ---
 
-## Layer 7 — Precision Detail
+## Layer 7: precision detail
 
-### What to Find
+### What to find
 
 **Platform animation reference:** Each platform has expected animation
 timing and curves for specific interactions. iOS uses spring animations
@@ -235,7 +235,7 @@ screen reader users hear when they navigate to each element?
 
 ---
 
-## The App Development Reference Brief
+## The app development reference brief
 
 ```
 PROJECT: [app name]
@@ -297,7 +297,7 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-## When to Re-Run Reference Work
+## When to Re-Run reference work
 
 - When the OS version minimum changes
 - When a new permission is required
@@ -308,5 +308,5 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

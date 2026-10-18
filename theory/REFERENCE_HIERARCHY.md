@@ -1,7 +1,7 @@
-# Reference Hierarchy
+# Reference hierarchy
 
 **Part of:** Reference Engineering Theory Layer
-**Relates to:** Principle 4 — Reference has a hierarchy
+**Relates to:** Principle 4, Reference has a hierarchy
 
 The Reference Hierarchy is the credibility model of Reference Engineering.
 It defines three tiers of reference authority and governs how decisions
@@ -9,7 +9,7 @@ derived from references should be weighted, documented, and validated.
 
 ---
 
-## The Three Tiers
+## The three tiers
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -32,7 +32,7 @@ derived from references should be weighted, documented, and validated.
 
 ---
 
-## Tier 1 — Primary Reference
+## Tier 1: primary reference
 
 ### Definition
 
@@ -42,14 +42,14 @@ measurements of the specific thing.
 
 ### Properties
 
-- **Credibility:** Highest. No translation step required.
-- **Availability:** Lowest. For fictional, speculative, or novel subjects,
+- Credibility: Highest. No translation step required.
+- Availability: Lowest. For fictional, speculative, or novel subjects,
   primary reference is often unavailable.
-- **Application:** Apply directly to decisions without intermediate steps.
-- **Documentation:** Note the source, date, and what decision it informs.
+- Application: Apply directly to decisions without intermediate steps.
+- Documentation: Note the source, date, and what decision it informs.
   No translation note required.
 
-### Examples by Domain
+### Examples by domain
 
 | Domain | Example of Primary Reference |
 |---|---|
@@ -60,35 +60,35 @@ measurements of the specific thing.
 | Security Research | Direct enumeration of the specific target system |
 | Brand Design | Brand guidelines document from the exact client brand |
 
-### When Primary Reference Does Not Exist
+### When primary reference does not exist
 
 For fictional subjects (a sci-fi weapon that has never existed), speculative
 subjects (a building type not yet built), or novel subjects (a new product
 category), primary reference is unavailable. This does not stall Reference
-Engineering — it triggers the secondary reference process.
+Engineering, it triggers the secondary reference process.
 
 ---
 
-## Tier 2 — Secondary Reference
+## Tier 2: secondary reference
 
 ### Definition
 
-Secondary reference is close analog material — things that share significant
+Secondary reference is close analog material, things that share significant
 properties with the subject but are not identical. A secondary reference
 informs decisions about the subject by analogy. It requires an explicit
 translation step: identifying what transfers and what does not.
 
 ### Properties
 
-- **Credibility:** High for transferable principles. Translation is mandatory.
-- **Availability:** High. Most subjects have identifiable close analogs.
-- **Application:** Extract the transferable principle. Document the translation.
+- Credibility: High for transferable principles. Translation is mandatory.
+- Availability: High. Most subjects have identifiable close analogs.
+- Application: Extract the transferable principle. Document the translation.
   Flag what was translated so downstream decisions can be reviewed if the
   translation is challenged.
-- **Documentation:** Note the source, the analog relationship, what transfers,
+- Documentation: Note the source, the analog relationship, what transfers,
   and what does not.
 
-### The Translation Step
+### The translation step
 
 The translation step is what distinguishes professional secondary reference
 use from amateur secondary reference use. Amateur: look at the analog, apply
@@ -105,7 +105,7 @@ Does not transfer: [what is specific to the analog and not the subject?]
 Translation applied: [what decision was made using the transferred principle?]
 ```
 
-### Examples by Domain
+### Examples by domain
 
 | Domain | Subject | Secondary Reference | What Transfers |
 |---|---|---|---|
@@ -117,27 +117,27 @@ Translation applied: [what decision was made using the transferred principle?]
 
 ---
 
-## Tier 3 — Tertiary Reference
+## Tier 3: tertiary reference
 
 ### Definition
 
 Tertiary reference is extracted principle from a distant analog. It does not
-document the subject or a close analog — it captures a principle from a
+document the subject or a close analog. It captures a principle from a
 category that shares an underlying rule with the subject.
 
 ### Properties
 
-- **Credibility:** Moderate. Requires domain knowledge to apply correctly.
-- **Availability:** Highest. Principles can often be found when specific
+- Credibility: Moderate. Requires domain knowledge to apply correctly.
+- Availability: Highest. Principles can often be found when specific
   reference is unavailable.
-- **Application:** Identify the underlying principle. Verify it applies to
+- Application: Identify the underlying principle. Verify it applies to
   the subject's category. Apply provisionally. Validate against production results.
-- **Documentation:** Note the source, the distant analog, the principle
+- Documentation: Note the source, the distant analog, the principle
   extracted, and flag for production validation.
 
-### When to Use Tertiary Reference
+### When to use tertiary reference
 
-Tertiary reference is the practitioner's tool of last resort — used when
+Tertiary reference is the practitioner's tool of last resort, used when
 primary and secondary reference are unavailable or insufficient. It requires
 enough domain knowledge to recognize which principles transfer across
 category boundaries and which do not. Using tertiary reference without
@@ -155,21 +155,21 @@ this knowledge produces plausible-sounding but incorrect decisions.
 
 ---
 
-## Tier Assignment in Practice
+## Tier assignment in practice
 
-### Tier Is Decision-Relative
+### Tier is Decision-Relative
 
 The tier of a reference is not fixed. It depends on what decision it is
 being used to inform. A technical drawing of a real building is:
 
-- **Primary** when making decisions about that specific building's appearance
-- **Secondary** when making decisions about similar buildings of the same era
-- **Tertiary** when making decisions about the general principles of how
+- Primary when making decisions about that specific building's appearance
+- Secondary when making decisions about similar buildings of the same era
+- Tertiary when making decisions about the general principles of how
   masonry construction looks under a certain weathering condition
 
 Always assign tier relative to the specific decision, not the reference in isolation.
 
-### Tier Conflicts
+### Tier conflicts
 
 When two references of different tiers disagree, higher tier takes precedence
 as a default. But document the conflict:
@@ -185,7 +185,7 @@ tier alone. Resolve by recency (more current wins), specificity (more
 specific to the subject wins), or credibility of source (primary source
 over secondary reporting). Document the resolution rationale.
 
-### Minimum Source Requirements
+### Minimum source requirements
 
 | Decision weight | Minimum tier | Minimum sources |
 |---|---|---|
@@ -198,47 +198,47 @@ provisional until validated in production.
 
 ---
 
-## The Missing Primary Problem
+## The missing primary problem
 
-### When Primary Reference Does Not Exist
+### When primary reference does not exist
 
 For fictional, speculative, or novel subjects, primary reference is often
 unavailable. This is one of the most common situations Reference Engineering
-must handle — and the most common point at which practitioners stall.
+must handle, and the most common point at which practitioners stall.
 
 The professional response is not to wait for primary reference that will
 never exist. It is to engineer answers systematically from the tiers that
 are available.
 
-### The Missing Primary Protocol
+### The missing primary protocol
 
-1. **Accept the gap.** Primary reference does not exist for this subject.
-   This is not a failure — it is a condition. Document it.
+1. Accept the gap. Primary reference does not exist for this subject.
+   This is not a failure. It is a condition. Document it.
 
-2. **Identify the closest secondary analogs.** What exists that shares the
+2. Identify the closest secondary analogs. What exists that shares the
    most significant properties with the subject? List them by the properties
    they share, not by how they look.
 
-3. **Extract transferable principles from each analog.** For each secondary
+3. Extract transferable principles from each analog. For each secondary
    reference: what specifically transfers? What does not? Why?
 
-4. **Fill remaining gaps with tertiary reference.** What underlying principles
+4. Fill remaining gaps with tertiary reference. What underlying principles
    govern how things in this category behave? Apply provisionally.
 
-5. **Flag all tertiary decisions for production validation.** These are the
+5. Flag all tertiary decisions for production validation. These are the
    decisions most likely to need revision when production tests them against
    reality.
 
-6. **Build the subject from the engineered brief.** The brief is less certain
-   than one built from primary reference — but it is far better than no brief
+6. Build the subject from the engineered brief. The brief is less certain
+   than one built from primary reference. But it is far better than no brief
    at all.
 
 ---
 
-## Documenting Tier in Practice
+## Documenting tier in practice
 
 Every reference item in a reference brief should have its tier noted. This
-does not require elaborate annotation — a simple label is sufficient:
+does not require elaborate annotation, a simple label is sufficient:
 
 ```
 [T1] Photograph of actual Khrushchyovka apartment block, Pripyat, 2003
@@ -257,5 +257,5 @@ does not require elaborate annotation — a simple label is sufficient:
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

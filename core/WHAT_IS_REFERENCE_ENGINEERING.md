@@ -1,4 +1,4 @@
-# What Is Reference Engineering?
+# What is reference engineering?
 
 **Reference Engineering** is the systematic process of collecting, organizing,
 analyzing, connecting, retrieving, and applying references to improve the
@@ -6,77 +6,77 @@ quality of decisions made during production.
 
 ---
 
-## The Subject: References
+## The subject: references
 
 References are the subject of Reference Engineering. Not knowledge. Not research.
 Not documentation. Not inspiration.
 
-**References** — the specific collected materials that practitioners use to
+**References**, the specific collected materials that practitioners use to
 inform decisions before and during production.
 
 This boundary is explicit and enforced:
 
 | Discipline | Manages |
 |---|---|
-| **Reference Engineering** | References — collected materials that inform decisions |
-| Knowledge Management | Knowledge assets — captured understanding and expertise |
-| Research Methodology | Investigation — the process of discovering new information |
-| Documentation | Recorded information — specifications, procedures, records |
-| Note-taking | Personal capture — observations, thoughts, summaries |
+| Reference Engineering | References, collected materials that inform decisions |
+| Knowledge Management | Knowledge assets, captured understanding and expertise |
+| Research Methodology | Investigation, the process of discovering new information |
+| Documentation | Recorded information, specifications, procedures, records |
+| Note-taking | Personal capture, observations, thoughts, summaries |
 
 Reference Engineering intersects with all of these. It is not replaced by any of them.
 
 References may contribute to knowledge. They may support research. They may be
 documented. They may inform decisions. But the discipline manages the
-**references themselves** — not the outcomes they produce.
+**references themselves**, not the outcomes they produce.
 
 ---
 
-## The One-Sentence Distinction
+## The One-Sentence distinction
 
 A reference *collector* asks: *"What should I save?"*
 
 A reference *engineer* asks: *"What decisions does this project require, and
-what reference will inform each one — and how will I find it when I need it?"*
+what reference will inform each one. And how will I find it when I need it?"*
 
 ---
 
-## The Six Operations
+## The six operations
 
 Reference Engineering is defined by six operations applied to references:
 
-**1. Collecting** — identifying and acquiring relevant references with intent,
+**1. Collecting**, identifying and acquiring relevant references with intent,
 not accumulation. Collecting is governed by the question: what decision does
 this reference inform?
 
-**2. Organizing** — structuring references so they can be navigated, compared,
+**2. Organizing**: structuring references so they can be navigated, compared,
 and retrieved. Organization is a human-defined structure, not a folder system.
 
-**3. Analyzing** — extracting the usable information from a reference: what
+**3. Analyzing**, extracting the usable information from a reference: what
 it tells you, what tier it belongs to, what it confirms or contradicts.
 
-**4. Connecting** — mapping relationships between references: how one
+**4. Connecting**, mapping relationships between references: how one
 constrains another, how one confirms another, how one fills a gap another
 leaves open. Relationships between references are first-class data.
 
-**5. Retrieving** — finding the right reference at the moment it is needed.
+**5. Retrieving**, finding the right reference at the moment it is needed.
 A reference that cannot be retrieved is equivalent to one that was never
 collected. Retrieval is designed at the moment of collection.
 
-**6. Applying** — using reference to make a specific decision. Application
+**6. Applying**, using reference to make a specific decision. Application
 closes the loop: the reference was collected to inform a decision, the
 decision is made, the reference's role is documented.
 
 ---
 
-## What Reference Engineering Is Not
+## What reference engineering is not
 
-**Not Knowledge Management.** KM manages knowledge assets — what the
-organization knows. RE manages references — what the practitioner has
+**Not Knowledge Management.** KM manages knowledge assets. What the
+organization knows. RE manages references, what the practitioner has
 collected to inform decisions. References may produce knowledge. RE manages
 the references, not the knowledge they produce.
 
-**Not Research Methodology.** Research manages investigation — discovering
+**Not Research Methodology.** Research manages investigation, discovering
 new information. RE manages the collected materials that result from or
 support investigation. The researcher uses RE to manage their sources.
 RE is not the research itself.
@@ -112,5 +112,5 @@ governs the references, not the AI interaction.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

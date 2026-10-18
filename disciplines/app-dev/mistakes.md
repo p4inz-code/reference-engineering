@@ -1,10 +1,10 @@
-# App Development — Reference Engineering Mistakes
+# App development: reference engineering mistakes
 
 Eight failure modes specific to app development reference practice.
 
 ---
 
-## MISTAKE 01 — Platform Convention Blindness
+## MISTAKE 01: platform convention blindness
 
 > *"Users will figure out our custom navigation."*
 
@@ -20,17 +20,17 @@ implicit expectations from every other app on their device. An app that
 violates those expectations creates friction proportional to how far it departs.
 
 **Fix:** Before any wireframe is drawn, read the full HIG for the target
-platform for the specific app category. Not a summary — the actual documentation.
+platform for the specific app category. Not a summary, the actual documentation.
 Document every HIG requirement that applies to this app. Design to the
 requirement, not around it.
 
 **Production cost:** Navigation redesign after user research reveals
 convention violations. If the navigation architecture is wrong, this is
-a major refactor. Time lost: 1–3 weeks depending on app complexity.
+a major refactor. Time lost: 1-3 weeks depending on app complexity.
 
 ---
 
-## MISTAKE 02 — The Wrong OS Version Target
+## MISTAKE 02: the wrong OS version target
 
 > *"We'll just require the latest OS."*
 
@@ -39,8 +39,8 @@ requirement excludes a significant portion of the target audience.
 Alternatively: app targets a wide OS range but uses APIs only available
 on newer OS versions, producing crashes on older devices.
 
-**Cause:** Layer 5 (Contextual Conditions) reference — specifically OS
-version distribution for the target market — was not gathered. The OS
+**Cause:** Layer 5 (Contextual Conditions) reference, specifically OS
+version distribution for the target market, was not gathered. The OS
 version requirement was set from convenience (what the developer uses)
 or from ambition (only supporting the newest features) rather than from
 market data.
@@ -48,7 +48,7 @@ market data.
 **Fix:** Before setting the OS minimum, look up the OS version distribution
 for the target market and app category. For iOS: Apple publishes adoption
 statistics. For Android: Android Studio shows Play Store distribution data.
-The minimum should cover 85–90%+ of the target market unless there is
+The minimum should cover 85-90%+ of the target market unless there is
 explicit justification for a higher minimum.
 
 **Production cost:** Rewriting features to support a broader OS range
@@ -58,13 +58,13 @@ a complete feature reimplementation.
 
 ---
 
-## MISTAKE 03 — Permission Timing Failure
+## MISTAKE 03: permission timing failure
 
 > *"We ask for all permissions on first launch to get it over with."*
 
 **Symptom:** High permission denial rates. Users decline permissions they
 would have accepted if asked at the right moment. Once denied, the user
-must go to Settings to re-grant — which most users never do. Features
+must go to Settings to re-grant. Which most users never do. Features
 that require denied permissions are silently non-functional.
 
 **Cause:** Layer 1 (Function & Context) and Layer 6 (Behavior & Construction)
@@ -85,11 +85,11 @@ are granted at significantly higher rates than upfront requests).
 **Production cost:** User adoption gap from users who denied permissions
 and never re-granted them. Effectively: lost features for a significant
 percentage of users. Fix requires a permission re-request flow and a
-re-education campaign — neither is cheap.
+re-education campaign, neither is cheap.
 
 ---
 
-## MISTAKE 04 — State Management Assumptions
+## MISTAKE 04: state management assumptions
 
 > *"If the app crashes, the user just reopens it."*
 
@@ -103,19 +103,19 @@ and state persistence was absent. The app was designed for the happy path
 background-to-foreground transition, low-memory termination, or crash.
 
 **Fix:** Document the app's behavior at every lifecycle state before
-implementation begins — not as a post-implementation test, but as a
+implementation begins, not as a post-implementation test, but as a
 design specification derived from platform lifecycle documentation.
 For every piece of user state: is it persisted? When? What is the
 behavior if persistence fails?
 
 **Production cost:** Fundamental architecture revision if state management
 was not designed into the data layer from the start. User trust loss
-from data loss events — this is one of the highest-impact failure modes
+from data loss events, this is one of the highest-impact failure modes
 for user retention.
 
 ---
 
-## MISTAKE 05 — Dark Mode as Afterthought
+## MISTAKE 05: dark mode as afterthought
 
 > *"We'll add dark mode support later."*
 
@@ -123,8 +123,8 @@ for user retention.
 backgrounds where the OS has dark, black overlays over dark components,
 or crashes when the system theme changes while the app is running.
 
-**Cause:** Layer 5 (Contextual Conditions) reference — system theme
-handling — was not included in the initial brief. Dark mode was treated
+**Cause:** Layer 5 (Contextual Conditions) reference, system theme
+handling, was not included in the initial brief. Dark mode was treated
 as a feature to add rather than a platform requirement to comply with.
 On iOS (since iOS 13), macOS, and Windows 10+, dark mode is a system-level
 feature that apps are expected to handle.
@@ -138,17 +138,17 @@ mode enabled from the first prototype.
 **Production cost:** Full color system revision after dark mode is
 implemented as an afterthought produces hardcoded color values throughout
 the codebase that must each be converted to semantic tokens. Time lost:
-3–7 days for a mature app.
+3-7 days for a mature app.
 
 ---
 
-## MISTAKE 06 — Performance Tested Only on Development Device
+## MISTAKE 06: performance tested only on development device
 
 > *"It's fast on my phone."*
 
 **Symptom:** App performs well on the developer's device and poorly on
 the devices used by the target market. Slow scrolling, delayed response
-to input, slow startup — on devices two or three generations older than
+to input, slow startup, on devices two or three generations older than
 the development device.
 
 **Cause:** Layer 5 (Contextual Conditions) reference on hardware minimum
@@ -169,9 +169,9 @@ require architectural changes that are hard to make safely in a live product.
 
 ---
 
-## MISTAKE 07 — Offline Behavior Undefined
+## MISTAKE 07: offline behavior undefined
 
-> *"It's a connected app — users will always have internet."*
+> *"It's a connected app, users will always have internet."*
 
 **Symptom:** App crashes or shows blank screens when connectivity is lost.
 Users in areas with intermittent connectivity (commutes, travel, rural areas)
@@ -198,7 +198,7 @@ architecture, this can require a significant architectural refactor.
 
 ---
 
-## MISTAKE 08 — App Store Submission Surprise
+## MISTAKE 08: app store submission Surprise
 
 > *"We didn't know you couldn't do that."*
 
@@ -220,11 +220,11 @@ the architecture from the start. An app that uses external payments must
 be architectured differently than one that uses in-app purchases.
 
 **Production cost:** App rejection requires fixing the violation, re-submitting,
-and waiting for review again — a minimum of 1–3 days per rejection cycle.
+and waiting for review again, a minimum of 1-3 days per rejection cycle.
 If the violation requires an architectural change (payment system), the
 cost can be weeks.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

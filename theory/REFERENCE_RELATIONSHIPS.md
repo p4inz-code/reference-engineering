@@ -1,10 +1,10 @@
-# Reference Relationships
+# Reference relationships
 
 **Part of:** Reference Engineering Theory Layer
-**Relates to:** Principle 5 — Relationships matter more than storage
+**Relates to:** Principle 5, Relationships matter more than storage
 
 References do not exist in isolation. The relationships between references
-are first-class data in Reference Engineering — as important as the
+are first-class data in Reference Engineering, as important as the
 references themselves, and more valuable than the storage system that holds them.
 
 A reference system with strong relationship mapping is qualitatively different
@@ -14,16 +14,16 @@ what is constrained, what is still missing.
 
 ---
 
-## Why Relationships Matter
+## Why relationships matter
 
 Consider two scenarios:
 
-**Scenario A — No relationship mapping:**
+**Scenario A, No relationship mapping:**
 Reference board contains 40 images organized by visual category. Practitioner
 looks at them before making each decision. Each decision draws on whatever
 feels most relevant at the moment of decision.
 
-**Scenario B — Relationship-mapped references:**
+**Scenario B, Relationship-mapped references:**
 Reference board contains 40 images organized by the decision each answers,
 with relationship annotations. The practitioner knows that Reference 7
 confirms Reference 3, that Reference 12 constrains what Reference 7 implies,
@@ -37,7 +37,7 @@ map is what makes them useful.
 
 ---
 
-## The Five Relationship Types
+## The five relationship types
 
 ### 1. Confirmation
 
@@ -70,9 +70,9 @@ in the abstract but are incorrect for this specific subject given what
 another reference establishes.
 
 **Example:** Reference A (style analysis) implies bevels can be any width
-between 1–5mm. Reference B (specific product in the same style) shows
+between 1-5mm. Reference B (specific product in the same style) shows
 bevels are always at the narrow end of this range. Reference B constrains
-Reference A's implication to the 1–2mm range.
+Reference A's implication to the 1-2mm range.
 
 **How to document:**
 ```
@@ -85,12 +85,12 @@ Applied decision: 1.5mm maximum bevel width
 ### 3. Gap
 
 **Definition:** Reference A answers a question that reveals an adjacent
-question that Reference B would need to answer — but Reference B has not
+question that Reference B would need to answer. But Reference B has not
 been gathered.
 
 **Value:** Gap relationships are the mechanism by which Reference Engineering
 finds the gaps that matter. They are more valuable than gaps identified
-abstractly because they arise from actual reference work — from what the
+abstractly because they arise from actual reference work, from what the
 gathered reference tells you is missing.
 
 **Example:** Reference A establishes the external material properties of
@@ -139,7 +139,7 @@ but at different points in time. The temporal relationship affects which
 reference is more applicable to current conditions.
 
 **Value:** Temporal relationships prevent applying outdated reference to
-subjects that have changed — technical standards that have been revised,
+subjects that have changed, technical standards that have been revised,
 software behavior that has changed with an update, styles that have shifted.
 
 **Not all references age at the same rate.** Physical material behavior
@@ -157,21 +157,21 @@ REF-06 retained as: historical context for legacy support considerations
 
 ---
 
-## Relationship Mapping in Practice
+## Relationship mapping in practice
 
-### Minimum Viable Relationship Map
+### Minimum viable relationship map
 
 For small projects or rapid reference sessions, a minimal relationship map
 is sufficient. At minimum, document:
 
-- **Confirmations** for all foundational decisions
-- **Contradictions** for all cases where sources disagree (before deciding)
-- **Gaps** revealed by the gathered references
+- Confirmations for all foundational decisions
+- Contradictions for all cases where sources disagree (before deciding)
+- Gaps revealed by the gathered references
 
 Constraint and temporal relationships can be documented when they arise
 rather than systematically mapped.
 
-### Full Relationship Map
+### Full relationship map
 
 For large projects, long-running reference systems, or institutional
 reference libraries, a full relationship map is valuable. This can be
@@ -179,10 +179,10 @@ maintained as:
 
 - Annotation within the reference brief (inline relationship notes)
 - A separate relationship register (table of all documented relationships)
-- A visual map (nodes for references, edges for relationships — useful for
+- A visual map (nodes for references, edges for relationships, useful for
   complex systems with many inter-reference dependencies)
 
-### Relationship Map Template
+### Relationship map template
 
 ```
 REFERENCE RELATIONSHIP REGISTER
@@ -200,7 +200,7 @@ REF-06   | REF-14   | TEMPORAL          | CSS grid behavior | REF-14 current
 
 ---
 
-## Relationships Across Projects
+## Relationships across projects
 
 In a long-term reference library, relationships extend across projects.
 A reference gathered for Project A may confirm, constrain, or contradict
@@ -215,7 +215,7 @@ practice. Cross-project relationship mapping requires:
 
 ---
 
-## What Relationship Mapping Prevents
+## What relationship mapping prevents
 
 | Failure Mode | How Relationships Prevent It |
 |---|---|
@@ -227,5 +227,5 @@ practice. Cross-project relationship mapping requires:
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

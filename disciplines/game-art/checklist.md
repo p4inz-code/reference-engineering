@@ -1,33 +1,33 @@
-# Game Art — Reference Engineering Checklist
+# Game art: reference engineering checklist
 
 Run before opening your DCC. Run again at each production milestone.
-Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
 ## PRE-PRODUCTION
 
-### Gameplay Context (fill this first — before any other reference)
+### Gameplay Context (fill this first: before any other reference)
 - [ ] Camera distance documented: close / mid / far / variable
 - [ ] Camera angle documented: FPS / TPS / isometric / side / top-down
 - [ ] Primary lighting conditions in-game documented
 - [ ] Competing visual elements documented (what else is on screen)
 - [ ] Target platform renderer confirmed
 
-### Layer 1 — Gameplay Function and Readability
-- [ ] Asset's gameplay function stated (not appearance — function)
+### Layer 1: gameplay function and readability
+- [ ] Asset's gameplay function stated (not appearance, function)
 - [ ] Readability requirement stated: what must player correctly identify at gameplay distance?
 - [ ] In-game screenshots gathered from comparable game at target camera distance
 - [ ] Color communication role defined: player / enemy / interactive / dressing
 
-### Layer 2 — Technical Budget
+### Layer 2: technical budget
 - [ ] Triangle budget confirmed for this asset class at LOD0
 - [ ] Texture resolution confirmed
 - [ ] Texel density standard confirmed (pixels per cm at primary LOD distance)
 - [ ] LOD chain plan documented (LOD0 through LODn, with distance thresholds)
 - [ ] Scale anchor confirmed relative to player character
 
-### Layer 4 — Style Rules
+### Layer 4: style rules
 - [ ] Art direction target games identified (specific shipped games)
 - [ ] Style rules extracted and written as parameters (not as descriptions)
 - [ ] Color architecture documented with gameplay function for each color
@@ -49,7 +49,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 - [ ] Scale validated against player character in-engine
 - [ ] Primary mass proportions match style rules
-- [ ] No detail added — blockout only
+- [ ] No detail added, blockout only
 - [ ] LOD0 topology plan confirmed before high-poly begins
 
 ---
@@ -67,7 +67,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 - [ ] Triangle count within confirmed budget
 - [ ] Topology supports deformation at all required joints (characters)
-- [ ] Topology efficient — no unnecessary edge loops
+- [ ] Topology efficient: no unnecessary edge loops
 - [ ] Silhouette preserved at target polygon count
 
 ---
@@ -121,10 +121,10 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 | Enemy characters | Layer 1 (readability at combat camera distance), Layer 4 (faction color rules) |
 | Environment modules | Layer 2 (texel density consistency), Layer 6 (LOD chain plan) |
 | Hero props | Layer 1 (interactive vs. decorative readability), Layer 5 (in-engine validation) |
-| Background dressing | Layer 7 (over-invested — background needs less, not more) |
+| Background dressing | Layer 7 (over-invested, background needs less, not more) |
 | UI art | Layer 5 (display resolution range), Layer 1 (readability at TV distance for console) |
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

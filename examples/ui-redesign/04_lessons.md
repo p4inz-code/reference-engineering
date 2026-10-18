@@ -1,4 +1,4 @@
-# UI Redesign — Lessons
+# UI redesign: lessons
 
 **Brief final version:** 1.1
 **Decisions documented:** 13 primary, 4 deferred, 3 blocked
@@ -7,18 +7,18 @@
 
 ---
 
-## What Reference Engineering Prevented
+## What reference engineering prevented
 
 **Premature visual style decisions**
 Without the brief structure, the first instinct would have been to gather
 visual inspiration (Dribbble, Behance) and start making layout decisions
 from aesthetic preference. The Layer 1 questions forced the user task analysis
-first — which directly changed the layout (session resume vs. forced home,
+first, which directly changed the layout (session resume vs. forced home,
 inline drill-down vs. slide-in).
 
 **Green/red debate**
 In many UI projects, there is a stakeholder request to use brand colors
-for positive/negative data (e.g., "our brand is orange — can we use orange
+for positive/negative data (e.g., "our brand is orange, can we use orange
 for gains?"). The reference work establishes this as a primary-tier industry
 convention with user error implications. That conversation is resolved before
 it happens.
@@ -31,7 +31,7 @@ caught that it breaks the comparison workflow that is central to our Layer 1 use
 
 ---
 
-## What Reference Engineering Could Not Prevent
+## What reference engineering could not prevent
 
 **Gap 01 (primary user task data model)** required stakeholder/product input,
 not reference work. Reference Engineering correctly identified the gap and
@@ -44,7 +44,7 @@ not provide the answer.
 
 ---
 
-## What to Do Differently
+## What to do differently
 
 **Gather Layer 5 (display context) earlier**
 The viewport and display context reference was gathered after the information
@@ -54,7 +54,7 @@ at the start, not be filled in after. Next time: Layer 5 before Layer 2.
 
 **Establish framework constraints (Layer 6) in the brief, not post-analysis**
 Layer 6 was left as an open gap. For UI/UX projects specifically, the
-framework/component library constraint is not a "nice to know" — it
+framework/component library constraint is not a "nice to know". It
 directly constrains what is buildable. It should be a required input
 before wireframes begin, not a parallel track.
 
@@ -62,12 +62,12 @@ before wireframes begin, not a parallel track.
 In this example, "authoritative vs. flashy" rules were extracted from four
 sources (Bloomberg, Refinitiv, FactSet, Morningstar). The consistency across
 all four gave high confidence. Had we used only one or two, the rules would
-have been idiosyncratic to those specific products. Three is the minimum —
+have been idiosyncratic to those specific products. Three is the minimum
 four or more is better for contested style parameters.
 
 ---
 
-## Transferable Lessons
+## Transferable lessons
 
 1. Layer 1 questions (function) should always precede visual reference gathering.
    The layout decisions in this example were directly changed by Layer 1 findings.
@@ -80,26 +80,26 @@ four or more is better for contested style parameters.
    wrong-register risk.
 
 4. Hierarchy tier tracking is most valuable for contested decisions. The
-   green/red convention is primary tier — end of discussion. The light mode
-   assumption is tertiary tier — flag and verify. The tier label tells you
+   green/red convention is primary tier, end of discussion. The light mode
+   assumption is tertiary tier, flag and verify. The tier label tells you
    how much to fight for the decision.
 
 ---
 
-## Brief Status at Close of Pre-Production
+## Brief status at close of Pre-Production
 
 | Layer | Status |
 |---|---|
-| 1 — Function & Context | ✅ Complete |
+| 1 — Function & Context | Complete |
 | 2 — Scale & Proportion | ~ Partial (viewport not confirmed) |
-| 3 — Production Stage | ✅ Complete for wireframe stage |
-| 4 — Style Rules | ✅ Complete |
+| 3 — Production Stage | Complete for wireframe stage |
+| 4 — Style Rules | Complete |
 | 5 — Display Context | ~ Partial (light/dark not confirmed) |
-| 6 — Framework Behavior | ✗ Open gap |
-| 7 — Hero Detail | ✗ Deferred (correct — not needed at this stage) |
+| 6 — Framework Behavior | Open gap |
+| 7 — Hero Detail | Deferred (correct, not needed at this stage) |
 
 **Brief v2 triggers:** Gap 01 and Gap 03 resolution. Mockup stage start.
 
 ---
 
-*Example: Reference Engineering library — github.com/p4inz-code/reference-engineering*
+*Example: Reference Engineering library, github.com/p4inz-code/reference-engineering*

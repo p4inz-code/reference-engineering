@@ -1,34 +1,34 @@
-# Case Study Format
+# Case study format
 
 A case study is a retroactive analysis of a real project through the
 Reference Engineering lens. It differs from an example in direction:
 examples move forward (brief → decisions → outcome). Case studies move
 backward (outcome → analysis → what RE would have changed).
 
-Case studies are the primary proof layer of Reference Engineering — they
+Case studies are the primary proof layer of Reference Engineering. They
 demonstrate the framework against real projects with real outcomes,
 not constructed demonstrations.
 
 ---
 
-## What Makes a Valid Case Study
+## What makes a valid case study
 
 A valid Reference Engineering case study requires:
 
-1. **A real project** — not constructed or hypothetical
-2. **A known outcome** — the project was completed; results are observable
-3. **Honest analysis** — failures and missed opportunities are documented,
+1. A real project: not constructed or hypothetical
+2. A known outcome: the project was completed; results are observable
+3. Honest analysis: failures and missed opportunities are documented,
    not hidden. A case study that only shows what went right is not useful.
-4. **Access to the actual process** — the analyst must have direct knowledge
+4. Access to the actual process: the analyst must have direct knowledge
    of what reference work was (or wasn't) done. Inferring process from
    outcome alone produces speculation, not analysis.
 
-The most valuable case studies are self-analyses of your own projects —
+The most valuable case studies are self-analyses of your own projects
 where you have full access to what actually happened.
 
 ---
 
-## Case Study File Structure
+## Case study file structure
 
 ```
 case-studies/[project-name]/
@@ -43,7 +43,7 @@ case-studies/[project-name]/
 
 ---
 
-## File 1: README.md Template
+## File 1: README.md template
 
 ```markdown
 # Case Study: [Project Name]
@@ -211,7 +211,7 @@ conclude from this case study about the value of the framework?]
 
 ---
 
-## Quality Bar for Case Studies
+## Quality bar for case studies
 
 A case study is ready to publish when:
 
@@ -221,9 +221,9 @@ A case study is ready to publish when:
 - [ ] At least three specific counterfactuals are documented with MEDIUM or HIGH confidence
 - [ ] The analyst has first-person or well-documented second-person access to the actual process
 - [ ] No failure is attributed to reference practice when the actual cause was something else
-  (budget, time, team, technology — not everything is a reference problem)
+  (budget, time, team, technology. Not everything is a reference problem)
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

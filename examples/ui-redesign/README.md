@@ -1,4 +1,4 @@
-# Example: Dashboard UI Redesign
+# Example: dashboard UI redesign
 
 **Discipline:** UI/UX Design
 **Asset type:** SaaS analytics dashboard
@@ -9,7 +9,7 @@
   crossing into "flashy."
 
 **Framework focus:** This example demonstrates Reference Engineering for
-a non-visual-art discipline. Emphasis on Layers 1, 2, 4, and 5 — the layers
+a non-visual-art discipline. Emphasis on Layers 1, 2, 4, and 5. The layers
 most commonly skipped in UI/UX reference work.
 
 **Key skill demonstrated:** Extracting written style rules from competitor
@@ -17,21 +17,21 @@ and inspiration reference rather than copying visual surface.
 
 ---
 
-## Pyramid Layer Coverage in This Example
+## Pyramid layer coverage in this example
 
 | Layer | Covered? | Notes |
 |---|---|---|
-| 1 — Function & Context | ✅ Full | User task analysis, context of use |
-| 2 — Scale & Proportion | ✅ Full | Information hierarchy, viewport sizing |
-| 3 — Production Stage | ✅ Wireframe + mockup stages |  |
-| 4 — Style Rules | ✅ Full | Core demonstration of this example |
-| 5 — Lighting/Rendering Context | ✅ Full | Display conditions, dark/light mode |
+| 1 — Function & Context | Full | User task analysis, context of use |
+| 2 — Scale & Proportion | Full | Information hierarchy, viewport sizing |
+| 3 — Production Stage | Wireframe + mockup stages |  |
+| 4 — Style Rules | Full | Core demonstration of this example |
+| 5 — Lighting/Rendering Context | Full | Display conditions, dark/light mode |
 | 6 — Material & Surface | ~ Partial | Framework behavior, component library constraints |
 | 7 — Hero Detail | ~ Partial | Micro-interaction and typography detail |
 
 ---
 
-## Files in This Example
+## Files in this example
 
 | File | Contents |
 |---|---|
@@ -43,4 +43,4 @@ and inspiration reference rather than copying visual surface.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*

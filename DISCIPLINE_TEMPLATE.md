@@ -1,4 +1,4 @@
-# Discipline Template
+# Discipline template
 
 Use this file as the exact structure for any new discipline section.
 Copy the five file templates below into `disciplines/[your-discipline]/`.
@@ -354,7 +354,7 @@ in this discipline.]
 
 ---
 
-## PR Checklist for New Discipline Sections
+## PR checklist for new discipline sections
 
 Before opening a PR, confirm:
 
@@ -370,4 +370,4 @@ Before opening a PR, confirm:
 
 ---
 
-*P4inz Interactive Labs — Atharva Patil — 2026*
+*P4inz Interactive Labs, Atharva Patil, 2026*

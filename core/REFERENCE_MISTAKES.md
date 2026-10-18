@@ -1,11 +1,11 @@
-# Reference Engineering — Common Mistakes
+# Reference engineering: common mistakes
 
 Ten named failure modes. Every one of these has a real production cost.
 Learn to recognize them before they cost you time.
 
 ---
 
-## MISTAKE 01 — The Decoration Board
+## MISTAKE 01: the decoration board
 
 > *"I have 200 images. I'm ready to start."*
 
@@ -35,7 +35,7 @@ is just how you store the answers visually.
 
 A practitioner with a Decoration Board feels prepared. They have done the
 work of gathering. They have spent real time on it. The problem does not
-reveal itself until the first real production decision — and then it reveals
+reveal itself until the first real production decision. And then it reveals
 itself repeatedly, because every subsequent decision hits the same wall.
 
 The fix is not to gather less. It is to analyze what you have gathered.
@@ -46,7 +46,7 @@ forces the analysis.
 
 ---
 
-## MISTAKE 02 — Peak Without Foundation
+## MISTAKE 02: peak without foundation
 
 > *"I have incredible hero detail reference. My silhouette reference is... whatever."*
 
@@ -59,7 +59,7 @@ Practitioners gravitate toward what engages them rather than what production
 needs first.
 
 **Fix:** Build the Reference Pyramid bottom-up. Refuse to gather Layer 7
-(hero detail) reference until Layers 1–4 are complete. The checklist in
+(hero detail) reference until Layers 1-4 are complete. The checklist in
 `REFERENCE_CHECKLIST.md` enforces this order.
 
 **Production cost:** Proportion and silhouette errors that require full
@@ -69,7 +69,7 @@ rework after detailed work is already done. Time lost: full re-blockout.
 <summary>Full explanation</summary>
 
 This is a structural mistake, not a quality mistake. The practitioner is
-gathering good reference — just in the wrong order for production.
+gathering good reference, just in the wrong order for production.
 
 Hero detail reference is useless at the blockout stage. It does not help
 you make a better silhouette. It does not help you make better proportion
@@ -84,12 +84,12 @@ reference gathering. Foundation first. Peak last.
 
 ---
 
-## MISTAKE 03 — Style Drift
+## MISTAKE 03: style drift
 
 > *"I don't know why, but this doesn't look like the reference anymore."*
 
 **Symptom:** Work that matched the reference early in production and
-gradually drifted from it. No single decision caused the drift —
+gradually drifted from it. No single decision caused the drift
 it accumulated across hundreds of small choices.
 
 **Cause:** Reference gathered as images, not as extracted rules. Without
@@ -101,7 +101,7 @@ shape language, detail density, edge treatment, surface quality. Refer to
 the written rules when making micro-decisions, not just to the images.
 
 **Production cost:** Late-stage revision passes to bring drifted elements
-back into style. Time lost: 20–40% of production time in revision.
+back into style. Time lost: 20-40% of production time in revision.
 
 <details>
 <summary>Full explanation</summary>
@@ -111,17 +111,17 @@ Style drift is invisible in progress. It becomes visible at completion.
 The practitioner who experiences Style Drift almost always has a reference
 board they were looking at throughout production. The problem is not that
 they stopped looking at it. The problem is that images do not prevent
-micro-decision drift — rules do.
+micro-decision drift, rules do.
 
 When you are deciding whether a bevel should be 2mm or 3mm, the reference
-image does not give you a fast, clear answer. A written rule — "bevels in
-this style are always narrow, maximum 1.5mm equivalent" — does.
+image does not give you a fast, clear answer. A written rule, "bevels in
+this style are always narrow, maximum 1.5mm equivalent", does.
 
 </details>
 
 ---
 
-## MISTAKE 04 — Stage Mismatch
+## MISTAKE 04: stage mismatch
 
 > *"I'm in blockout but all my reference is hero detail shots."*
 
@@ -156,7 +156,7 @@ tab if it answers a different question. That question has its own stage.
 
 ---
 
-## MISTAKE 05 — The Missing Analog
+## MISTAKE 05: the missing analog
 
 > *"There's no reference for this because it doesn't exist yet."*
 
@@ -183,7 +183,7 @@ The Missing Analog mistake reveals a misunderstanding of what reference is for.
 
 Reference is not proof that the thing exists. Reference is raw material for
 the decisions you need to make. The decisions can be informed by indirect
-reference — by understanding the *rules* of how similar things behave —
+reference, by understanding the *rules* of how similar things behave
 even when the exact thing has never been photographed.
 
 The concept artist who designed the first photorealistic CGI spaceship did
@@ -197,7 +197,7 @@ That is Reference Engineering.
 
 ---
 
-## MISTAKE 06 — Single-Source Bias
+## MISTAKE 06: single-source bias
 
 > *"I based everything on this one incredible reference."*
 
@@ -232,7 +232,7 @@ single-source reference produces single-source output.
 
 ---
 
-## MISTAKE 07 — Contextless Collection
+## MISTAKE 07: contextless collection
 
 > *"I have reference but I don't know what I gathered it for."*
 
@@ -268,7 +268,7 @@ The productivity gain during production is significant.
 
 ---
 
-## MISTAKE 08 — Frozen Brief
+## MISTAKE 08: frozen brief
 
 > *"My reference brief is done. I finished it in week one."*
 
@@ -303,7 +303,7 @@ after the first production milestone.
 
 ---
 
-## MISTAKE 09 — Quantity Over Specificity
+## MISTAKE 09: quantity over specificity
 
 > *"I have 500 images. I definitely have enough."*
 
@@ -339,7 +339,7 @@ If the answer is no, the board is too large, too disorganized, or both.
 
 ---
 
-## MISTAKE 10 — Discipline Mismatch
+## MISTAKE 10: discipline mismatch
 
 > *"This reference is from a different medium than my output."*
 
@@ -370,7 +370,7 @@ within it. Film can produce light that no real-time engine can replicate.
 Photography captures tonal ranges that stylized illustration deliberately
 compresses. Game art has polygon and texel budgets that film CGI ignores.
 
-Reference gathered from a different medium is not wrong — but it requires
+Reference gathered from a different medium is not wrong. But it requires
 explicit translation. The discipline mismatch mistake is using cross-medium
 reference without doing that translation. The fix is to note the medium
 gap and explicitly identify what transfers and what doesn't.
@@ -379,5 +379,5 @@ gap and explicitly identify what transfers and what doesn't.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

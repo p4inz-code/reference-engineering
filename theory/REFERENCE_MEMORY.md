@@ -1,55 +1,55 @@
-# Reference Memory
+# Reference memory
 
 **Part of:** Reference Engineering Theory Layer
-**Relates to:** Principle 6 — Knowledge compounds · Principle 7 — Systems outperform memory
+**Relates to:** Principle 6, Knowledge compounds · Principle 7, Systems outperform memory
 
 Reference Engineering replaces reliance on personal memory with documented
-reference systems. This is not a criticism of memory — it is a recognition
+reference systems. This is not a criticism of memory. It is a recognition
 of memory's properties and limitations, and a methodology for building
 systems that complement and outlast individual recall.
 
 ---
 
-## The Problem With Memory
+## The problem with memory
 
 Human memory is the default reference system for most practitioners.
-It works — up to a point. Its limitations become problems at scale,
+It works, up to a point. Its limitations become problems at scale,
 over time, and in team contexts.
 
-### What Memory Does Well
+### What memory does well
 
 - Fast retrieval of frequently accessed information
 - Pattern recognition across many examples
 - Intuitive weighting of what "feels right" based on accumulated experience
 - Flexible association between loosely connected concepts
 
-### What Memory Does Poorly
+### What memory does poorly
 
-- **Retention over time:** Memory decays. A reference seen once and not
+- Retention over time: Memory decays. A reference seen once and not
   revisited is largely forgotten within days. A reference system does not forget.
 
-- **Specificity:** Memory retains the gist, not the details. "It was around
+- Specificity: Memory retains the gist, not the details. "It was around
   80% roughness" is what memory produces. "0.83 roughness, measured from
   Megascans Concrete_Wall_01" is what a reference system produces.
 
-- **Transferability:** Memory cannot be handed to another person. A reference
+- Transferability: Memory cannot be handed to another person. A reference
   system can. Every project that relies on memory-held reference knowledge
-  creates a single point of failure — the person who holds that memory.
+  creates a single point of failure. The person who holds that memory.
 
-- **Auditability:** Memory cannot be audited. When a decision is questioned,
+- Auditability: Memory cannot be audited. When a decision is questioned,
   "I remember thinking this was right" cannot be verified. A reference trace
   can be reviewed, challenged, and improved.
 
-- **Compounding:** Memory degrades. Reference systems compound.
+- Compounding: Memory degrades. Reference systems compound.
 
 ---
 
-## Systems Outperform Memory
+## Systems outperform memory
 
-### The Core Principle
+### The core principle
 
 A documented reference system is more reliable than memory for the same
-information. This is not because practitioners have bad memories — it is
+information. This is not because practitioners have bad memories. It is
 because memory was not designed to function as a production reference system.
 
 Memory is optimized for social cognition, emotional salience, and survival
@@ -59,11 +59,11 @@ are different optimization targets.
 
 Reference Engineering builds the system that memory is not.
 
-### What "System" Means
+### What "system" means
 
 A reference system in the Reference Engineering sense is not a tool.
 It is a set of practices that produce a reliable, retrievable, annotated
-collection of references — maintained over time and accessible to the
+collection of references, maintained over time and accessible to the
 decisions that need them.
 
 The system has:
@@ -73,14 +73,14 @@ The system has:
 - A retrieval protocol (how references are found when needed)
 - A maintenance protocol (how references are updated, marked stale, and archived)
 
-The system can be implemented with any tools — or no digital tools at all.
+The system can be implemented with any tools, or no digital tools at all.
 The system is the practice, not the software.
 
 ---
 
-## The Compounding Effect
+## The compounding effect
 
-### How Reference Systems Compound
+### How reference systems compound
 
 Reference Engineering compounds because each project adds to a reference
 system rather than being discarded at project close.
@@ -106,7 +106,7 @@ system rather than being discarded at project close.
 
 The gap between the two Year 5 practitioners widens every year.
 
-### The Compounding Mechanism
+### The compounding mechanism
 
 The compounding effect has three mechanisms:
 
@@ -127,13 +127,13 @@ accumulated evidence across more diverse conditions.
 
 ---
 
-## Personal Reference Libraries
+## Personal reference libraries
 
-### What a Personal Reference Library Is
+### What a personal reference library is
 
 A personal reference library is a long-term reference system maintained by
 an individual practitioner across projects and over time. It is not a
-project reference brief — it is the accumulated reference capital of a career.
+project reference brief, it is the accumulated reference capital of a career.
 
 | | Project Reference Brief | Personal Reference Library |
 |---|---|---|
@@ -144,16 +144,16 @@ project reference brief — it is the accumulated reference capital of a career.
 | Content | References specific to this project | References reusable across projects |
 | Staleness protocol | Archive at project close | Regular maintenance |
 
-### What Goes in a Personal Reference Library
+### What goes in a personal reference library
 
 Not all references from a project brief belong in a personal library.
 References that should be migrated to the personal library at project close:
 
-- **High-quality primary references** for subjects likely to recur across projects
-- **Documented source discoveries** — new sources found that fill recurring gaps well
-- **Cross-project relationship confirmations** — where a reference from this project
+- High-quality primary references for subjects likely to recur across projects
+- Documented source discoveries: new sources found that fill recurring gaps well
+- Cross-project relationship confirmations: where a reference from this project
   confirms or contradicts something from a previous project
-- **Failure mode documentation** — what gaps occurred in this project that were
+- Failure mode documentation: what gaps occurred in this project that were
   not anticipated and should be anticipated in future projects
 
 References that should not be migrated:
@@ -161,7 +161,7 @@ References that should not be migrated:
 - Low-quality references that were useful for this project but not worth retaining
 - References that are likely to go stale before the next relevant project
 
-### Personal Library Organization
+### Personal library organization
 
 A personal reference library requires a stable organization structure that
 works across many domains and many project types. The Pyramid layer structure
@@ -178,9 +178,9 @@ annotation (question answered, tier, relationship connections).
 
 ---
 
-## Institutional Reference Memory
+## Institutional reference memory
 
-### What It Is
+### What it is
 
 Institutional reference memory is the accumulated reference capital of
 a team or organization, maintained independently of any individual member.
@@ -191,7 +191,7 @@ An organization without institutional reference memory loses reference
 capital every time a senior practitioner departs. An organization with
 it retains that capital indefinitely.
 
-### What Institutional Reference Memory Requires
+### What institutional reference memory requires
 
 **Shared systems:** References must be stored in systems accessible to
 all practitioners, not in individual files or personal tools.
@@ -211,10 +211,10 @@ This is how institutional reference memory is transmitted.
 — staleness audits, reorganization as the organization's work evolves,
 and cleanup of references that no longer serve current practice.
 
-### The Single Point of Failure
+### The single point of failure
 
 The most common failure mode for institutional reference memory is not
-the absence of a system — it is a system that exists in one person's
+the absence of a system. It is a system that exists in one person's
 personal files rather than in a shared institutional system.
 
 A single practitioner maintaining a personal reference library that the
@@ -227,5 +227,5 @@ independently accessible system.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

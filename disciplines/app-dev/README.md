@@ -1,14 +1,14 @@
-# Reference Engineering — App Development
+# Reference engineering: app development
 
 > Systematic pre-production reference methodology for developers building desktop, mobile, and cross-platform applications.
 
 **Discipline:** App Development
-**Contributed by:** Atharva Patil — P4inz Interactive Labs
+**Contributed by:** Atharva Patil, P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
 
-## Who This Is For
+## Who this is for
 
 Developers building desktop applications (Electron, .NET, native), mobile
 applications (iOS, Android, React Native, Flutter), and cross-platform apps.
@@ -20,7 +20,7 @@ reference gaps discovered late are extremely expensive.
 
 ---
 
-## What Reference Engineering Solves in App Development
+## What reference engineering Solves in app development
 
 App development has a specific reference problem that web development does
 not: platform conventions are not optional aesthetic choices. An iOS app
@@ -39,20 +39,20 @@ must be referenced before implementation, not discovered in user reports.
 
 ---
 
-## The Pre-Production Questions App Development Must Answer
+## The Pre-Production questions app development must answer
 
 - [ ] What is the primary user task? What does the user open this app to accomplish?
 - [ ] What platform(s) and OS version range is supported?
 - [ ] What are the platform's Human Interface Guidelines requirements for this type of app?
 - [ ] What hardware variance exists in the target audience? (RAM, storage, GPU, screen resolution range)
 - [ ] What permissions does the app require, and how do users respond to permission requests?
-- [ ] What is the data persistence model? (local, cloud, hybrid — and what are the failure modes?)
+- [ ] What is the data persistence model? (local, cloud, hybrid, and what are the failure modes?)
 - [ ] What comparable apps in this category do users already have mental models for?
-- [ ] What does "update" mean for this app? (auto-update, manual, store-managed — each has UX implications)
+- [ ] What does "update" mean for this app? (auto-update, manual, store-managed, each has UX implications)
 
 ---
 
-## Pyramid Layer Map for App Development
+## Pyramid layer map for app development
 
 | Pyramid Layer | What It Means in App Development |
 |---|---|
@@ -70,7 +70,7 @@ must be referenced before implementation, not discovered in user reports.
 
 | File | What's in it |
 |---|---|
-| [`REFERENCE_GUIDE.md`](./REFERENCE_GUIDE.md) | Full methodology — all seven layers, all production stages, brief template |
+| [`REFERENCE_GUIDE.md`](./REFERENCE_GUIDE.md) | Full methodology, all seven layers, all production stages, brief template |
 | [`mistakes.md`](./mistakes.md) | 8 discipline-specific failure modes with fixes |
 | [`checklist.md`](./checklist.md) | Printable pre-production checklist, stage-organized |
 | [`sources.md`](./sources.md) | Best reference sources for app development |
@@ -79,10 +79,10 @@ must be referenced before implementation, not discovered in user reports.
 
 ## Related
 
-- **Case study:** [`case-studies/kanvaz-ui-v2/`](../../case-studies/kanvaz-ui-v2/) — first-person case study on Kanvaz desktop app (Electron)
-- **Example:** [`examples/ui-redesign/`](../../examples/ui-redesign/) — UI/UX reference methodology applicable to app UI
+- Case study: [`case-studies/kanvaz-ui-v2/`](../../case-studies/kanvaz-ui-v2/): first-person case study on Kanvaz desktop app (Electron)
+- Example: [`examples/ui-redesign/`](../../examples/ui-redesign/): UI/UX reference methodology applicable to app UI
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

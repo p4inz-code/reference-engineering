@@ -1,10 +1,10 @@
-# Game Art — Reference Engineering Mistakes
+# Game art: reference engineering mistakes
 
 Seven failure modes specific to game art reference practice.
 
 ---
 
-## MISTAKE 01 — Building for Portfolio, Not Gameplay
+## MISTAKE 01: building for portfolio, not gameplay
 
 > *"It looks incredible in Marmoset. Why does it look flat in-game?"*
 
@@ -13,8 +13,8 @@ in gameplay. The art direction was correct. The surface quality was correct.
 In the game engine, under game lighting, at game camera distance, it reads
 as flat and generic.
 
-**Cause:** Reference was gathered from ArtStation portfolio renders — close-up,
-hero-lit, high-quality renders — rather than from in-engine gameplay screenshots
+**Cause:** Reference was gathered from ArtStation portfolio renders, close-up,
+hero-lit, high-quality renders, rather than from in-engine gameplay screenshots
 at the actual camera distance and lighting conditions. Layer 5 (Lighting Context)
 reference was calibrated to the wrong production environment.
 
@@ -22,21 +22,21 @@ reference was calibrated to the wrong production environment.
 in-game screenshots of comparable games at the actual camera distance and
 lighting conditions. Evaluate all visual decisions against this reference,
 not against portfolio renders. The question is never "does this look good
-in Marmoset?" — it is "does this look correct at gameplay distance in-engine?"
+in Marmoset?", it is "does this look correct at gameplay distance in-engine?"
 
 **Production cost:** Material and texture revision pass calibrated to
 in-engine conditions. If the surface quality is fundamentally wrong for
-the rendering pipeline, re-texturing. Time lost: 1–3 days per asset.
+the rendering pipeline, re-texturing. Time lost: 1-3 days per asset.
 
 ---
 
-## MISTAKE 02 — Readability Failure
+## MISTAKE 02: readability failure
 
 > *"Players can't tell where the enemy is."*
 
 **Symptom:** Players fail to distinguish enemies from environment, or
 interactive objects from decorative ones. Gameplay reviews cite confusion.
-The art is technically correct — readability was never designed for.
+The art is technically correct, readability was never designed for.
 
 **Cause:** Layer 1 (Function & Context) gameplay readability reference
 was absent. The asset was designed to look good in the art style without
@@ -56,11 +56,11 @@ failures is always more expensive than fixing the art.
 
 ---
 
-## MISTAKE 03 — LOD Chain as Afterthought
+## MISTAKE 03: LOD chain as afterthought
 
 > *"The LOD transitions look terrible. Players can see the assets pop."*
 
-**Symptom:** Visible LOD transitions in gameplay — assets that visibly
+**Symptom:** Visible LOD transitions in gameplay, assets that visibly
 change shape, lose significant detail, or change silhouette at LOD distance.
 Players notice. Art director notices. Fix is expensive.
 
@@ -72,20 +72,20 @@ transitions that don't preserve silhouette and remove the wrong details.
 **Fix:** Before building the LOD0 (hero) asset, plan the full LOD chain.
 Reference comparable game assets at each LOD distance: what detail is
 retained, what is removed, what is the silhouette at each LOD? Build the
-LOD0 with the LOD chain in mind — topology and detail placement should
+LOD0 with the LOD chain in mind, topology and detail placement should
 consider what will survive to LOD1 and LOD2.
 
 **Production cost:** LOD chain rebuild for the affected assets. If the
 LOD0 topology was not built for LOD reduction, the LOD chain must be
-rebuilt from scratch rather than refined. 0.5–2 days per asset.
+rebuilt from scratch rather than refined. 0.5-2 days per asset.
 
 ---
 
-## MISTAKE 04 — Texel Density Inconsistency
+## MISTAKE 04: texel density inconsistency
 
 > *"Some props look sharp and some look blurry and we can't explain why."*
 
-**Symptom:** Visual inconsistency in the game scene — some objects read
+**Symptom:** Visual inconsistency in the game scene. Some objects read
 sharply and others look soft at the same camera distance. The textures
 are technically correct resolutions. The inconsistency is texel density.
 
@@ -105,7 +105,7 @@ retroactively requires auditing every asset.
 
 ---
 
-## MISTAKE 05 — Color Architecture Without Function
+## MISTAKE 05: color architecture without function
 
 > *"The player got confused about which faction they belong to."*
 
@@ -115,7 +115,7 @@ beautiful but doesn't communicate gameplay information.
 
 **Cause:** Layer 4 (Governing Rules) color architecture was designed for
 aesthetics rather than extracted from comparable games' functional color
-systems. Color is a communication channel in games — every color decision
+systems. Color is a communication channel in games. Every color decision
 should answer: what does this color tell the player?
 
 **Fix:** Before designing the color system, gather reference for how
@@ -130,7 +130,7 @@ simultaneously.
 
 ---
 
-## MISTAKE 06 — Style Rules Applied by Feel, Not Specification
+## MISTAKE 06: style rules applied by feel, not specification
 
 > *"The environment art and the character art look like they're from different games."*
 
@@ -146,7 +146,7 @@ Without written rules, there is no shared standard to calibrate against.
 
 **Fix:** Extract style rules as written parameters before production begins.
 The rules must be specific enough that two different artists produce
-consistent results by following them — not by looking at the same mood board
+consistent results by following them. Not by looking at the same mood board
 but by applying the same bevel width, the same roughness range, the same
 detail density distribution. If two artists would interpret the rule
 differently, the rule is not specific enough.
@@ -158,7 +158,7 @@ start of production.
 
 ---
 
-## MISTAKE 07 — Mobile Lighting Mismatch
+## MISTAKE 07: mobile lighting mismatch
 
 > *"It looks completely different on mobile."*
 
@@ -177,11 +177,11 @@ with comparable visual targets, not from PC or console games.
 Establish a mobile lighting test scene from the start of production
 and require all assets to pass review in it.
 
-**Production cost:** Mobile lighting pass — texture adjustment, baked
+**Production cost:** Mobile lighting pass, texture adjustment, baked
 lighting recalibration, material parameter adjustment across all assets.
 Can be the most expensive platform-specific pass in cross-platform development.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

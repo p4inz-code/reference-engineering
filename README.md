@@ -8,15 +8,15 @@
 
 Not knowledge. Not research. Not documentation. Not inspiration.
 
-**References** — the specific collected materials that practitioners use to inform decisions before and during production. Reference Engineering is the discipline of working with those materials systematically.
+**References**, the specific collected materials that practitioners use to inform decisions before and during production. Reference Engineering is the discipline of working with those materials systematically.
 
 ---
 
-## Why This Exists
+## Why this exists
 
 Most practitioners collect references. Very few engineer them.
 
-The difference is not effort — it is methodology. A reference collector asks: *"What should I save?"* A reference engineer asks: *"What decisions does this project require, and what reference will inform each one?"*
+The difference is not effort. It is methodology. A reference collector asks: *"What should I save?"* A reference engineer asks: *"What decisions does this project require, and what reference will inform each one?"*
 
 This repository is the canonical free library for Reference Engineering across every discipline that has a production phase. It defines the methodology, proves it with examples, and provides the tools to practice it.
 
@@ -24,7 +24,7 @@ Reference Engineering was developed by [Atharva Patil](https://github.com/p4inz-
 
 ---
 
-## The Ten Principles
+## The ten principles
 
 1. References are assets
 2. Context is more valuable than quantity
@@ -39,7 +39,7 @@ Reference Engineering was developed by [Atharva Patil](https://github.com/p4inz-
 
 ---
 
-## The Reference Pyramid
+## The reference pyramid
 
 Seven layers. Build bottom-up. The upper layers are only useful once the lower layers are established.
 
@@ -75,22 +75,22 @@ Full model: [`core/REFERENCE_PYRAMID.md`](./core/REFERENCE_PYRAMID.md)
 
 ---
 
-## What's in This Library
+## What's in this library
 
-### Theory Layer
+### Theory layer
 The canonical theoretical foundation. Cite [`theory/REFERENCE_ENGINEERING_THEORY.md`](./theory/REFERENCE_ENGINEERING_THEORY.md) when referencing this discipline.
 
 | Document | Contents |
 |---|---|
-| [`theory/REFERENCE_ENGINEERING_THEORY.md`](./theory/REFERENCE_ENGINEERING_THEORY.md) | Complete unified theory — definition, principles, all models |
+| [`theory/REFERENCE_ENGINEERING_THEORY.md`](./theory/REFERENCE_ENGINEERING_THEORY.md) | Complete unified theory, definition, principles, all models |
 | [`theory/REFERENCE_HIERARCHY.md`](./theory/REFERENCE_HIERARCHY.md) | Credibility model — Primary, Secondary, Tertiary tiers |
 | [`theory/REFERENCE_LIFECYCLE.md`](./theory/REFERENCE_LIFECYCLE.md) | How reference briefs age, version, and compound |
-| [`theory/REFERENCE_RELATIONSHIPS.md`](./theory/REFERENCE_RELATIONSHIPS.md) | How references relate to each other — the relationship model |
+| [`theory/REFERENCE_RELATIONSHIPS.md`](./theory/REFERENCE_RELATIONSHIPS.md) | How references relate to each other, the relationship model |
 | [`theory/REFERENCE_DECISION_MAKING.md`](./theory/REFERENCE_DECISION_MAKING.md) | How reference quality maps to decision quality |
 | [`theory/REFERENCE_MEMORY.md`](./theory/REFERENCE_MEMORY.md) | Compounding, personal libraries, institutional memory |
 
-### Core Layer
-Operational documents — use these during production.
+### Core layer
+Operational documents, use these during production.
 
 | Document | Contents |
 |---|---|
@@ -110,12 +110,12 @@ Worked demonstrations of the complete Reference Engineering workflow across five
 | [`examples/ui-redesign/`](./examples/ui-redesign/) | UI/UX | Extracting written rules from competitor analysis |
 | [`examples/game-environment/`](./examples/game-environment/) | Game Art / 3D | Full seven-layer coverage, primary reference sourcing |
 | [`examples/brand-identity/`](./examples/brand-identity/) | Brand Design | Converting subjective briefs into measurable parameters |
-| [`examples/character-design/`](./examples/character-design/) | Character Art | Full lifecycle — brief v1 → v2, all seven layers |
+| [`examples/character-design/`](./examples/character-design/) | Character Art | Full lifecycle, brief v1 → v2, all seven layers |
 | [`examples/architecture/`](./examples/architecture/) | Architecture | Multi-domain reference management |
 
 Read [`examples/character-design/`](./examples/character-design/) for the most complete lifecycle demonstration.
 
-### Case Studies
+### Case studies
 Retroactive analysis of real projects through the Reference Engineering lens.
 
 | Case Study | Project | Key Finding |
@@ -129,36 +129,36 @@ Field-specific adaptations of the framework.
 
 | Discipline | Status |
 |---|---|
-| `disciplines/3d-art/` | ✅ v1.0.0 |
-| `disciplines/web-dev/` | ✅ v1.0.0 |
-| `disciplines/app-dev/` | ✅ v1.0.0 |
-| `disciplines/vfx/` | ✅ v1.1.0 |
-| `disciplines/game-dev/` | ✅ v1.1.0 |
-| `disciplines/ui-ux/` | ✅ v1.1.0 |
+| `disciplines/3d-art/` | v1.0.0 |
+| `disciplines/web-dev/` | v1.0.0 |
+| `disciplines/app-dev/` | v1.0.0 |
+| `disciplines/vfx/` | v1.1.0 |
+| `disciplines/game-dev/` | v1.1.0 |
+| `disciplines/ui-ux/` | v1.1.0 |
 
 ---
 
-## Start Here
+## Start here
 
 New to Reference Engineering:
 
-1. [`core/WHAT_IS_REFERENCE_ENGINEERING.md`](./core/WHAT_IS_REFERENCE_ENGINEERING.md) — what it is, what it is not, and why the boundary matters
-2. [`MANIFESTO.md`](./MANIFESTO.md) — the philosophy and origin
-3. [`core/REFERENCE_PYRAMID.md`](./core/REFERENCE_PYRAMID.md) — the seven layers
+1. [`core/WHAT_IS_REFERENCE_ENGINEERING.md`](./core/WHAT_IS_REFERENCE_ENGINEERING.md): what it is, what it is not, and why the boundary matters
+2. [`MANIFESTO.md`](./MANIFESTO.md): the philosophy and origin
+3. [`core/REFERENCE_PYRAMID.md`](./core/REFERENCE_PYRAMID.md): the seven layers
 4. One example from [`examples/`](./examples/) closest to your discipline
-5. [`core/REFERENCE_CHECKLIST.md`](./core/REFERENCE_CHECKLIST.md) — run this before your next project
+5. [`core/REFERENCE_CHECKLIST.md`](./core/REFERENCE_CHECKLIST.md): run this before your next project
 
 For the complete theory: [`theory/REFERENCE_ENGINEERING_THEORY.md`](./theory/REFERENCE_ENGINEERING_THEORY.md)
 
 ---
 
-## What Reference Engineering Is Not
+## What reference engineering is not
 
 Reference Engineering is distinct from adjacent disciplines:
 
 | Discipline | Manages | Goal |
 |---|---|---|
-| **Reference Engineering** | References | Better decisions through better reference practice |
+| Reference Engineering | References | Better decisions through better reference practice |
 | Knowledge Management | Knowledge assets | Organizational learning |
 | Research Methodology | Investigation processes | Discovery of new information |
 | Documentation | Recorded information | Reliable future access |
@@ -168,11 +168,11 @@ Reference Engineering intersects with all of these. It is not replaced by any of
 
 ---
 
-## For 3D Artists — Start Now
+## For 3D artists: start now
 
 The first AI skill pack implementing Reference Engineering is available today:
 
-**3d-ref-skills v3.1.0** — 9 skills covering the full 3D pre-production reference workflow
+**3d-ref-skills v3.1.0**: 9 skills covering the full 3D pre-production reference workflow
 
 → [github.com/p4inz-code/3d-ref-skills](https://github.com/p4inz-code/3d-ref-skills)
 
@@ -203,9 +203,9 @@ Community: [discord.gg/XFF5nV53ZJ](https://discord.gg/XFF5nV53ZJ)
 
 ## License
 
-MIT — see [`LICENSE`](./LICENSE)
+MIT, see [`LICENSE`](./LICENSE)
 
-*Reference Engineering — coined by Atharva Patil, P4inz Interactive Labs, 2026*
+*Reference Engineering: coined by Atharva Patil, P4inz Interactive Labs, 2026*
 
 ---
 

@@ -1,20 +1,20 @@
-# UI/UX Design — Reference Engineering Checklist
+# UI/UX design: reference engineering checklist
 
 Run at each design stage. Each stage has its own reference requirements.
-Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
 ## RESEARCH STAGE
 
-### Layer 1 — User Task and Mental Model
+### Layer 1: user task and mental model
 - [ ] Primary user task defined in one sentence (outcome, not feature)
 - [ ] User mental model documented (what comparable products shape expectations)
 - [ ] Top 3 failure modes in comparable products documented
 - [ ] Emotional register on arrival documented
 - [ ] Success criterion defined (how user knows task is complete)
 
-### Layer 2 — Minimum Viable Interaction
+### Layer 2: minimum viable interaction
 - [ ] Step count to complete primary task in best comparable product counted
 - [ ] Step count target set for this product
 - [ ] Information hierarchy drafted: primary / secondary / tertiary
@@ -43,23 +43,23 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ## VISUAL DESIGN STAGE
 
-### Layer 4 — Design System Rules
+### Layer 4: design system rules
 - [ ] Typography scale documented with exact values (px, rem, line-height, weight)
 - [ ] Color system documented with hex values and WCAG contrast ratios
 - [ ] Spacing base unit defined
 - [ ] Border radius system defined
-- [ ] Interactive state rules: hover, focus, active, disabled — all components
+- [ ] Interactive state rules: hover, focus, active, disabled. All components
 - [ ] "What this design NEVER does" list written
 - [ ] Rules validated against minimum 3 comparable products
 
-### Layer 5 — Accessibility Standards
+### Layer 5: accessibility standards
 - [ ] All text contrast ratios: minimum 4.5:1 (normal), 3:1 (large)
 - [ ] Focus states designed for all interactive elements
 - [ ] Touch targets: minimum 44×44px hit area
 - [ ] Animation: prefers-reduced-motion behavior defined
 - [ ] Text scaling: layout stable at 200% text size
 
-### Platform Conventions
+### Platform conventions
 - [ ] Platform HIG requirements checked for target platform
 - [ ] Convention departures documented with rationale
 - [ ] Onboarding investment planned for each convention departure
@@ -81,14 +81,14 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] Task completion rate measured against comparable product benchmarks
 - [ ] Time-on-task measured for primary task
 - [ ] Error rate documented
-- [ ] Convention departures specifically tested — do users discover them?
+- [ ] Convention departures specifically tested, do users discover them?
 - [ ] Brief updated with user testing findings before implementation handoff
 
 ---
 
 ## DELIVERY / IMPLEMENTATION HANDOFF
 
-### Layer 7 — Precision Detail
+### Layer 7: precision detail
 - [ ] All states specified: empty, loading, error, success, partial
 - [ ] All edge cases documented: zero items, maximum items, long text
 - [ ] Copy reviewed: all strings follow voice/tone guidelines
@@ -96,7 +96,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] Focus order documented for all screens
 - [ ] Design tokens documented (not hardcoded values)
 
-### Implementation Validation
+### Implementation validation
 - [ ] Contrast ratios verified in implementation (not just in Figma)
 - [ ] Keyboard navigation tested in implementation
 - [ ] Screen reader tested in implementation
@@ -117,5 +117,5 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

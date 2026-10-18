@@ -1,7 +1,7 @@
-# The Reference Pyramid
+# The reference pyramid
 
 The Reference Pyramid defines the seven layers of reference that every
-production needs — regardless of discipline. Most reference boards collapse
+production needs, regardless of discipline. Most reference boards collapse
 because they have too much at the peak and nothing at the foundation.
 
 The pyramid is read bottom-up: you cannot build the top layers without
@@ -38,7 +38,7 @@ the foundation being solid.
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
 **What it is:** The foundational layer. What does this thing *do*? Where does
 it exist? Who interacts with it, and how?
@@ -56,12 +56,12 @@ reference for something you don't understand the function of.
 - Failure states: what it looks like when worn, broken, or old
 
 **Skip-layer consequence:** Production questions about function arrive
-mid-production, causing rework. ("Wait — does this door handle open inward
+mid-production, causing rework. ("Wait, does this door handle open inward
 or outward? The animation rigging needs to know.")
 
 ---
 
-## Layer 2 — Scale & Proportion
+## Layer 2: scale & proportion
 
 **What it is:** Real-world dimensions and proportion systems. What is the
 actual size of this thing relative to the things around it?
@@ -81,18 +81,18 @@ at the integration stage. The asset doesn't fit in the scene correctly.
 
 ---
 
-## Layer 3 — Production Stage
+## Layer 3: production stage
 
 **What it is:** Reference specific to the current production stage.
 Silhouette reference, blockout reference, UV reference, and hero detail
 reference are four different things. Gather the one you need *now*.
 
 **The stages:**
-- **Silhouette stage:** Side/front/back/top orthographic. Strong readable shape.
-- **Blockout stage:** Major mass proportions. No detail.
-- **Mid-model stage:** Panel lines, secondary forms, topology questions.
-- **UV/Texture prep stage:** Tiling seam reference, surface variation reference.
-- **Hero detail stage:** Micro detail, wear patterns, high-frequency texture.
+- Silhouette stage: Side/front/back/top orthographic. Strong readable shape.
+- Blockout stage: Major mass proportions. No detail.
+- Mid-model stage: Panel lines, secondary forms, topology questions.
+- UV/Texture prep stage: Tiling seam reference, surface variation reference.
+- Hero detail stage: Micro detail, wear patterns, high-frequency texture.
 
 **What to find:** Reference that answers the specific question of your
 current stage, not the next one.
@@ -102,10 +102,10 @@ silhouette stage. The overall read is wrong even if every detail is correct.
 
 ---
 
-## Layer 4 — Style Rules
+## Layer 4: style rules
 
 **What it is:** The extractable parameters of the visual style you are working
-in. Not a feeling — a set of written rules derived from the reference.
+in. Not a feeling, a set of written rules derived from the reference.
 
 **What to extract:**
 - Shape language (hard-edged vs organic, angular vs rounded)
@@ -125,10 +125,10 @@ feel right" is always a Style Rules failure.
 
 ---
 
-## Layer 5 — Lighting Context
+## Layer 5: lighting context
 
 **What it is:** How the thing reads under specific real-world lighting
-conditions — the conditions it will actually live in during production.
+conditions, the conditions it will actually live in during production.
 
 **Why it matters:** A material that looks correct in a studio reference photo
 may completely misread in the outdoor daylight conditions of your scene.
@@ -147,7 +147,7 @@ wrong light.
 
 ---
 
-## Layer 6 — Material & Surface
+## Layer 6: material & surface
 
 **What it is:** How the material is constructed, what it is made of,
 and how it physically behaves.
@@ -169,7 +169,7 @@ wear, or lighting.
 
 ---
 
-## Layer 7 — Hero Detail
+## Layer 7: hero detail
 
 **What it is:** The top-layer fine detail reference. Micro-surface, texture
 frequency, craftwork, wear patterns at close range.
@@ -177,7 +177,7 @@ frequency, craftwork, wear patterns at close range.
 **Why it's at the top:** Hero detail is only useful when all six layers below
 it are already answered. Gathering hero detail reference before you know the
 function, scale, style rules, and material behavior of the thing is
-a waste of time — and a very common mistake.
+a waste of time, and a very common mistake.
 
 **What to find:**
 - Close-up photography of real-world equivalents
@@ -191,12 +191,12 @@ fix proportion or function or style.
 
 ---
 
-## How to Use the Pyramid
+## How to use the pyramid
 
 **Start at Layer 1, build up.** Do not start with hero detail reference.
 
 **Check for gaps.** Most reference boards have Layer 7 (hero detail) covered
-and Layers 1–3 missing. The gaps hurt more than the presence helps.
+and Layers 1-3 missing. The gaps hurt more than the presence helps.
 
 **Stage your gathering.** You do not need Layer 7 reference at the start of
 production. Gather by stage, not all at once.
@@ -206,5 +206,5 @@ reference to look for at each layer for that field.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

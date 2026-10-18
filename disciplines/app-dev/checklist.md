@@ -1,35 +1,35 @@
-# App Development — Reference Engineering Checklist
+# App development: reference engineering checklist
 
 Run before writing code. Run again at each production stage.
-Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
 ## PRE-PRODUCTION
 
-### Layer 1 — Function & Context
+### Layer 1: function & context
 - [ ] Primary user task written in one sentence
 - [ ] Session frequency and duration documented
 - [ ] Top 3 comparable apps identified and analyzed
 - [ ] App store reviews of comparable apps reviewed (Layer 1 primary reference)
-- [ ] What causes users to delete comparable apps — documented
+- [ ] What causes users to delete comparable apps, documented
 
-### Layer 2 — Scale & Proportion
+### Layer 2: scale & proportion
 - [ ] Minimum supported screen size confirmed
 - [ ] Maximum supported screen size confirmed
-- [ ] Primary viewport at minimum size — does primary content fit?
+- [ ] Primary viewport at minimum size, does primary content fit?
 - [ ] Primary action reachable at minimum size without scrolling?
 - [ ] Density-independent units confirmed for design
 
-### Layer 4 — Governing Rules
-- [ ] Target platform HIG read (not summarized — read)
+### Layer 4: governing rules
+- [ ] Target platform HIG read (not summarized, read)
 - [ ] HIG requirements applicable to this app type listed
 - [ ] Navigation pattern chosen and documented (reference: platform HIG)
 - [ ] Interaction gestures documented (reference: platform standards)
 - [ ] App-specific visual rules documented with numbers
 - [ ] "What this app NEVER does" list written
 
-### Layer 5 — Contextual Conditions
+### Layer 5: contextual conditions
 - [ ] OS version minimum confirmed against market distribution data
 - [ ] Hardware minimum spec confirmed
 - [ ] Permission requirements listed (every permission the app will request)
@@ -73,9 +73,9 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] App lifecycle transitions tested (background → foreground restores correct state)
 - [ ] Low-memory termination tested (state is correctly restored on relaunch)
 - [ ] System theme change tested while app is running
-- [ ] Permission denial tested — app functions correctly in degraded state
-- [ ] Offline state tested — app handles connectivity loss gracefully
-- [ ] Framework used per documentation — no patterns from outdated tutorials
+- [ ] Permission denial tested, app functions correctly in degraded state
+- [ ] Offline state tested, app handles connectivity loss gracefully
+- [ ] Framework used per documentation. No patterns from outdated tutorials
 
 ---
 
@@ -87,7 +87,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] Accessibility tested with platform screen reader (VoiceOver / TalkBack / Narrator)
 - [ ] All permissions tested: grant, deny, and revoke mid-session
 - [ ] All error states triggered and verified
-- [ ] App Store / Play Store guidelines reviewed — all requirements met
+- [ ] App Store / Play Store guidelines reviewed. All requirements met
 - [ ] Privacy policy URL confirmed
 - [ ] Required platform disclosures included
 - [ ] App store screenshots at required sizes prepared
@@ -107,5 +107,5 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

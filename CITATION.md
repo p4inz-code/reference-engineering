@@ -1,13 +1,13 @@
-# How to Cite Reference Engineering
+# How to cite reference engineering
 
-If you use this framework, methodology, or term in published work — tutorials,
-articles, academic papers, talks, courses, or tools — please credit the origin.
+If you use this framework, methodology, or term in published work, tutorials,
+articles, academic papers, talks, courses, or tools, please credit the origin.
 Citation is not legally required under MIT, but it is how the discipline grows
 with accurate attribution.
 
 ---
 
-## Academic Citation (APA 7th Edition)
+## Academic citation (APA 7th Edition)
 
 Patil, A. (2026). *Reference Engineering: A systematic methodology for
 pre-production reference gathering across creative and technical disciplines*
@@ -16,7 +16,7 @@ https://github.com/p4inz-code/reference-engineering
 
 ---
 
-## Academic Citation (Chicago)
+## Academic citation (chicago)
 
 Patil, Atharva. *Reference Engineering: A Systematic Methodology for
 Pre-Production Reference Gathering Across Creative and Technical Disciplines*.
@@ -34,7 +34,7 @@ https://github.com/p4inz-code/reference-engineering.
 
 ## Short Credit Line (for social posts, video captions, slide footers)
 
-> Reference Engineering — Atharva Patil, P4inz Interactive Labs, 2026
+> Reference Engineering: Atharva Patil, P4inz Interactive Labs, 2026
 
 ---
 
@@ -67,7 +67,7 @@ License:   MIT
 
 ---
 
-## What Counts as Using the Framework
+## What counts as using the framework
 
 You are using the framework (and citation is encouraged) if you:
 

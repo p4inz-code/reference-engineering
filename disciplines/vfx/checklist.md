@@ -1,47 +1,47 @@
-# VFX — Reference Engineering Checklist
+# VFX: reference engineering checklist
 
 Run before any simulation begins. Run again at each phase milestone.
-Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
 ## PRE-SIMULATION
 
-### Layer 1 — Phenomenon Identity
-- [ ] Phenomenon named precisely (not "fire" — what type of fire?)
+### Layer 1: phenomenon identity
+- [ ] Phenomenon named precisely (not "fire". What type of fire?)
 - [ ] Narrative function defined: hero / supporting / ambient
-- [ ] Real-world footage found and reviewed (not other CG — real footage)
+- [ ] Real-world footage found and reviewed (not other CG, real footage)
 - [ ] Camera distance and angle to effect documented
 - [ ] Compositional context documented (what is behind/around the effect)
 
-### Layer 2 — Timing and Scale
+### Layer 2: timing and scale
 - [ ] Physical scale of effect defined
 - [ ] Real footage frame counts documented: onset / peak / dissipation
 - [ ] Timing converted to target frame rate
 - [ ] Density range estimated from reference footage
 
-### Layer 3 — Phase Reference (all three required before starting)
+### Layer 3: Phase Reference (all three required before starting)
 - [ ] Onset reference gathered (first 20% of effect life)
-- [ ] Peak reference gathered (30–60% of effect life)
-- [ ] Dissipation reference gathered (60–100% of effect life)
+- [ ] Peak reference gathered (30-60% of effect life)
+- [ ] Dissipation reference gathered (60-100% of effect life)
 
-### Layer 4 — Governing Rules (complete before starting sim)
+### Layer 4: Governing Rules (complete before starting sim)
 - [ ] Onset: core color / edge color / density / velocity documented
 - [ ] Peak: core color / edge color / density / column dimensions documented
 - [ ] Dissipation: color shift sequence / density curve documented
 - [ ] "What this effect NEVER does" list written
 - [ ] All color values documented as hex from real footage (not from memory)
 
-### Layer 5 — Contextual Conditions
+### Layer 5: contextual conditions
 - [ ] Background plate (or proxy) in the reference board
 - [ ] Plate lighting conditions documented
 - [ ] Camera: lens / exposure / frame rate documented
 - [ ] Real-time budget documented (if applicable): particles / draw calls / overdraw
 
-### Layer 6 — Physical Behavior
+### Layer 6: physical behavior
 - [ ] Key physical behaviors documented (buoyancy, turbulence type, density behavior)
 - [ ] Pipeline-specific parameter targets estimated from physical reference
-- [ ] Secondary elements identified (embers, debris, spray — yes or no)
+- [ ] Secondary elements identified (embers, debris, spray, yes or no)
 
 ---
 
@@ -60,7 +60,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] Peak color (core vs. edge) matches reference hex values
 - [ ] Peak turbulence scale matches reference
 - [ ] Peak timing from onset matches documented frame count
-- [ ] Background plate composite test run — color and exposure check
+- [ ] Background plate composite test run, color and exposure check
 
 ---
 
@@ -92,12 +92,12 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 | Fire | Layer 6 (blackbody color behavior), Layer 3 (onset reference) |
 | Explosion | Layer 2 (timing from real footage), Layer 3 (dissipation reference) |
 | Water/fluid | Layer 6 (surface tension vs. gravity scale behavior) |
-| Smoke | Layer 3 (dissipation — most smoke reference is onset/peak) |
+| Smoke | Layer 3 (dissipation, most smoke reference is onset/peak) |
 | Magic/stylized | Layer 1 (indirect reference strategy), Layer 4 (shape language rules) |
 | Looping ambient | Layer 7 (loop technique reference) |
 | Weather | Layer 6 (large-scale atmospheric behavior), Layer 5 (composite integration) |
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

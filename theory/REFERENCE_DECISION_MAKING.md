@@ -1,7 +1,7 @@
-# Reference Decision Making
+# Reference decision making
 
 **Part of:** Reference Engineering Theory Layer
-**Relates to:** Core definition — references applied to improve decision quality
+**Relates to:** Core definition, references applied to improve decision quality
 
 Reference Engineering exists because references are collected to inform
 decisions. The connection between reference practice and decision quality
@@ -9,7 +9,7 @@ is the discipline's core claim. This document makes that connection explicit.
 
 ---
 
-## The Central Claim
+## The central claim
 
 Better reference practice produces better decisions.
 
@@ -22,18 +22,18 @@ This is not a vague assertion. It has a specific mechanism:
 3. A decision made after gap analysis is less likely to be blocked by an
    unanswered question than one made without it.
 4. A decision that can be traced to a reference can be audited, challenged,
-   and revised with evidence — a decision made from memory cannot.
+   and revised with evidence, a decision made from memory cannot.
 
 Reference Engineering improves decisions not by replacing judgment but by
 giving judgment better material to work from.
 
 ---
 
-## Reference-Backed Decisions vs Undocumented Assumptions
+## Reference-Backed decisions vs undocumented assumptions
 
 Every production decision is either reference-backed or an undocumented assumption.
 
-### Reference-Backed Decision
+### Reference-Backed decision
 
 A decision is reference-backed when:
 - It was made from reference of a known tier
@@ -43,12 +43,12 @@ A decision is reference-backed when:
 - The decision was audited against other active references for contradiction
 
 A reference-backed decision can be:
-- **Audited:** Is this decision consistent with the reference it came from?
-- **Challenged:** Is this the right reference to be making this decision from?
-- **Revised:** If better reference is found, the decision can be revisited with evidence
-- **Transferred:** A new team member can understand why the decision was made
+- Audited: Is this decision consistent with the reference it came from?
+- Challenged: Is this the right reference to be making this decision from?
+- Revised: If better reference is found, the decision can be revisited with evidence
+- Transferred: A new team member can understand why the decision was made
 
-### Undocumented Assumption
+### Undocumented assumption
 
 A decision is an undocumented assumption when:
 - It was made from memory, preference, or intuition without reference support
@@ -56,13 +56,13 @@ A decision is an undocumented assumption when:
 - The reasoning is not documented
 
 An undocumented assumption cannot be audited, cannot be challenged with
-evidence (because there is no evidence), and cannot be transferred — when
+evidence (because there is no evidence), and cannot be transferred. When
 the practitioner who made it is no longer available, the reasoning is gone.
 
-### The Goal
+### The goal
 
 Reference Engineering does not eliminate undocumented assumptions. All
-production involves some — there are always decisions that must be made
+production involves some, there are always decisions that must be made
 faster than reference can be gathered, or where reference does not exist.
 
 The goal is:
@@ -74,7 +74,7 @@ The goal is:
 
 ---
 
-## Decision Confidence Levels
+## Decision confidence levels
 
 Decision confidence is a function of the reference support behind a decision.
 Reference Engineering defines four confidence levels:
@@ -103,13 +103,13 @@ LEVEL 4 — ASSUMED
 
 ---
 
-## The Decision Trace
+## The decision trace
 
 Every significant production decision should have a decision trace: a
 brief record of what reference supported it, at what confidence level,
 and what alternatives were considered and rejected.
 
-### Decision Trace Format
+### Decision trace format
 
 ```
 DECISION: [what was decided]
@@ -122,7 +122,7 @@ Constraint relationships: [which other references constrain this decision]
 Review trigger: [what would cause this decision to be revisited]
 ```
 
-### Lightweight Decision Trace
+### Lightweight decision trace
 
 For small projects or lower-stakes decisions, a lightweight trace is acceptable:
 
@@ -132,7 +132,7 @@ D-01: Bevel width = 1.5mm
   Confidence: CONFIRMED
 ```
 
-### When to Document
+### When to document
 
 Not every decision requires a decision trace. The discipline of deciding
 which decisions to document is itself a Reference Engineering skill.
@@ -150,7 +150,7 @@ Do not document when:
 
 ---
 
-## Reference Engineering and Judgment
+## Reference engineering and judgment
 
 Reference Engineering improves the material that judgment works from.
 It does not replace judgment.
@@ -160,17 +160,17 @@ decisions. A practitioner with excellent judgment and no reference will
 make decisions constrained by what they already know.
 
 The practitioner with excellent reference *and* excellent judgment makes
-the best decisions — because their judgment is operating on better material.
+the best decisions, because their judgment is operating on better material.
 
 This is why Reference Engineering is a discipline, not a system. A system
 could theoretically operate without judgment. A discipline develops
 judgment through practice. The experienced Reference Engineer does not
-just gather better reference — they develop better judgment about what
+just gather better reference, they develop better judgment about what
 reference to gather, what it means, and how to apply it.
 
 ---
 
-## Common Decision-Making Failures Traced to Reference Practice
+## Common Decision-Making failures traced to reference practice
 
 ### Failure: "It looked right"
 
@@ -199,7 +199,7 @@ reference didn't anticipate.
 insufficiently. The gap was present in the reference set but not identified.
 **Fix:** Run a gap audit after every reference session, not just at the end
 of pre-production. Gap identification requires actively asking "what question
-does this reference reveal that I haven't answered yet?" — not just reviewing
+does this reference reveal that I haven't answered yet?". Not just reviewing
 what has been gathered.
 
 ### Failure: "Everyone thought someone else had figured that out"
@@ -214,5 +214,5 @@ as an assumption that the recipient needs to verify.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

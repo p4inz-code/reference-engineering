@@ -1,25 +1,25 @@
-# Web Development — Reference Engineering Guide
+# Web development: reference engineering guide
 
 Full methodology for gathering, analyzing, and organizing reference across
 the complete web development production arc.
 
-**Contributed by:** Atharva Patil — P4inz Interactive Labs
+**Contributed by:** Atharva Patil, P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
-### What to Find
+### What to find
 
 **User task reference:** Documentation of what the user is actually trying
-to accomplish — not what the page is supposed to offer, but what the user
+to accomplish, not what the page is supposed to offer, but what the user
 arrives needing. Sources: user research, usability test recordings, customer
 support logs, search query data, competitor reviews that describe what users
 come for. The user's task is the Layer 1 anchor for every subsequent decision.
 
 **Competitive landscape reference:** What do the three best versions of
-this type of interface do? Not what do they look like — what do they do?
+this type of interface do? Not what do they look like. What do they do?
 How do they structure the primary user task? What navigation pattern?
 What information hierarchy? The best-in-class example for the task type
 is primary tier reference, not inspiration.
@@ -32,10 +32,10 @@ constraint produces different design decisions depending on the context
 of use.
 
 **Anti-reference:** What has failed in this product category? What does
-the user hate about existing solutions? Negative reference — what this
-product must not do — is as important as positive reference.
+the user hate about existing solutions? Negative reference, what this
+product must not do, is as important as positive reference.
 
-### Discipline-Specific Questions
+### Discipline-Specific questions
 
 - What is the one thing the user must be able to do on this page without any confusion?
 - What does the user do immediately before arriving here and immediately after leaving?
@@ -44,18 +44,18 @@ product must not do — is as important as positive reference.
 
 ---
 
-## Layer 2 — Scale & Proportion (Information Hierarchy)
+## Layer 2: scale & proportion (information hierarchy)
 
-### What to Find
+### What to find
 
 **Viewport distribution data:** What screen sizes cover 90%+ of the target
-audience? This is not a design assumption — it is a measurable fact for
+audience? This is not a design assumption. It is a measurable fact for
 any established audience and an inferable estimate for new products (use
 category benchmarks). The viewport distribution determines breakpoint
 priorities and content density decisions.
 
 **Information hierarchy reference:** How much content belongs above the
-fold at the primary viewport? What is the primary action — is it visible
+fold at the primary viewport? What is the primary action, is it visible
 without scrolling? What is secondary? What requires navigation?
 The information hierarchy is a proportion decision, not a visual design
 decision. It should be established at wireframe stage from reference,
@@ -64,9 +64,9 @@ not discovered during mockup.
 **Content density reference:** What is the appropriate information density
 for this interface type and user task? A data dashboard has different
 density norms than a marketing landing page. Find the best examples
-of the correct density for this specific type — not the category average.
+of the correct density for this specific type. Not the category average.
 
-### Discipline-Specific Questions
+### Discipline-Specific questions
 
 - What viewport is the design primary for? (What does the audience actually use?)
 - What is the content-to-chrome ratio at the primary viewport?
@@ -75,9 +75,9 @@ of the correct density for this specific type — not the category average.
 
 ---
 
-## Layer 3 — Production Stage Reference
+## Layer 3: production stage reference
 
-### Web Development Production Stages
+### Web development production stages
 
 | Stage | What You're Building | Reference Needed |
 |---|---|---|
@@ -88,10 +88,10 @@ of the correct density for this specific type — not the category average.
 | Implementation | Code structure, browser behavior | Framework documentation, browser compatibility, accessibility |
 | QA / Launch | Cross-device/browser validation | Device testing matrix, accessibility audit tools |
 
-### Stage-Appropriate Reference Practice
+### Stage-Appropriate reference practice
 
 **At wireframe stage:** Gather structural and layout reference only.
-Do not gather visual style reference at this stage — it will contaminate
+Do not gather visual style reference at this stage. It will contaminate
 structural decisions. The wireframe should answer: does this layout work
 for the task? Not: does this look right?
 
@@ -105,11 +105,11 @@ the way I designed it, in the browsers and devices the user has?
 
 ---
 
-## Layer 4 — Governing Rules
+## Layer 4: governing rules
 
-### What to Extract
+### What to extract
 
-**Typography parameters:** Size scale (not just "big/medium/small" —
+**Typography parameters:** Size scale (not just "big/medium/small"
 actual rem values or type scale ratios), weight range used, line height
 range, tracking adjustments at display sizes. Written numbers, not feelings.
 
@@ -122,7 +122,7 @@ documented against their expected backgrounds.
 each breakpoint. Component internal padding standards.
 
 **Interactive state parameters:** Hover, focus, active, disabled states
-for every interactive element type. Focus states are a common omission —
+for every interactive element type. Focus states are a common omission
 extract reference for how the best products in this category handle focus
 visibility.
 
@@ -151,9 +151,9 @@ Spacing:
 
 ---
 
-## Layer 5 — Contextual Conditions
+## Layer 5: contextual conditions
 
-### Browser and Device Rendering
+### Browser and device rendering
 
 **Browser rendering reference:** CSS features behave differently across
 browsers. What the design assumes must be validated against what the
@@ -172,7 +172,7 @@ gathered on one display configuration may look wrong on another.
 tap target size than one used at a desktop in an office. The conditions
 of use are Layer 5 reference.
 
-### Performance Context
+### Performance context
 
 **Core Web Vitals targets:** LCP, CLS, and INP targets are contextual
 constraints, not post-launch concerns. They constrain technical decisions
@@ -186,13 +186,13 @@ font loading strategy, and JavaScript bundle size.
 
 ---
 
-## Layer 6 — Framework and Browser Behavior
+## Layer 6: framework and browser behavior
 
-### What to Find
+### What to find
 
 **Framework constraints:** What does the chosen framework do that cannot
 be overridden without significant cost? React's rendering model, Next.js
-routing behavior, SvelteKit's hydration approach — each has behaviors
+routing behavior, SvelteKit's hydration approach. Each has behaviors
 that constrain what is easily buildable. Know these before designing
 interactions that fight the framework.
 
@@ -211,9 +211,9 @@ the reference matrix.
 
 ---
 
-## Layer 7 — Precision Detail
+## Layer 7: precision detail
 
-### What to Find
+### What to find
 
 **Micro-interaction reference:** How do the best products in this category
 handle hover states, loading states, success states, and error states?
@@ -229,12 +229,12 @@ as the pixel-level visual design.
 **Accessibility precision:** What does a correct focus ring look like
 for this design system? What do screen reader announcements sound like
 for the interactive patterns used? What do keyboard navigation flows
-feel like? These are testable against standards — gather the standards
+feel like? These are testable against standards, gather the standards
 as reference before implementation.
 
 ---
 
-## The Web Development Reference Brief
+## The web development reference brief
 
 ```
 PROJECT: [site/app name]
@@ -295,7 +295,7 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-## When to Re-Run Reference Work
+## When to Re-Run reference work
 
 - After user testing reveals the primary task assumption was wrong
 - When the framework or component library changes
@@ -305,5 +305,5 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

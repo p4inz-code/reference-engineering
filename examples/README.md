@@ -1,7 +1,7 @@
-# Reference Engineering — Examples
+# Reference engineering: examples
 
 Worked examples of the complete Reference Engineering workflow.
-Each example starts from scratch — a project prompt — and walks through
+Each example starts from scratch, a project prompt, and walks through
 every stage of the framework to a documented set of final production decisions.
 
 These are not case studies of existing projects. They are **constructed
@@ -10,7 +10,7 @@ with full transparency about every decision made and why.
 
 ---
 
-## What Each Example Contains
+## What each example contains
 
 Every example folder follows the same structure:
 
@@ -26,7 +26,7 @@ examples/[project-name]/
 
 ---
 
-## The Examples
+## The examples
 
 | Example | Discipline | Pyramid Layers Featured | Key Skill Demonstrated |
 |---|---|---|---|
@@ -40,7 +40,7 @@ Read `ui-redesign/` for the fastest entry point if you come from a non-art backg
 
 ---
 
-## How to Use These Examples
+## How to use these examples
 
 **As a learning tool:** Read one complete example before your next project.
 Note how every piece of reference answers a specific question. Replicate
@@ -50,23 +50,23 @@ the brief structure for your own project.
 replace the content with your own project's questions. The structure transfers.
 
 **As proof of concept:** These examples exist to demonstrate that Reference
-Engineering is not abstract — it produces specific, actionable production
+Engineering is not abstract, it produces specific, actionable production
 decisions from structured reference analysis.
 
 ---
 
-## How Examples Differ from Case Studies
+## How examples differ from case studies
 
 | | Examples | Case Studies |
 |---|---|---|
-| **Project** | Constructed demonstration | Real project, analyzed retroactively |
-| **Process** | Forward (brief → decisions) | Backward (outcome → analysis) |
-| **Certainty** | Decisions are shown as made | Analysis infers what reference work happened |
-| **Purpose** | Teach the workflow | Prove the framework against real outcomes |
+| Project | Constructed demonstration | Real project, analyzed retroactively |
+| Process | Forward (brief → decisions) | Backward (outcome → analysis) |
+| Certainty | Decisions are shown as made | Analysis infers what reference work happened |
+| Purpose | Teach the workflow | Prove the framework against real outcomes |
 
 See `case-studies/` for the retroactive analysis format.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

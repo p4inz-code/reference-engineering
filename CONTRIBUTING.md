@@ -1,12 +1,12 @@
-# Contributing to Reference Engineering
+# Contributing to reference engineering
 
 Thank you for contributing. This library is built on the principle that
 Reference Engineering is a discipline that belongs to every practitioner who
-needs it — and the community makes it better.
+needs it, and the community makes it better.
 
 ---
 
-## Before You Contribute
+## Before you contribute
 
 Read `MANIFESTO.md` and `DISCIPLINE_TEMPLATE.md` first.
 
@@ -16,15 +16,15 @@ the template will be asked to revise before merging.
 
 ---
 
-## What We Accept
+## What we accept
 
 ### New discipline sections
 A complete discipline folder under `disciplines/` following `DISCIPLINE_TEMPLATE.md` exactly:
-- `README.md` — overview, who it's for
-- `REFERENCE_GUIDE.md` — full methodology for this discipline
-- `mistakes.md` — 5–10 discipline-specific mistakes, scannable card format
-- `checklist.md` — printable pre-production checklist
-- `sources.md` — best reference sources for this discipline
+- `README.md`: overview, who it's for
+- `REFERENCE_GUIDE.md`: full methodology for this discipline
+- `mistakes.md`: 5-10 discipline-specific mistakes, scannable card format
+- `checklist.md`: printable pre-production checklist
+- `sources.md`: best reference sources for this discipline
 
 See the roadmap in `README.md` for disciplines currently needed.
 
@@ -33,7 +33,7 @@ Corrections, additions, better sources, clearer language, updated tooling refere
 
 ### Improvements to core/ documents
 Corrections and clarifications to the universal framework documents.
-**Do not propose changes to MANIFESTO.md** — that document is a permanent
+**Do not propose changes to MANIFESTO.md**. That document is a permanent
 historical record, not a living document.
 
 ### New AI skill packs
@@ -43,16 +43,16 @@ with a link to the external repo.
 
 ---
 
-## What We Do Not Accept
+## What we do not accept
 
 - PRs that remove or rewrite attribution to the framework's origin
 - Discipline sections that redefine "Reference Engineering" to mean something other than what is defined in `core/WHAT_IS_REFERENCE_ENGINEERING.md`
-- AI-generated discipline sections submitted without domain expertise review — the quality bar is practitioner-level knowledge
+- AI-generated discipline sections submitted without domain expertise review. The quality bar is practitioner-level knowledge
 - Changes to `MANIFESTO.md`, `TRADEMARK_NOTE.md`, `CITATION.md`, or the attribution paragraph in `LICENSE`
 
 ---
 
-## Contributor Agreement
+## Contributor agreement
 
 By submitting a pull request to this repository, you agree that:
 
@@ -65,7 +65,7 @@ substantially author. Your name goes in the README.md of that discipline folder.
 
 ---
 
-## How to Submit
+## How to submit
 
 1. Fork the repository
 2. Create a branch: `feat/disciplines/your-discipline-name`
@@ -77,7 +77,7 @@ substantially author. Your name goes in the README.md of that discipline folder.
 
 ---
 
-## Quality Bar
+## Quality bar
 
 This is not a link dump or a collection of "useful tips." Every discipline
 section should read like it was written by a working professional in that field
@@ -95,4 +95,4 @@ at discord.gg/XFF5nV53ZJ.
 
 ---
 
-*P4inz Interactive Labs — Atharva Patil — 2026*
+*P4inz Interactive Labs, Atharva Patil, 2026*

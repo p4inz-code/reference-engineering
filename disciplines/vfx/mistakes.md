@@ -1,14 +1,14 @@
-# VFX — Reference Engineering Mistakes
+# VFX: reference engineering mistakes
 
 Seven failure modes specific to VFX reference practice.
 
 ---
 
-## MISTAKE 01 — CG Reference for CG Output
+## MISTAKE 01: CG reference for CG output
 
 > *"I looked at other VFX breakdowns as reference."*
 
-**Symptom:** The finished VFX looks like VFX. Not like the real phenomenon —
+**Symptom:** The finished VFX looks like VFX. Not like the real phenomenon
 like digital art approximating the phenomenon. The tell is always in the
 motion: CG-referenced CG has the motion of CG VFX, not the motion of
 fire or water or explosions.
@@ -18,7 +18,7 @@ footage. The reference was Secondary or Tertiary tier, used without
 translation, as if it were Primary.
 
 **Fix:** For any simulation of a real-world phenomenon, real-world footage
-is the only Primary reference. Other VFX is Secondary at best — useful
+is the only Primary reference. Other VFX is Secondary at best, useful
 for understanding how an effect was achieved technically, not for understanding
 how the phenomenon actually behaves.
 
@@ -28,7 +28,7 @@ calibrated to other CG must be recalibrated to real-world behavior.
 
 ---
 
-## MISTAKE 02 — Missing Phase Reference
+## MISTAKE 02: missing phase reference
 
 > *"I have great reference for the explosion. The onset looks wrong though."*
 
@@ -52,7 +52,7 @@ them for onset may break peak. Multiple re-sim iterations.
 
 ---
 
-## MISTAKE 03 — Timing from Feeling
+## MISTAKE 03: timing from feeling
 
 > *"It felt too slow so I sped it up."*
 
@@ -78,7 +78,7 @@ work (secondary elements, audio sync, lighting response) is wrong.
 
 ---
 
-## MISTAKE 04 — Wrong Color Model
+## MISTAKE 04: wrong color model
 
 > *"I made the fire orange because fire is orange."*
 
@@ -103,7 +103,7 @@ at the composite level), re-simulation required.
 
 ---
 
-## MISTAKE 05 — Composite Context Ignored
+## MISTAKE 05: composite context ignored
 
 > *"The effect looked great in preview. It looks wrong in the shot."*
 
@@ -113,8 +113,8 @@ VFX and plate, edge behavior that doesn't match the plate's motion blur,
 exposure mismatch where the VFX is too bright or too dark relative to
 the plate's real-world lighting.
 
-**Cause:** Layer 5 (Contextual Conditions) reference — the composite
-environment — was not gathered. The effect was developed in isolation
+**Cause:** Layer 5 (Contextual Conditions) reference. The composite
+environment, was not gathered. The effect was developed in isolation
 against a neutral background. The real plate was not in the reference
 board.
 
@@ -130,7 +130,7 @@ re-simulation or re-render.
 
 ---
 
-## MISTAKE 06 — Real-Time Budget Discovered Mid-Development
+## MISTAKE 06: real-time budget discovered Mid-Development
 
 > *"It runs at 12fps on the target platform."*
 
@@ -153,7 +153,7 @@ match the design intent. Platform-specific variants that duplicate work.
 
 ---
 
-## MISTAKE 07 — Looping Without Loop Reference
+## MISTAKE 07: looping without loop reference
 
 > *"The loop point is really obvious."*
 
@@ -179,5 +179,5 @@ with a different particle system structure.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

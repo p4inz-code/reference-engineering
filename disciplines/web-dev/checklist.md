@@ -1,19 +1,19 @@
-# Web Development — Reference Engineering Checklist
+# Web development: reference engineering checklist
 
 Run before writing code. Run again at each production stage.
-Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
 ## DISCOVERY / PRE-DESIGN
 
-### Layer 1 — Function & Context
-- [ ] Primary user task written in one sentence (not what the page does — what the user accomplishes)
+### Layer 1: function & context
+- [ ] Primary user task written in one sentence (not what the page does. What the user accomplishes)
 - [ ] User context of use defined (device, environment, emotional state, intent)
 - [ ] Top 3 competitive references analyzed for structure, not just appearance
-- [ ] Anti-reference documented — what this product must NOT do
+- [ ] Anti-reference documented: what this product must NOT do
 
-### Layer 2 — Information Hierarchy
+### Layer 2: information hierarchy
 - [ ] Target viewport distribution documented (analytics or category benchmark)
 - [ ] Primary breakpoints confirmed
 - [ ] Above-fold content defined at primary mobile viewport
@@ -33,7 +33,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ## VISUAL DESIGN STAGE
 
-### Layer 4 — Governing Rules
+### Layer 4: governing rules
 - [ ] Typography scale documented with exact values (rem sizes, line heights, weights)
 - [ ] Color system documented with hex values and contrast ratios
 - [ ] Spacing base unit defined and documented
@@ -43,17 +43,17 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] Rules sourced from minimum 3 competitive references
 - [ ] "What this interface NEVER does" list written
 
-### Layer 5 — Contextual Conditions
+### Layer 5: contextual conditions
 - [ ] WCAG contrast ratios confirmed for all text/background combinations
 - [ ] Touch target minimum size confirmed (44×44px minimum)
 - [ ] Typography readable at minimum at primary mobile viewport + viewing distance
-- [ ] Dark mode considered (required or optional — decision documented)
+- [ ] Dark mode considered (required or optional, decision documented)
 
 ---
 
 ## IMPLEMENTATION STAGE
 
-### Layer 6 — Framework & Browser Behavior
+### Layer 6: framework & browser behavior
 - [ ] Framework defaults documented for each component type used
 - [ ] Component library override cost assessed before designing against defaults
 - [ ] Target browser range confirmed
@@ -62,7 +62,7 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 - [ ] Safari tested on real device or verified emulator (not just Chrome devtools)
 - [ ] iOS Safari tested for any input, scroll, or touch interaction
 
-### Layer 5 — Performance Context
+### Layer 5: performance context
 - [ ] CWV targets documented: LCP  CLS  INP
 - [ ] Image size budget established from LCP target
 - [ ] JavaScript bundle budget established from INP target
@@ -103,5 +103,5 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

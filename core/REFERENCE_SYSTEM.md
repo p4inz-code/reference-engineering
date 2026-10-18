@@ -1,11 +1,11 @@
-# The Reference Engineering System
+# The reference engineering system
 
-How the framework fits together — across disciplines, across production stages,
+How the framework fits together: across disciplines, across production stages,
 and across the tools available to you.
 
 ---
 
-## The Three Levels
+## The three levels
 
 Reference Engineering operates at three levels simultaneously:
 
@@ -29,7 +29,7 @@ that field asks. The Brief Layer (Level 1) is where you actually work.
 
 ---
 
-## Which Document Is for What?
+## Which document is for what?
 
 | Question | Document |
 |---|---|
@@ -48,7 +48,7 @@ that field asks. The Brief Layer (Level 1) is where you actually work.
 
 ---
 
-## The Brief Lifecycle
+## The brief lifecycle
 
 A reference brief is not written once. It is maintained through production.
 
@@ -80,7 +80,7 @@ Reference Engineering runs it at every major milestone.
 
 ---
 
-## Cross-Discipline Transfer
+## Cross-Discipline transfer
 
 The seven principles and the pyramid layers have equivalents in every field.
 The discipline-specific guides in `disciplines/` make this explicit, but here
@@ -100,7 +100,7 @@ The questions change. The structure does not.
 
 ---
 
-## When to Re-Run Reference Work
+## When to Re-Run reference work
 
 Reference Engineering is triggered not just at the start of a project but
 whenever production reveals that existing reference is insufficient.
@@ -113,13 +113,13 @@ whenever production reveals that existing reference is insufficient.
   new target platform, new scope)
 - Someone on the team asks a production question you can't answer from the existing brief
 
-The cost of re-running a reference brief is 30–60 minutes.
+The cost of re-running a reference brief is 30-60 minutes.
 The cost of discovering an unanswered production question mid-build is
 measured in days.
 
 ---
 
-## The Compounding Effect
+## The compounding effect
 
 Reference Engineering compounds across a career in a way that unsystematic
 reference collection does not.
@@ -143,11 +143,11 @@ Unsystematic collection starts over every project.
 
 ---
 
-## The AI Layer
+## The AI layer
 
 AI skill packs (under `ai-skills/`) are tools that implement Reference
 Engineering methodology inside AI agent systems. They are not a replacement
-for the methodology — they are a faster interface to it.
+for the methodology, they are a faster interface to it.
 
 The 3d-ref-skills pack (`github.com/p4inz-code/3d-ref-skills`) is the
 first published implementation. It contains 9 skills covering the full
@@ -157,5 +157,5 @@ Additional skill packs are planned. See `ai-skills/README.md`.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

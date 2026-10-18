@@ -1,6 +1,6 @@
-# Reference Engineering — Theory
+# Reference engineering: theory
 
-**Author:** Atharva Patil — P4inz Interactive Labs, Navi Mumbai, India
+**Author:** Atharva Patil: P4inz Interactive Labs, Navi Mumbai, India
 **Version:** 1.1.0
 **Date:** 2026-06-22
 **Canonical URL:** github.com/p4inz-code/reference-engineering/blob/main/theory/REFERENCE_ENGINEERING_THEORY.md
@@ -15,7 +15,7 @@
 
 Reference Engineering is a discipline focused on references as its primary
 object. It defines the systematic process of collecting, organizing, analyzing,
-connecting, retrieving, and applying references — with the goal of improving
+connecting, retrieving, and applying references, with the goal of improving
 the quality of decisions made during production.
 
 This document presents the complete theoretical framework: the definition and
@@ -26,7 +26,7 @@ relationship model, the process model (Core Loop), the temporal model
 
 ---
 
-## 1. The Disciplinary Boundary
+## 1. The disciplinary boundary
 
 Reference Engineering manages **references**.
 
@@ -40,24 +40,24 @@ is the discipline of working with those materials systematically.
 
 This boundary is not a technicality. It is the definition of the discipline's
 scope. Without it, Reference Engineering dissolves into Knowledge Management
-or Research Methodology — adjacent fields with different objects, different
+or Research Methodology, adjacent fields with different objects, different
 methods, and different goals.
 
 | Discipline | Primary Object | Goal |
 |---|---|---|
-| **Reference Engineering** | References | Better decisions through better reference practice |
+| Reference Engineering | References | Better decisions through better reference practice |
 | Knowledge Management | Knowledge assets | Organizational learning and expertise retention |
 | Research Methodology | Investigation processes | Discovery of new information |
 | Documentation | Recorded information | Reliable future access to captured data |
 | Information Architecture | Information structures | Findability and usability of information systems |
 
-References may produce knowledge — that is an outcome, not the subject.
-References may be documented — that is a practice, not the discipline.
-References may support research — that is an application, not the identity.
+References may produce knowledge, that is an outcome, not the subject.
+References may be documented, that is a practice, not the discipline.
+References may support research, that is an application, not the identity.
 
 **Reference Engineering stays on the reference side of every one of these lines.**
 
-### 1.1 What Is a Reference?
+### 1.1 What is a reference?
 
 A reference is any collected material that a practitioner uses to inform a
 production decision. References may be:
@@ -72,108 +72,108 @@ production decision. References may be:
 A reference is defined not by its format but by its role: it informs a
 decision. The same photograph used for aesthetic inspiration is not a
 reference in the Reference Engineering sense. The same photograph annotated
-with what specific decision it informs — that is a reference.
+with what specific decision it informs. That is a reference.
 
-### 1.2 The Six Operations
+### 1.2 The six operations
 
 Reference Engineering is defined by six operations applied to references:
 
-**Collecting** — Acquiring references with intent. The question governing
+**Collecting**, Acquiring references with intent. The question governing
 collection is: what specific decision does this reference inform? Collection
 without a governing question produces accumulation, not reference engineering.
 
-**Organizing** — Structuring references so they can be navigated, compared,
+**Organizing**: Structuring references so they can be navigated, compared,
 and retrieved. Organization is a human-defined structure applied to collected
-materials. It is not a folder system or a tagging scheme — those are
+materials. It is not a folder system or a tagging scheme. Those are
 implementations of organization, not organization itself.
 
-**Analyzing** — Extracting usable information from a reference: what it
+**Analyzing**, Extracting usable information from a reference: what it
 tells you, what tier of credibility it belongs to, what it confirms,
 what it contradicts, what it leaves unanswered.
 
-**Connecting** — Mapping relationships between references. How one reference
+**Connecting**, Mapping relationships between references. How one reference
 constrains another, confirms another, contradicts another, or fills a gap
 another leaves open. Relationships between references are first-class data
 in Reference Engineering.
 
-**Retrieving** — Finding the right reference at the moment it is needed.
+**Retrieving**, Finding the right reference at the moment it is needed.
 Retrieval is designed at the moment of collection, not as an afterthought.
 A reference that cannot be retrieved when needed is functionally equivalent
 to a reference that was never collected.
 
-**Applying** — Using reference to make a specific decision. Application
+**Applying**, Using reference to make a specific decision. Application
 closes the loop: the reference was collected to inform a decision, the
 decision is made from it, the reference's role in the decision is documented.
 
 ---
 
-## 2. The Ten Principles
+## 2. The ten principles
 
-**Principle 1 — References are assets.**
+**Principle 1, References are assets.**
 A collected reference has value that extends beyond the moment of collection.
 It can be retrieved, reused, shared, connected to other references, and
 built upon. Treat references as assets with ongoing value, not as temporary
 inputs consumed at first use.
 
-**Principle 2 — Context is more valuable than quantity.**
+**Principle 2, Context is more valuable than quantity.**
 A reference annotated with its question, tier, and relationships is worth
 more than ten unannotated references. Volume without context produces
 noise. The discipline optimizes for context density, not collection volume.
 
-**Principle 3 — Organization precedes automation.**
-No tool — AI or otherwise — can organize references effectively without
+**Principle 3, Organization precedes automation.**
+No tool, AI or otherwise, can organize references effectively without
 a human-defined structure. Organization is a discipline problem, not a
 software problem. Define the structure first. Apply tools to the structure.
 
-**Principle 4 — Retrieval is as important as collection.**
+**Principle 4, Retrieval is as important as collection.**
 Collection without retrieval is hoarding. The discipline designs for
 retrieval from the moment of collection: annotating what question a
 reference answers, what tier it belongs to, how it connects to adjacent
 references, so that it can be found in under thirty seconds when needed.
 
-**Principle 5 — Relationships matter more than storage.**
+**Principle 5, Relationships matter more than storage.**
 How references relate to each other is more valuable than where they are
 stored. A reference that confirms another reference, contradicts a third,
-and fills the gap left by a fourth — that relational network is the
+and fills the gap left by a fourth. That relational network is the
 most valuable artifact the discipline produces.
 
-**Principle 6 — Knowledge compounds.**
+**Principle 6, Knowledge compounds.**
 The value of a well-maintained reference system increases over time.
 The practitioner who builds a reference system for five years outperforms
-the one who starts fresh every project — not because they have more
+the one who starts fresh every project. Not because they have more
 references, but because they have more connected, contextualized,
 retrievable references accumulated across projects.
 
-**Principle 7 — Systems outperform memory.**
+**Principle 7, Systems outperform memory.**
 Human memory is unreliable, non-transferable, and losable. A documented
 reference system is reliable, shareable, and persistent. Reference
 Engineering replaces reliance on personal memory with documented systems
 that function independently of any individual practitioner's recall.
 
-**Principle 8 — Reference Engineering is optional.**
+**Principle 8, Reference Engineering is optional.**
 The discipline exists for practitioners who want better outcomes from
 their reference work. It is not a mandate. No project requires it.
 Projects that use it systematically produce better decisions than projects
 that do not. The choice belongs to the practitioner.
 
-**Principle 9 — The discipline is tool-agnostic.**
+**Principle 9, The discipline is tool-agnostic.**
 Reference Engineering is valid regardless of what tools are used. It
 predates digital tools. It will outlive any specific software. The
 principles apply whether references are managed in a physical binder,
 a folder on a hard drive, a Notion database, or an AI-powered reference
 system. The methodology is the constant. The tools are the variable.
 
-**Principle 10 — The discipline is domain-agnostic.**
+**Principle 10, The discipline is domain-agnostic.**
 The methodology applies to any discipline with a production phase and
 reference-dependent decisions. The vocabulary of the questions changes
 by domain. The structure for working with references does not.
 
 ---
 
-## 3. The Structural Model: Reference Pyramid
+## 3. The structural model: reference pyramid
 
 The Reference Pyramid defines the categories of reference that productions
-require, ordered by foundational necessity. It is a structural model —
+require, ordered by foundational necessity. It is a structural model
 it describes what types of reference are needed and in what order they
 should be established.
 
@@ -207,45 +207,45 @@ have too much at the top and nothing at the foundation.
    /-------------------------------------------\
 ```
 
-### Layer Definitions
+### Layer definitions
 
-**Layer 1 — Function & Context:** What is this thing? What does it do?
+**Layer 1, Function & Context:** What is this thing? What does it do?
 Where does it exist? Who uses it and how? No reference gathered above
 this layer is correctly calibrated without Layer 1 being established first.
 
-**Layer 2 — Scale & Proportion:** Real dimensions, proportion systems,
+**Layer 2: Scale & Proportion:** Real dimensions, proportion systems,
 comparative anchors. Scale errors introduced here cannot be fixed by adding
 detail above. They require structural rework.
 
-**Layer 3 — Stage-Appropriate Reference:** Reference matched to the current
+**Layer 3, Stage-Appropriate Reference:** Reference matched to the current
 phase of production. What is needed at the planning phase is different from
 what is needed at the refinement phase. Using the wrong stage's reference
 for the current stage is one of the most invisible failure modes.
 
-**Layer 4 — Governing Rules:** The extractable, written parameters that
+**Layer 4, Governing Rules:** The extractable, written parameters that
 govern the subject's visual or behavioral style. Not "it should feel
 authoritative." Written rules: specific parameters that anyone could apply
 consistently without seeing the original reference. Rules extracted from
 fewer than three sources carry idiosyncratic risk.
 
-**Layer 5 — Contextual Conditions:** How the subject reads in the actual
+**Layer 5, Contextual Conditions:** How the subject reads in the actual
 conditions of its production environment. Not ideal conditions. Not
-controlled conditions. The specific environment — lighting, rendering
-pipeline, platform constraints, viewing conditions — where the output
+controlled conditions. The specific environment, lighting, rendering
+pipeline, platform constraints, viewing conditions, where the output
 will live.
 
-**Layer 6 — Behavior & Construction:** How the subject is made and how
+**Layer 6, Behavior & Construction:** How the subject is made and how
 it behaves under conditions: deformation, aging, stress, wear, change
 over time. A reference that shows only the static state is incomplete
 for any production involving dynamic conditions.
 
-**Layer 7 — Precision Detail:** Fine-grain, close-range, craft-level
+**Layer 7: Precision Detail:** Fine-grain, close-range, craft-level
 reference. Only meaningful once the six layers below it are established.
 Gathering precision detail before proportion and governing rules are
-correct is a structural error — the most common one, because precision
+correct is a structural error. The most common one, because precision
 detail is the most engaging reference to gather.
 
-### The Pyramid Across Domains
+### The pyramid across domains
 
 The layers are universal. Their meaning adapts by domain:
 
@@ -261,7 +261,7 @@ The layers are universal. Their meaning adapts by domain:
 
 ---
 
-## 4. The Credibility Model: Reference Hierarchy
+## 4. The credibility model: reference hierarchy
 
 The Reference Hierarchy defines three tiers of reference credibility. Tier
 assignment determines how much weight a decision derived from a reference
@@ -285,9 +285,9 @@ TIER 3 — TERTIARY
   Validation required: confirm against production results.
 ```
 
-### Tier Boundaries
+### Tier boundaries
 
-The tier of a reference is not fixed — it depends on what decision it is
+The tier of a reference is not fixed. It depends on what decision it is
 being used to inform. A real-world photograph of a specific building is
 primary reference for the appearance of that building and secondary reference
 for the structural behavior of similar buildings and tertiary reference for
@@ -296,18 +296,18 @@ the general principles of how masonry ages.
 When assigning tier, always ask: *for this specific decision*, what is this
 reference? Not what is this reference in the abstract.
 
-### The Missing Primary Problem
+### The missing primary problem
 
 For fictional, speculative, or novel subjects, primary reference often does
 not exist. The professional response is to engineer answers systematically
-from secondary and tertiary reference — not to wait for primary reference
+from secondary and tertiary reference. Not to wait for primary reference
 that will never arrive.
 
 See `theory/REFERENCE_HIERARCHY.md` for the full credibility model.
 
 ---
 
-## 5. The Relationship Model
+## 5. The relationship model
 
 References do not exist in isolation. The relationships between references
 are as important as the references themselves.
@@ -321,11 +321,11 @@ A style rule derived from reference A cannot be applied in ways that
 contradict what reference B establishes about the same subject.
 
 **Gap relationships:** Reference A answers a question that reveals a related
-question that reference B would need to answer — but reference B has not
+question that reference B would need to answer. But reference B has not
 been gathered. The gap between A and B is itself information.
 
 **Contradiction relationships:** Reference B contradicts reference A. Both
-cannot be correct for this subject. The contradiction requires resolution —
+cannot be correct for this subject. The contradiction requires resolution
 through additional reference, through tier analysis (higher tier wins), or
 through a documented decision to prioritize one over the other with stated
 rationale.
@@ -339,7 +339,7 @@ See `theory/REFERENCE_RELATIONSHIPS.md` for the full relationship model.
 
 ---
 
-## 6. The Process Model: Core Loop
+## 6. The process model: core loop
 
 The Core Loop is the repeating process that governs a single reference
 session and the multi-session arc that governs a full production.
@@ -385,7 +385,7 @@ production after the first milestone.
 
 ---
 
-## 7. The Temporal Model: Reference Lifecycle
+## 7. The temporal model: reference lifecycle
 
 References have a lifecycle. They are created (collected), active (in use),
 stale (superseded or expired), and archived (retained for historical context
@@ -411,7 +411,7 @@ See `theory/REFERENCE_LIFECYCLE.md` for the full lifecycle model.
 
 ---
 
-## 8. The Decision Model
+## 8. The decision model
 
 Reference Engineering exists to improve decision quality. The connection
 between reference practice and decision quality is explicit, not assumed.
@@ -427,7 +427,7 @@ between reference practice and decision quality is explicit, not assumed.
 - Has no traceable reference support
 - Cannot be audited for consistency with other decisions
 
-Reference Engineering does not eliminate undocumented assumptions — all
+Reference Engineering does not eliminate undocumented assumptions. All
 production involves some. It minimizes them in the decisions where reference
 is available, and makes explicit which decisions were made without reference
 support so that they can be flagged as higher-risk.
@@ -436,7 +436,7 @@ See `theory/REFERENCE_DECISION_MAKING.md` for the full decision model.
 
 ---
 
-## 9. Cross-Domain Transfer
+## 9. Cross-Domain transfer
 
 The ten principles and six structural models are universal. What transfers
 across domains without change:
@@ -467,7 +467,7 @@ See `disciplines/` for domain-specific adaptations of the framework.
 
 ---
 
-## 10. The Compounding Effect
+## 10. The compounding effect
 
 Reference Engineering compounds across a career.
 
@@ -493,7 +493,7 @@ into a compounding asset.
 
 ---
 
-## 11. Citation and Attribution
+## 11. Citation and attribution
 
 This framework was developed by Atharva Patil (P4inz Interactive Labs, Navi Mumbai,
 India) in 2026. The term "Reference Engineering" as applied to systematic
@@ -502,7 +502,7 @@ Atharva Patil in 2026.
 
 **Recommended citation:**
 
-Patil, A. (2026). *Reference Engineering — Theory* (Version 1.1.0).
+Patil, A. (2026). *Reference Engineering, Theory* (Version 1.1.0).
 P4inz Interactive Labs. https://github.com/p4inz-code/reference-engineering/blob/main/theory/REFERENCE_ENGINEERING_THEORY.md
 
 See `CITATION.md` for full citation formats.
@@ -511,5 +511,5 @@ See `TRADEMARK_NOTE.md` for the prior art record.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

@@ -2,14 +2,14 @@
 
 **Project type:** Desktop application UI (Electron, Windows)
 **Discipline:** App Development / UI Design
-**Analyst:** Atharva Patil — P4inz Interactive Labs (first-person)
-**Date of project:** 2025–2026
+**Analyst:** Atharva Patil, P4inz Interactive Labs (first-person)
+**Date of project:** 2025-2026
 **Date of analysis:** 2026-06-22
-**Access level:** First-person — I built this
+**Access level:** First-person, I built this
 
 ---
 
-## What Kanvaz Is
+## What kanvaz is
 
 Kanvaz is a free, offline, infinite canvas reference board desktop application
 for Windows. It is positioned as a PureRef alternative optimized for VFX and
@@ -22,22 +22,22 @@ framework retroactively.
 
 ---
 
-## Why This Project
+## Why this project
 
 Kanvaz is an unusual case study subject: it is a tool *for* reference work,
 built without systematic reference work governing its own UI design.
-The irony is intentional and useful — it demonstrates that Reference
+The irony is intentional and useful. It demonstrates that Reference
 Engineering is not automatically practiced by people who understand its value.
 Knowing that reference matters and practicing Reference Engineering are different things.
 
 This case study also demonstrates Reference Engineering applied to app
-development — a discipline where "reference" means competitor analysis,
+development, a discipline where "reference" means competitor analysis,
 interaction pattern libraries, platform conventions, and user behavior
 documentation rather than visual or physical reference.
 
 ---
 
-## What This Case Study Shows
+## What this case study shows
 
 1. How the absence of Layer 1 (Function & Context) reference produces
    UI decisions that satisfy the designer's mental model of the user
@@ -47,10 +47,10 @@ documentation rather than visual or physical reference.
    a single visible breaking point
 3. How the absence of Layer 5 (Contextual Conditions) reference produces
    UI calibrated to the developer's display rather than the user's display
-4. What a retroactive RE brief for this project would have looked like —
+4. What a retroactive RE brief for this project would have looked like
    and which specific decisions would have been different
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

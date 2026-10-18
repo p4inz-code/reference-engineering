@@ -1,10 +1,10 @@
-# UI/UX Design — Reference Engineering Mistakes
+# UI/UX design: reference engineering mistakes
 
 Seven failure modes specific to UI/UX reference practice.
 
 ---
 
-## MISTAKE 01 — Designing the Product, Not the Task
+## MISTAKE 01: designing the product, not the task
 
 > *"The design covers all the features. Why do users say it's hard to use?"*
 
@@ -19,7 +19,7 @@ rather than task-focused. "What does this product do?" was answered.
 
 **Fix:** Before any design work, define the primary task in terms of
 user outcome (not product capability). Define the minimum viable interaction
-for that task — the fewest steps in the best comparable product. Make
+for that task, the fewest steps in the best comparable product. Make
 that count the design target.
 
 **Production cost:** Information architecture redesign. If the navigation
@@ -28,7 +28,7 @@ requires changes throughout the product.
 
 ---
 
-## MISTAKE 02 — Inspiration Without Extraction
+## MISTAKE 02: inspiration without extraction
 
 > *"I pulled reference from Dribbble and built from that direction."*
 
@@ -41,7 +41,7 @@ like the reference and works differently from it.
 inspiration (screenshots) without extracting the behavioral rules those
 visuals imply. A design that looks like a well-regarded product will create
 user expectations calibrated to that product's behavior. If the behavior
-differs, the visual similarity makes the friction worse — the user expected
+differs, the visual similarity makes the friction worse. The user expected
 one behavior and got another.
 
 **Fix:** For every visual reference used, also extract and document the
@@ -55,7 +55,7 @@ phase when user testing reveals the mismatch between expected behavior
 
 ---
 
-## MISTAKE 03 — The Unchecked Convention Departure
+## MISTAKE 03: the Unchecked convention departure
 
 > *"We thought the swipe gesture would be intuitive. Users kept doing the wrong thing."*
 
@@ -73,14 +73,14 @@ mental model and fail.
 **Fix:** For any interaction that departs from platform convention, document
 the departure explicitly, note what users will expect based on comparable
 products, and design the onboarding that closes the gap. Or reconsider
-the departure — convention exists because users already know it.
+the departure, convention exists because users already know it.
 
 **Production cost:** Onboarding redesign, tooltip investment, user education
 content. If the gesture conflict is severe, the interaction must be redesigned.
 
 ---
 
-## MISTAKE 04 — Contrast Calibrated to the Designer's Display
+## MISTAKE 04: contrast calibrated to the designer's display
 
 > *"It looks fine on my monitor. Why are users reporting it's hard to read?"*
 
@@ -93,7 +93,7 @@ in daylight.
 **Cause:** Layer 5 (Contextual Conditions) reference was absent. The design
 was calibrated to the design team's display environment, which is almost
 always better than the target user's environment. WCAG contrast ratios
-are the documented minimum — but they assume a standard display. Real
+are the documented minimum, but they assume a standard display. Real
 users use displays at various brightness settings.
 
 **Fix:** WCAG 4.5:1 is the floor, not the target. Calibrate contrast ratios
@@ -108,7 +108,7 @@ hardcoded, it's a component-by-component audit.
 
 ---
 
-## MISTAKE 05 — States as Afterthoughts
+## MISTAKE 05: states as Afterthoughts
 
 > *"The empty state just shows a blank screen. The error state just says 'Error'."*
 
@@ -128,13 +128,13 @@ The best products treat every state as a designed experience, not an
 edge case.
 
 **Production cost:** State design and implementation added retroactively.
-If states were not specified, developers implement them by default — which
+If states were not specified, developers implement them by default. Which
 produces "Error" messages and blank screens. Retroactive state design
 requires implementation changes after QA.
 
 ---
 
-## MISTAKE 06 — Accessibility as Compliance Checkbox
+## MISTAKE 06: accessibility as compliance checkbox
 
 > *"We have an accessibility section in the spec. Why did we fail the audit?"*
 
@@ -156,17 +156,17 @@ test, screen reader test, contrast check in implementation (not in
 Figma), and reduced-motion test.
 
 **Production cost:** Post-implementation accessibility remediation is
-3–5× more expensive than designing accessible from the start.
+3-5× more expensive than designing accessible from the start.
 Legal risk in regulated industries.
 
 ---
 
-## MISTAKE 07 — Design System Without Governance
+## MISTAKE 07: design system without Governance
 
 > *"The design system exists but nobody uses it consistently."*
 
 **Symptom:** Design system components exist. Shipped product contains
-one-off variations of those components — buttons at slightly different
+one-off variations of those components, buttons at slightly different
 sizes, cards with different border radii, typography that doesn't match
 the type scale. The design system has rules but the rules aren't enforced.
 
@@ -188,5 +188,5 @@ process that takes hours, not days.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

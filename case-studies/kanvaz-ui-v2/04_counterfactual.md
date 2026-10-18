@@ -1,8 +1,8 @@
-# Kanvaz UI v2.0 — What Reference Engineering Would Have Changed
+# Kanvaz UI v2.0: What Reference Engineering Would Have Changed
 
 ---
 
-## Counterfactual 1: Autosave Implementation
+## Counterfactual 1: autosave implementation
 
 **Decision that was made:** Implement autosave as a background timer that
 writes to a separate autosave file, independent of the user's manual save.
@@ -11,7 +11,7 @@ writes to a separate autosave file, independent of the user's manual save.
 required (v2.0.1). The highest-priority community request shipped as the
 highest-profile bug. Community trust cost is harder to measure but real.
 
-**What reference was missing:** Layer 6 — Behavior & Construction.
+**What reference was missing:** Layer 6, Behavior & Construction.
 Specifically: how do canvas applications (Figma, Miro, PureRef-equivalent
 tools) implement autosave? What are the known failure modes? What does
 "autosave" mean in terms of user expectation about save state?
@@ -25,7 +25,7 @@ The specific reference to gather:
 that canvas application users distinguish between "autosave" (continuous
 background save to the working file) and "auto-backup" (periodic copy
 to a separate location). The failure mode in v2.0.0 was building
-"auto-backup" behavior while calling it "autosave" — which violated
+"auto-backup" behavior while calling it "autosave". Which violated
 user expectations established by the category.
 
 The correct implementation (which reference would have specified):
@@ -38,14 +38,14 @@ The research is straightforward. The failure mode is well-documented in
 developer community discussions. The corrected implementation is clear
 from category analysis.
 
-**Time cost of reference:** 2–3 hours of canvas application autosave
+**Time cost of reference:** 2-3 hours of canvas application autosave
 pattern research.
-**Time cost of shipping wrong:** 4–6 hours of bug investigation and patch
+**Time cost of shipping wrong:** 4-6 hours of bug investigation and patch
 development, plus ongoing community management.
 
 ---
 
-## Counterfactual 2: Toolbar Layout
+## Counterfactual 2: toolbar layout
 
 **Decision that was made:** Toolbar layout revised four times, final version
 selected at time pressure, not reference.
@@ -53,7 +53,7 @@ selected at time pressure, not reference.
 **Production cost:** ~8 hours of revision time across four passes, with no
 clear improvement trajectory and no reference anchor.
 
-**What reference was missing:** Layer 4 — Governing Rules.
+**What reference was missing:** Layer 4, Governing Rules.
 Specifically: what visual rules govern professional creative tool toolbars?
 What does the best-regarded reference board tool in this category do, and why?
 
@@ -81,13 +81,13 @@ evaluated against it and either passes or fails with a clear resolution.
 Toolbar organization is well-documented. The pattern analysis is straightforward.
 The rule extraction is achievable in one research session.
 
-**Time cost of reference:** 3–4 hours.
+**Time cost of reference:** 3-4 hours.
 **Time cost of shipping wrong:** 8 hours of revision, plus ongoing
 user confusion about toolbar organization that persists in v2.0.1.
 
 ---
 
-## Counterfactual 3: Dark Theme Calibration
+## Counterfactual 3: dark theme calibration
 
 **Decision that was made:** Dark theme calibrated on development machine
 (single 1080p monitor, typical office conditions).
@@ -95,12 +95,12 @@ user confusion about toolbar organization that persists in v2.0.1.
 **Production cost:** User reports of insufficient contrast on high-brightness
 displays. Known issue, not yet patched. Community trust cost ongoing.
 
-**What reference was missing:** Layer 5 — Contextual Conditions.
+**What reference was missing:** Layer 5, Contextual Conditions.
 Specifically: what display conditions do VFX/3D artists work in?
 
 The specific reference to gather:
 - Display survey: what monitors do 3D/VFX artists use? (Forums, community
-  polls — this data exists)
+  polls, this data exists)
 - Color calibration standards: VFX artists frequently use color-calibrated
   displays at specific brightness levels
 - Accessibility contrast standards: WCAG contrast ratios for dark themes
@@ -121,12 +121,12 @@ without changing the visual character of the theme.
 The contrast issue is measurable. The fix is calculable. The reference
 (display brightness survey + WCAG standards) is available.
 
-**Time cost of reference:** 1–2 hours.
+**Time cost of reference:** 1-2 hours.
 **Time cost of shipping wrong:** Ongoing user experience cost, future patch cycle.
 
 ---
 
-## Counterfactual 4: PureRef Compatibility
+## Counterfactual 4: PureRef compatibility
 
 **Decision that was made:** Kanvaz file format designed from scratch,
 no PureRef import/export.
@@ -136,7 +136,7 @@ no PureRef import/export.
 product does not deliver. This is a retention and adoption cost that is
 difficult to quantify but real.
 
-**What reference was missing:** Layer 1 — Function & Context.
+**What reference was missing:** Layer 1, Function & Context.
 Specifically: systematic PureRef workflow analysis.
 
 The specific reference to gather:
@@ -165,7 +165,7 @@ answered differently.
 
 ---
 
-## Summary: Estimated Cost of Missing Reference
+## Summary: estimated cost of missing reference
 
 | Counterfactual | Reference time | Production cost avoided |
 |---|---|---|
@@ -173,16 +173,16 @@ answered differently.
 | Toolbar rules | 3–4 hours | 8 hours revision + UX issues |
 | Display calibration | 1–2 hours | Patch cycle + user experience |
 | PureRef workflow | 4–6 hours | Adoption friction (hard to quantify) |
-| **Total** | **10–15 hours** | **12–14 hours minimum + intangibles** |
+| Total | 10–15 hours | 12–14 hours minimum + intangibles |
 
-The ROI case for 10–15 hours of Reference Engineering on this project
+The ROI case for 10-15 hours of Reference Engineering on this project
 is a break-even on measurable time costs alone. The intangible costs
 (shipped autosave bug, ongoing contrast issues, adoption friction) are
 not quantified but are real.
 
 ---
 
-## What This Case Study Proves About Reference Engineering
+## What this case study proves about reference engineering
 
 This case study supports the following specific RE claims:
 
@@ -196,7 +196,7 @@ cannot compensate for specification quality.
 Teams have design reviews, client feedback, and multiple perspectives
 that provide some of the forcing functions that Reference Engineering
 formalizes. Solo developers have none of these. Without the RE discipline,
-every decision defaults to personal judgment — which is not wrong, but
+every decision defaults to personal judgment. Which is not wrong, but
 is not informed by the breadth of reference that the target user's
 actual use conditions require.
 
@@ -207,12 +207,12 @@ PureRef workflow look like, not what does my PureRef workflow look like.
 
 **4. Display calibration to the development machine is a universal failure mode.**
 This case study is not unusual in this respect. It is the norm.
-The RE Layer 5 (Contextual Conditions) requirement — gathering reference
+The RE Layer 5 (Contextual Conditions) requirement, gathering reference
 for the actual conditions the product will be used in, not the developer's
-conditions — addresses the most common UI calibration failure mode in
+conditions, addresses the most common UI calibration failure mode in
 solo and small-team development.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

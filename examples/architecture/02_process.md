@@ -1,10 +1,10 @@
-# Architecture — Reference Engineering Process
+# Architecture: reference engineering process
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
-### Existing Building Analysis
+### Existing building analysis
 *Answers: "What is this building and what does it actually do?"*
 
 Site survey findings:
@@ -13,23 +13,23 @@ Site survey findings:
 - Structural system: reinforced concrete frame with expressed concrete
   columns at 6m grid, concrete flat slab, non-load-bearing brick infill panels
 - Primary material: board-formed fair-face concrete, moderately weathered
-- Heritage status: locally listed (not statutory) — triggers consultation
+- Heritage status: locally listed (not statutory), triggers consultation
   requirement but not full conservation officer approval
 
 Program analysis of digital media lab:
 - 3D printing and laser cutting: requires dust extraction, non-carpeted floor, power density 3×standard
 - AV/recording booth: requires acoustic isolation within the space
 - General digital workspace: standard office power and data
-- The three sub-uses have conflicting requirements — they cannot share a single open-plan space
+- The three sub-uses have conflicting requirements. They cannot share a single open-plan space
 
 Community consultation summary (from client brief):
 - Existing building: divided community response. Older residents: strongly attached.
   Under-30 users: describe it as "intimidating" and "hard to find the entrance."
-- Extension: universal community support — the digital media lab is a programmatic win
+- Extension: universal community support: the digital media lab is a programmatic win
 - Key finding: the entrance problem is the building's most pressing functional failure,
   not an aesthetic issue. Reference must address wayfinding and entrance legibility.
 
-Hierarchy tier: **Primary** — direct site documentation and client brief
+Hierarchy tier: **Primary**, direct site documentation and client brief
 
 ### Brutalist Precedent: Municipal Library Type, 1960s
 *Answers: "What are the specific rules of this building's brutalism?"*
@@ -39,11 +39,11 @@ commissioned for the project):
 - This building follows the "served and servant spaces" principle: the
   structural frame is expressed and celebrated; the infill is subordinate
 - The raised ground floor (half-level datum) is the primary organizing idea
-  of the facade — everything else derives from this datum
-- The entrance is at grade but not celebrated — the datum line visually
+  of the facade, everything else derives from this datum
+- The entrance is at grade but not celebrated. The datum line visually
   overwhelms it, creating the wayfinding problem the community identified
 - Original intent (from period architectural press coverage): the concrete
-  frame was meant to read as "democratic permanence" — the library as civic
+  frame was meant to read as "democratic permanence". The library as civic
   institution expressed in durable materials
 
 These are the specific rules of *this* building's brutalism, not brutalism
@@ -53,9 +53,9 @@ Hierarchy tier: **Primary** (historical documentation, original press)
 
 ---
 
-## Layer 2 — Scale & Proportion
+## Layer 2: scale & proportion
 
-### Existing Building Datum
+### Existing building datum
 *Answers: "What is the datum and what are the bay dimensions?"*
 
 Primary datum: top of raised ground floor slab = 900mm above grade.
@@ -73,36 +73,36 @@ The 18m × 22m configuration is more compact and creates a better courtyard
 relationship to the existing building.
 
 Height limit: 7.5m from planning authority. Existing building is 5.4m to
-parapet. Extension can be taller — but dominant mass is inappropriate.
-Extension target height: 5.0m — subordinate to existing.
+parapet. Extension can be taller, but dominant mass is inappropriate.
+Extension target height: 5.0m, subordinate to existing.
 
 Hierarchy tier: **Primary** (as-built drawings, planning documentation)
 
 ---
 
-## Layer 3 — Production Stage Reference (Schematic)
+## Layer 3: production stage reference (schematic)
 
-### Precedent: Brutalist Renovation Approaches
+### Precedent: brutalist renovation approaches
 *Answers: "What are the established approaches to new/old legibility?"*
 
 Three approaches documented from published precedents:
 
-**Approach A — Contrast:** New element is clearly contemporary in material
+**Approach A, Contrast:** New element is clearly contemporary in material
 and language. No attempt to match or echo old. The new is legible as new.
-Precedent: British Museum Great Court (Foster, 2000) — steel and glass
+Precedent: British Museum Great Court (Foster, 2000), steel and glass
 inserted into Victorian masonry. Strong example.
 Risk for our project: the brutalist concrete is dominant material.
 A fully contrasting glass box may read as apologizing for the concrete rather
 than celebrating it.
 
-**Approach B — Complement:** New element shares organizational principles
+**Approach B, Complement:** New element shares organizational principles
 with old but uses contemporary materials and expression. The grid responds,
 the datum aligns, the materials differ.
-Precedent: Tate Modern Blavatnik Building (Herzog & de Meuron, 2016) —
+Precedent: Tate Modern Blavatnik Building (Herzog & de Meuron, 2016)
 extension reads as family member, not copy.
 Most applicable to our brief.
 
-**Approach C — Continuation:** New element uses same material language as
+**Approach C, Continuation:** New element uses same material language as
 old, updated for contemporary construction. The addition is legible as new
 through construction quality differences rather than material differences.
 Risk: fair-face concrete color match to 60-year-old weathered concrete
@@ -115,11 +115,11 @@ grid and datum. Materials: new concrete used only at structural elements
 distinct from the existing brick infill. The extension reads as "same family,
 different generation."
 
-Hierarchy tier: **Secondary** (published precedents — building type and approach analogous)
+Hierarchy tier: **Secondary** (published precedents, building type and approach analogous)
 
 ---
 
-## Layer 4 — Governing Rules
+## Layer 4: governing rules
 
 ### This Building's Specific Rules (extracted from analysis)
 *Answers: "What are the governing rules of this specific building?"*
@@ -127,25 +127,25 @@ Hierarchy tier: **Secondary** (published precedents — building type and approa
 Extracted from architectural historian's analysis and site observation:
 
 **Structural expression rules:**
-1. Columns are expressed on the exterior — they are not hidden behind cladding
-2. The structural grid is legible on the facade — you can count the bays
-3. The slab edge is expressed — not hidden behind a continuous parapet
+1. Columns are expressed on the exterior. They are not hidden behind cladding
+2. The structural grid is legible on the facade. You can count the bays
+3. The slab edge is expressed. Not hidden behind a continuous parapet
 
 **Material rules:**
-1. Fair-face concrete is the primary material — not paint, not cladding over concrete
-2. Infill is clearly secondary — the frame reads as more important than the infill
-3. No applied decoration — ornament is structural or absent
+1. Fair-face concrete is the primary material. Not paint, not cladding over concrete
+2. Infill is clearly secondary: the frame reads as more important than the infill
+3. No applied decoration: ornament is structural or absent
 
 **Organizational rules:**
 1. The datum (top of raised ground floor) is the primary horizontal organizing line
-2. The entrance is at grade — never elevated or dramatized (an oversight in this building, but a consistent rule)
+2. The entrance is at grade, never elevated or dramatized (an oversight in this building, but a consistent rule)
 3. Service elements (stairs, lifts, MEP) are expressed, not hidden
 
 **Extension rules (derived):**
-1. Extension columns must be expressed on the exterior — not cladding-hidden
-2. Extension must acknowledge the datum — the 900mm line must continue or be
+1. Extension columns must be expressed on the exterior. Not cladding-hidden
+2. Extension must acknowledge the datum. The 900mm line must continue or be
    explicitly responded to at the junction
-3. Extension materials must be clearly contemporary at infill — no fake concrete
+3. Extension materials must be clearly contemporary at infill. No fake concrete
 
 **What this extension NEVER does:**
 - Replicate the board-formed concrete texture (color match impossible, reads as pastiche)
@@ -159,20 +159,20 @@ Hierarchy tier: **Primary** (this building, this site, this analysis)
 
 ---
 
-## Layer 5 — Contextual Conditions
+## Layer 5: contextual conditions
 
-### Climate and Orientation
+### Climate and orientation
 *Answers: "What are the actual performance conditions?"*
 
 Site orientation: existing building faces north at primary entrance.
-Extension site: east and south of existing building — favorable for daylighting.
+Extension site: east and south of existing building, favorable for daylighting.
 
 Climate: temperate oceanic (heating-dominated, significant cloud cover,
 moderate rainfall). Implications:
 - Thermal mass strategy: effective (high mass moderates temperature swings)
 - Glazing strategy: maximize south-facing glazing for solar gain in winter;
   provide shading to prevent summer overheating (south sun is lower angle
-  in summer than people expect in temperate climates — shading devices are effective)
+  in summer than people expect in temperate climates, shading devices are effective)
 - Natural ventilation: viable for most of the year; acoustic conditions permitting
 
 Solar angle calculation (at this latitude):
@@ -183,12 +183,12 @@ Solar angle calculation (at this latitude):
 Horizontal shading device depth for south glazing:
 To shade summer sun fully at glazing head: depth = glazing height × tan(90° − 58°) = GH × 0.62
 At 3.0m glazing height: 1.9m horizontal shading projection required.
-This is a deep brise-soleil — appropriate for brutalist character and
+This is a deep brise-soleil, appropriate for brutalist character and
 effective at this latitude.
 
 Hierarchy tier: **Primary** (site survey, climate data, solar calculation)
 
-### Acoustic Environment
+### Acoustic environment
 *Answers: "What does the digital media lab require acoustically?"*
 
 Site acoustic survey: primary road 35m to the west. Measured Leq: 62dB(A).
@@ -203,13 +203,13 @@ Hierarchy tier: **Primary** (site acoustic measurement)
 
 ---
 
-## Layer 6 — Behavior & Construction
+## Layer 6: behavior & construction
 
-### Existing Concrete Condition
+### Existing concrete condition
 *Answers: "What is the renovation scope?"*
 
 Condition survey findings:
-- Carbonation depth: 18–22mm. Rebar cover: 30mm. No active corrosion.
+- Carbonation depth: 18-22mm. Rebar cover: 30mm. No active corrosion.
   Condition: stable. No immediate structural risk but approaching the point
   where preventive treatment is advisable.
 - Spalling: localized at column bases (water ingress at base detail).
@@ -221,27 +221,27 @@ Condition survey findings:
 
 Hierarchy tier: **Primary** (condition survey, structural engineer's assessment)
 
-### New Concrete Behavior
+### New concrete behavior
 *Answers: "How does new concrete relate to old concrete?"*
 
 New fair-face concrete will not match 60-year-old weathered concrete.
 This is a physical certainty, not a specification challenge.
 Options:
-A. Accept the mismatch as the legibility of newness (Approach B — supports it)
+A. Accept the mismatch as the legibility of newness (Approach B, supports it)
 B. Use a different material entirely for new structural expression
-   (board-formed timber? exposed steel? — reads as contemporary)
+   (board-formed timber? exposed steel? reads as contemporary)
 C. Use the same concrete specification knowing it will never match,
    and allow weathering over decades to reduce the contrast
 
 Selected: Option A. The mismatch is the point. New concrete at extension
-columns will be smooth-formed (not board-formed) — same material, different
+columns will be smooth-formed (not board-formed), same material, different
 process, different age, legibly different generation.
 
-Hierarchy tier: **Primary** (materials science) + **Secondary** (precedent approach)
+Hierarchy tier: **Primary** (materials science) + Secondary (precedent approach)
 
 ---
 
-## Gap Audit
+## Gap audit
 
 ### Resolved
 All CRITICAL gaps from v1 brief resolved:
@@ -263,4 +263,4 @@ Status: pre-application meeting scheduled.
 
 ---
 
-*Example: Reference Engineering library — github.com/p4inz-code/reference-engineering*
+*Example: Reference Engineering library, github.com/p4inz-code/reference-engineering*

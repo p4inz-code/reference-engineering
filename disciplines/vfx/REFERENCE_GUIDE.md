@@ -1,15 +1,15 @@
-# VFX — Reference Engineering Guide
+# VFX: reference engineering guide
 
-**Contributed by:** Atharva Patil — P4inz Interactive Labs
+**Contributed by:** Atharva Patil, P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
 
-## The Phase Principle
+## The phase principle
 
 Every VFX effect has three phases. Reference must cover all three separately.
 A reference board with only peak-state images produces sims that start
-and end correctly but look wrong at onset and dissipation — which is
+and end correctly but look wrong at onset and dissipation. Which is
 most of the screen time.
 
 ```
@@ -23,14 +23,14 @@ specific effect and what visually defines each one.
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
-### What to Find
+### What to find
 
-**Phenomenon identity:** What is the real-world phenomenon? Not "fire" —
-what type of fire? (Pool fire, jet fire, fireball, wildfire, candlelight —
-all have different visual behavior.) Not "explosion" — what type?
-(Deflagration, detonation, BLEVE, gas explosion, dust explosion —
+**Phenomenon identity:** What is the real-world phenomenon? Not "fire"
+what type of fire? (Pool fire, jet fire, fireball, wildfire, candlelight
+all have different visual behavior.) Not "explosion". What type?
+(Deflagration, detonation, BLEVE, gas explosion, dust explosion
 different density, timing, and color.) Specificity at Layer 1 determines
 the accuracy of all reference that follows.
 
@@ -45,18 +45,18 @@ final composite? A fire in front of a white sky reads completely differently
 from the same fire in front of a dark forest. The context defines what
 color values, density levels, and edge behavior will actually read.
 
-### Discipline-Specific Questions
+### Discipline-Specific questions
 
 - What is the specific real-world phenomenon, named precisely?
-- What is the effect's function in the shot — is it the hero or supporting?
+- What is the effect's function in the shot, is it the hero or supporting?
 - What is the camera angle and distance relative to the effect?
 - What is behind the effect in the composite?
 
 ---
 
-## Layer 2 — Scale & Proportion (Timing and Density)
+## Layer 2: scale & proportion (timing and density)
 
-### What to Find
+### What to find
 
 **Physical scale:** What is the real-world size of this effect? A human-scale
 explosion (grenade, small IED) has different column height, spread rate,
@@ -79,26 +79,26 @@ Dissipation: 180 frames (7.5 seconds — long tail)
 ```
 
 **Density curve:** At each phase, what is the visual density of the effect?
-Density is not a feeling — it is a measurable property of the reference
+Density is not a feeling. It is a measurable property of the reference
 footage. Use a color picker on the reference frame to approximate
 the opacity of the effect at its densest point.
 
 ---
 
-## Layer 3 — Stage Reference (Per Phase)
+## Layer 3: stage reference (per phase)
 
-### Reference Per Phase
+### Reference per phase
 
 **Onset reference:** The effect at its most energetic per-unit-volume,
 smallest overall. Find footage that shows the first 20% of the effect's
 life. What color? What speed? What edge behavior?
 
 **Peak reference:** The effect at maximum volume and visual complexity.
-Find footage at the 30–60% mark of the effect's life. What is the
+Find footage at the 30-60% mark of the effect's life. What is the
 color at core vs. edge? What is the turbulence scale?
 
 **Dissipation reference:** The effect thinning and cooling. Find footage
-at the 60–100% mark. How does the edge break up? What color does the
+at the 60-100% mark. How does the edge break up? What color does the
 residual material become? What is the trailing velocity?
 
 ### Real-World Motion Reference Sources (by phenomenon)
@@ -111,16 +111,16 @@ residual material become? What is the trailing velocity?
 | Smoke | Wind tunnel research, NOAA weather footage |
 | Dust / particulate | Slow-motion industrial footage, avalanche footage |
 | Lightning | Weather channel slow-motion, research storm footage |
-| Magic / stylized | Indirect — extract shape and motion principles from natural phenomena |
+| Magic / stylized | Indirect, extract shape and motion principles from natural phenomena |
 
 ---
 
-## Layer 4 — Governing Rules
+## Layer 4: governing rules
 
-### What to Extract and Write Down
+### What to extract and write down
 
 The Layer 4 output for VFX is a set of written simulation parameters
-extracted from real-world reference footage. Not "it should look hot" —
+extracted from real-world reference footage. Not "it should look hot"
 specific numbers.
 
 ```
@@ -157,12 +157,12 @@ WHAT THIS EFFECT NEVER DOES:
 
 ---
 
-## Layer 5 — Contextual Conditions
+## Layer 5: contextual conditions
 
-### Composite Environment
+### Composite environment
 
 **Background plate conditions:** What lighting is in the background plate?
-The VFX must integrate — which means its color temperature, exposure,
+The VFX must integrate: which means its color temperature, exposure,
 and edge behavior must match the background plate, not just be internally
 correct. A correctly simulated fire composited over a poorly matched
 background reads as incorrect VFX even when the simulation is right.
@@ -178,7 +178,7 @@ pyrotechnic will have matching practical light in the plate.)
 Or is the VFX entirely CG? If entirely CG, the lighting response
 must be engineered rather than matched.
 
-### Real-Time Context (Games)
+### Real-Time context (games)
 
 For real-time VFX (Niagara, VFX Graph):
 
@@ -193,13 +193,13 @@ These constraints define what level of simulation complexity is achievable.
 
 ---
 
-## Layer 6 — Behavior & Construction
+## Layer 6: behavior & construction
 
-### Physical Behavior Reference
+### Physical behavior reference
 
 Real-world physics are Layer 6 primary reference for VFX. Not other
-VFX — real physics. The behavior that makes CG VFX convincing is not
-artistic — it is physical. Correct turbulence frequency for a given
+VFX, real physics. The behavior that makes CG VFX convincing is not
+artistic, it is physical. Correct turbulence frequency for a given
 Reynolds number. Correct buoyancy for the temperature differential.
 Correct drag coefficient for the particulate type.
 
@@ -207,7 +207,7 @@ Correct drag coefficient for the particulate type.
 
 *Fire:*
 - Combustion temperature determines color (blackbody radiation: blue > white > yellow > orange > red = decreasing temperature)
-- Buoyancy drives vertical velocity — hotter fire rises faster
+- Buoyancy drives vertical velocity: hotter fire rises faster
 - Turbulence is driven by the Kelvin-Helmholtz instability at the fire's boundary with cooler air
 
 *Smoke:*
@@ -221,11 +221,11 @@ Correct drag coefficient for the particulate type.
 - Spray droplet size distribution follows a power law
 
 *Explosions:*
-- Initial shockwave is faster than sound — visible as a ring before the fireball
+- Initial shockwave is faster than sound, visible as a ring before the fireball
 - Fireball achieves maximum radius before smoke column forms
-- Negative pressure (underpressure) follows positive pressure — inward suction after outward blast
+- Negative pressure (underpressure) follows positive pressure, inward suction after outward blast
 
-### Pipeline-Specific Reference
+### Pipeline-Specific reference
 
 **Houdini:**
 - Pyro solver parameters map to real physical properties: temperature, fuel, density
@@ -233,19 +233,19 @@ Correct drag coefficient for the particulate type.
 - Gather reference for specific solver parameters, not just visual reference
 
 **Niagara (UE5):**
-- Real-time budget constraints dominate — reference must include budget benchmarks
+- Real-time budget constraints dominate: reference must include budget benchmarks
   from comparable real-time effects
 - Particle count vs. visual quality trade-off reference from published UE5 case studies
 
 **EmberGen:**
 - Gather reference for simulation presets that match the target phenomenon
-- Real-time GPU sim — reference should include performance vs. quality benchmarks
+- Real-time GPU sim: reference should include performance vs. quality benchmarks
 
 ---
 
-## Layer 7 — Precision Detail
+## Layer 7: precision detail
 
-### What to Find
+### What to find
 
 **Micro-structure within the effect:** The detail at the edge of a fireball
 (individual finger-like extensions before they're consumed), the structure
@@ -257,12 +257,12 @@ Secondary smoke from cooling residue.
 
 **Looping behavior (if looping):** Real effects don't loop. If the effect
 must loop (real-time ambient effects), the loop points must be invisible.
-Reference the techniques used in comparable looping VFX — cycle offset,
+Reference the techniques used in comparable looping VFX, cycle offset,
 crossfade, multiple instance stagger.
 
 ---
 
-## The VFX Reference Brief
+## The VFX reference brief
 
 ```
 PROJECT: [effect name]
@@ -319,5 +319,5 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

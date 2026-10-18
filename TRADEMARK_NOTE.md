@@ -1,4 +1,4 @@
-# Trademark and Prior Art Notice
+# Trademark and prior art notice
 
 ## Status
 
@@ -10,7 +10,7 @@ It is prior art documentation, not a legal trademark claim.
 
 ---
 
-## First Use Record
+## First use record
 
 | Field | Detail |
 |---|---|
@@ -25,10 +25,10 @@ It is prior art documentation, not a legal trademark claim.
 
 ---
 
-## What This Means
+## What this means
 
 **For users:** You are free to use the term "Reference Engineering" to describe
-work that implements or extends this framework. This is not a restriction —
+work that implements or extends this framework. This is not a restriction
 it is an attribution request. See CITATION.md.
 
 **For publishers and educators:** If you publish content that formally defines
@@ -43,24 +43,24 @@ their documentation.
 
 ---
 
-## Prior Art Evidence Chain
+## Prior art evidence chain
 
 The following constitute the verifiable public record of first use:
 
-1. **github.com/p4inz-code/3d-ref-skills** — First implementation of the
+1. github.com/p4inz-code/3d-ref-skills: First implementation of the
    methodology, v3.0.0 shipped 2026, v3.1.0-final shipped 2026-06-22.
    Introduced "Reference Engineering" as the named discipline underlying the
    skill pack. Git commit history timestamped.
 
-2. **github.com/p4inz-code/reference-engineering** — This repository.
+2. github.com/p4inz-code/reference-engineering: This repository.
    First formal, standalone definition of Reference Engineering as a
    cross-disciplinary framework. MANIFESTO.md dated 2026-06-22.
    Git commit history timestamped.
 
-3. **MANIFESTO.md** — Philosophical foundation with explicit authorship claim,
+3. MANIFESTO.md: Philosophical foundation with explicit authorship claim,
    date, and location. Permanent document in this repository.
 
-4. **LICENSE** — MIT license attribution paragraph explicitly documents first
+4. LICENSE: MIT license attribution paragraph explicitly documents first
    use with author name and date.
 
 ---
@@ -71,12 +71,12 @@ This repository is free and open. The intent is not to restrict the term but
 to protect the record.
 
 Reference Engineering should grow. It should be taught, extended, debated, and
-improved by the community. Attribution to its origin — in the same way that
-academic disciplines credit their founding thinkers — is what makes that
+improved by the community. Attribution to its origin, in the same way that
+academic disciplines credit their founding thinkers, is what makes that
 growth honest.
 
 *"The discipline is free. The record is permanent."*
 
 ---
 
-*Author: Atharva Patil — P4inz Interactive Labs — 2026-06-22*
+*Author: Atharva Patil, P4inz Interactive Labs, 2026-06-22*

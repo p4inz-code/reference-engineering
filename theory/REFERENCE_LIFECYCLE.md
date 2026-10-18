@@ -1,17 +1,17 @@
-# Reference Lifecycle
+# Reference lifecycle
 
 **Part of:** Reference Engineering Theory Layer
-**Relates to:** Principle 6 — Knowledge compounds · Principle 7 — Systems outperform memory
+**Relates to:** Principle 6, Knowledge compounds · Principle 7, Systems outperform memory
 
 References have a lifecycle. They are not static objects that exist in the
 same state from collection to disposal. Understanding the lifecycle of a
-reference — how it is created, how it ages, when it becomes stale, and how
-it should be archived — is essential to maintaining a reference system that
+reference: how it is created, how it ages, when it becomes stale, and how
+it should be archived, is essential to maintaining a reference system that
 remains useful over time.
 
 ---
 
-## The Lifecycle Stages
+## The lifecycle stages
 
 ```
         IDENTIFIED
@@ -30,14 +30,14 @@ remains useful over time.
                 historical context)
 ```
 
-### Stage Definitions
+### Stage definitions
 
 **Identified:** The reference has been recognized as potentially relevant
-but not yet collected. The identification stage is brief — either collect
+but not yet collected. The identification stage is brief, either collect
 it or decide not to. Do not maintain long "to gather" lists without acting on them.
 
 **Collected:** The reference has been acquired and is in the reference system.
-Collection without annotation is incomplete — a collected but unannotated
+Collection without annotation is incomplete, a collected but unannotated
 reference is in a degraded state that reduces its future value.
 
 **Active:** The reference is annotated, connected to a question, tiered,
@@ -46,7 +46,7 @@ and in active use. Active references are the working materials of current produc
 **Stale:** The reference has been superseded by higher-quality reference,
 the production question it answered has been resolved and closed, or the
 reference's information has become outdated. Stale references should be
-marked as such and moved out of the active working set — not deleted.
+marked as such and moved out of the active working set. Not deleted.
 
 **Archived:** The reference is retained in the system but no longer active.
 It serves historical context: what was known at a specific point in
@@ -55,24 +55,24 @@ correct given the information available at the time.
 
 ---
 
-## Reference Aging
+## Reference aging
 
-### What Makes a Reference Go Stale
+### What makes a reference go stale
 
 Not all references age at the same rate. The rate of staleness depends on
 the nature of the reference's content:
 
 | Reference Type | Staleness Rate | Staleness Trigger |
 |---|---|---|
-| Technical specifications | Medium — updates when standards change | Standard revision, platform update |
-| Visual style reference | Low — stylistic periods are stable | Major style shift in the domain |
-| Tool/software reference | High — updates with software versions | Software version change |
-| Real-world material documentation | Very low — materials behave the same | New research changes understanding |
-| Competitor/market reference | High — products change | Product update, competitor launch |
-| User behavior reference | Medium — behaviors shift gradually | Platform change, audience shift |
-| Physical measurement/dimension | Very low — dimensions don't change | Error discovery, scope change |
+| Technical specifications | Medium, updates when standards change | Standard revision, platform update |
+| Visual style reference | Low, stylistic periods are stable | Major style shift in the domain |
+| Tool/software reference | High, updates with software versions | Software version change |
+| Real-world material documentation | Very low, materials behave the same | New research changes understanding |
+| Competitor/market reference | High, products change | Product update, competitor launch |
+| User behavior reference | Medium, behaviors shift gradually | Platform change, audience shift |
+| Physical measurement/dimension | Very low, dimensions don't change | Error discovery, scope change |
 
-### The Staleness Audit
+### The staleness audit
 
 At every major project milestone, existing references should be audited
 for staleness. The staleness audit asks:
@@ -87,12 +87,12 @@ moved to stale and replaced if necessary.
 
 ---
 
-## Brief Versioning
+## Brief versioning
 
 A reference brief is not a static document. It is a versioned artifact that
 evolves as production progresses and as the Core Loop is re-run at each milestone.
 
-### Version Naming
+### Version naming
 
 ```
 Brief v1.0 — pre-production (initial)
@@ -102,7 +102,7 @@ Brief v2.x — revisions within the second phase
 Brief vFinal — delivery/handoff
 ```
 
-### What Changes Between Versions
+### What changes between versions
 
 **v1.0 → v2.0 (after first milestone):**
 - Gaps revealed by the first production phase are filled
@@ -116,7 +116,7 @@ Brief vFinal — delivery/handoff
 - All decisions should trace to a reference (or be documented as undocumented assumptions)
 - Retrospective notes added: what would be gathered differently next time
 
-### Version Control for Reference Briefs
+### Version control for reference briefs
 
 Reference briefs should be version-controlled in the same system as the
 production work they support. A reference brief stored only in a personal
@@ -130,23 +130,23 @@ Minimum version control requirements:
 
 ---
 
-## The Frozen Brief
+## The frozen brief
 
 The Frozen Brief is the most common lifecycle failure mode. It occurs when
 a brief is written once at the start of a project and never updated.
 
-### Why Briefs Freeze
+### Why briefs freeze
 
 - The practitioner treats reference work as a one-time pre-production task
 - The production phase creates time pressure that crowds out brief maintenance
 - No milestone audit trigger is scheduled
 - The brief is stored in a format that makes updating difficult
 
-### Why Frozen Briefs Fail Production
+### Why frozen briefs fail production
 
 Production always reveals what pre-production missed. The gap between what
 was known at v1.0 and what is known at mid-production is not a failure of
-the initial brief — it is an expected property of production. The initial
+the initial brief, it is an expected property of production. The initial
 brief could not have known what the production process would reveal.
 
 A frozen brief means those gaps are discovered by production stalls rather
@@ -161,9 +161,9 @@ not an optional maintenance task.
 
 ---
 
-## Long-Term Reference Systems
+## Long-Term reference systems
 
-### Beyond the Project
+### Beyond the project
 
 Reference Engineering compounds across projects when references are retained
 and made retrievable beyond their originating project. A reference system
@@ -174,7 +174,7 @@ maintained across projects accumulates:
 - Failure mode recognition (which gap patterns appear repeatedly)
 - Calibrated judgment (how to weight references from different tiers in different domains)
 
-### Personal Reference Libraries
+### Personal reference libraries
 
 A personal reference library is a long-term reference system maintained by
 an individual practitioner across projects and across time. It differs from
@@ -194,7 +194,7 @@ practice into a career-spanning asset.
 
 ---
 
-## Institutional Reference Memory
+## Institutional reference memory
 
 When Reference Engineering is practiced at a team or organization level,
 the reference system becomes institutional reference memory: the accumulated
@@ -212,5 +212,5 @@ every project and with every new hire. Organizations with it compound.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

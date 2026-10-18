@@ -1,11 +1,11 @@
-# 3D Art — Reference Engineering Mistakes
+# 3D art: reference engineering mistakes
 
 Eight failure modes specific to 3D art reference practice. Each one has
 a real production cost. Learn to recognize them before they cost you time.
 
 ---
 
-## MISTAKE 01 — The Wrong Scale Anchor
+## MISTAKE 01: the wrong scale anchor
 
 > *"I based the scale on how it looked in the viewport."*
 
@@ -15,7 +15,7 @@ you have no answer beyond "it looked right."
 
 **Cause:** Scale was established visually rather than from a documented
 dimension. The viewport has no ground truth. Judgments made in the
-viewport are relative to whatever else is in it — which in early production
+viewport are relative to whatever else is in it. Which in early production
 is often nothing, or the grid, or another asset that also hasn't been
 confirmed against real dimensions.
 
@@ -28,7 +28,7 @@ architectural documentation. For a vehicle: find the wheelbase dimension.
 
 **Production cost:** Scale errors discovered at integration require
 full rework of geometry. If the asset is in a kit or modular set,
-every other piece in the set is wrong too. Time lost: 1–5 days depending
+every other piece in the set is wrong too. Time lost: 1-5 days depending
 on asset complexity.
 
 <details>
@@ -37,7 +37,7 @@ on asset complexity.
 Scale errors are among the most expensive errors in 3D production because
 they are invisible until integration and because they invalidate the work
 already done. A model that is 1.5× the correct scale in isolation looks
-fine — the viewport has no reference to compare against. At integration,
+fine, the viewport has no reference to compare against. At integration,
 every other element in the scene is a reference. The error becomes visible
 immediately, but by then, all the work that built on the wrong scale
 (UV layout, texturing, any derived assets) is also wrong.
@@ -51,7 +51,7 @@ takes days.
 
 ---
 
-## MISTAKE 02 — Rendering Pipeline Mismatch
+## MISTAKE 02: rendering pipeline mismatch
 
 > *"The textures looked amazing in Marmoset but they look completely wrong in the game engine."*
 
@@ -72,7 +72,7 @@ delivery environment to validate channel values before investing in the
 full texture set.
 
 **Production cost:** Full re-bake and re-texture pass when the mismatch
-is discovered. Time lost: 1–3 days per asset.
+is discovered. Time lost: 1-3 days per asset.
 
 <details>
 <summary>Full explanation</summary>
@@ -80,7 +80,7 @@ is discovered. Time lost: 1–3 days per asset.
 Every rendering pipeline interprets PBR values differently. The same
 roughness value (0.7) produces a different visual result in Marmoset
 Toolbag, Unreal Engine 5 with Lumen, Unity HDRP, Blender Cycles, and
-Arnold. This is not a defect in any of these renderers — it is a consequence
+Arnold. This is not a defect in any of these renderers. It is a consequence
 of different lighting models and tone-mapping approaches.
 
 The artist who textures in Marmoset and delivers to UE5 is working from
@@ -97,7 +97,7 @@ environment, not in a proxy environment that approximates it.
 
 ---
 
-## MISTAKE 03 — The Ghost Detail Problem
+## MISTAKE 03: the Ghost detail problem
 
 > *"I added all this detail and it doesn't read at game distance."*
 
@@ -113,18 +113,18 @@ Proportion) was missing the camera distance specification.
 **Fix:** Before gathering hero detail reference (Layer 7), establish the
 target camera distance and test with a grey material at that distance.
 What reads at that distance is what deserves hero detail investment.
-What doesn't read doesn't need hero detail — it needs value-level
+What doesn't read doesn't need hero detail. It needs value-level
 differentiation (normal map suggests the form) rather than surface-level
 detail (actual geometric or texture variation).
 
 **Production cost:** Hero detail investment in areas that don't read at
 target distance. Equivalent cost: all texturing time spent on non-reading
-areas. Time lost: varies — can be 30–50% of texturing time on high-detail
+areas. Time lost: varies, can be 30-50% of texturing time on high-detail
 assets where distance was not validated.
 
 ---
 
-## MISTAKE 04 — Stylization Without Rules
+## MISTAKE 04: stylization without rules
 
 > *"I was going for a stylized look but now it just looks inconsistent."*
 
@@ -141,18 +141,18 @@ sessions) make different micro-decisions and the set diverges.
 
 **Fix:** Extract the style rules before the first asset is built.
 Write them down. "Stylized" becomes: "Shape language is 70% hard-edged,
-30% organic transitions. Bevels are 2–3px at 512 texel density. Albedo
-values stay in the 0.15–0.65 linear range. No subsurface visible on
+30% organic transitions. Bevels are 2-3px at 512 texel density. Albedo
+values stay in the 0.15-0.65 linear range. No subsurface visible on
 inorganic materials. Panel lines are always 1px at 512, never variable-width."
 These rules can be checked. A feeling cannot.
 
 **Production cost:** Art direction revision pass across the full asset
 set to establish post-hoc consistency. Time lost: depends on set size.
-For a 20-prop set: 3–5 additional days of revision.
+For a 20-prop set: 3-5 additional days of revision.
 
 ---
 
-## MISTAKE 05 — The Frozen Brief Midpoint Failure
+## MISTAKE 05: the frozen brief Midpoint failure
 
 > *"I finished the model and then discovered I needed to rig it."*
 
@@ -182,7 +182,7 @@ moderately expensive. Any of these discovered at delivery: worst case.
 
 ---
 
-## MISTAKE 06 — Single-Axis Silhouette
+## MISTAKE 06: single-axis silhouette
 
 > *"The model looks great from the front. Why does it look so flat from the side?"*
 
@@ -202,12 +202,12 @@ reads from all angles requires different geometry than one optimized
 for the hero view.
 
 **Production cost:** Secondary form rework to build interest into
-underspecified profiles. Time lost: 0.5–2 days depending on how much
+underspecified profiles. Time lost: 0.5-2 days depending on how much
 detail has been added on top of the wrong primary form.
 
 ---
 
-## MISTAKE 07 — Uniform Aging
+## MISTAKE 07: uniform aging
 
 > *"The wear on this asset looks like it was applied with a filter, not like it actually happened."*
 
@@ -231,17 +231,17 @@ produces work that looks painted-on regardless of technical quality.
 
 **Production cost:** Texture rework to relocate wear to physically correct
 positions. If wear was baked into geometry (physical damage), also geometry
-rework. Time lost: 0.5–1.5 days.
+rework. Time lost: 0.5-1.5 days.
 
 ---
 
-## MISTAKE 08 — Reference Borrowed from a Different Platform
+## MISTAKE 08: reference Borrowed from a different platform
 
 > *"I used those beautiful Artstation renders as reference and my game asset looks nothing like them."*
 
 **Symptom:** The reference looks like what you want the asset to look like.
 The asset, in the target renderer, looks nothing like the reference.
-The gap between reference and result is not a skill gap — it is a
+The gap between reference and result is not a skill gap. It is a
 pipeline gap.
 
 **Cause:** Reference gathered from offline renders (Marmoset Toolbag,
@@ -264,10 +264,10 @@ in real-time. Apply the albedo information but not the translucency read."
 
 **Production cost:** Multiple revision cycles trying to match unachievable
 reference, followed by scope reset when the pipeline limitation is
-understood. Time lost: 1–3 days in failed attempts before the platform
+understood. Time lost: 1-3 days in failed attempts before the platform
 constraint is accepted.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

@@ -1,10 +1,10 @@
-# Game Development — Reference Engineering Mistakes
+# Game development: reference engineering mistakes
 
 Seven failure modes specific to game development reference practice.
 
 ---
 
-## MISTAKE 01 — "It Should Feel Like [Game]"
+## MISTAKE 01: "it should feel like [game]"
 
 > *"Make it feel like Dark Souls."*
 
@@ -17,8 +17,8 @@ with no specific critique possible.
 **Cause:** Layer 4 (Governing Rules) reference was stated as an emotional
 impression rather than extracted as specific mechanical parameters. "Feel
 like Dark Souls" is not a design specification. The specific rules that
-produce the Dark Souls feel — death state behavior, stamina economy, hitbox
-precision, enemy aggression patterns, item scarcity — are design specifications.
+produce the Dark Souls feel: death state behavior, stamina economy, hitbox
+precision, enemy aggression patterns, item scarcity, are design specifications.
 
 **Fix:** For every feel reference game, run a mechanic analysis (see
 REFERENCE_GUIDE.md). Extract the specific parameters: what are the actual
@@ -26,12 +26,12 @@ numbers? What does the game actually do mechanically that produces the
 stated feel? Write the rules down before any implementation begins.
 
 **Production cost:** Iterative feel adjustments without a clear target.
-Can consume 30–50% of a polish milestone chasing a feel that was never
+Can consume 30-50% of a polish milestone chasing a feel that was never
 defined specifically enough to hit.
 
 ---
 
-## MISTAKE 02 — Reference from Memory
+## MISTAKE 02: reference from memory
 
 > *"I've played that game a hundred times. I know how it works."*
 
@@ -42,7 +42,7 @@ Implemented mechanics feel slightly off from the reference without a clear
 reason why.
 
 **Cause:** Tier assignment error. Experienced gameplay knowledge is at best
-Secondary reference — it is the practitioner's memory of a Secondary source.
+Secondary reference, it is the practitioner's memory of a Secondary source.
 It was treated as Primary. Human memory of game feel is unreliable for
 specific parameter values.
 
@@ -53,12 +53,12 @@ hundreds of times should be re-played with a reference sheet in hand.
 
 **Production cost:** Parameters calibrated to memory rather than measurement
 produce a mechanic that almost feels right. The almost is noticed by players
-and is described as "something feels off" — hard to diagnose without the
+and is described as "something feels off", hard to diagnose without the
 documented baseline.
 
 ---
 
-## MISTAKE 03 — Genre Convention Ignored
+## MISTAKE 03: genre convention ignored
 
 > *"We thought making it different would be a feature."*
 
@@ -84,7 +84,7 @@ too deep to fix without a fundamental mechanic change.
 
 ---
 
-## MISTAKE 04 — Economy Balance Without Reference
+## MISTAKE 04: economy balance without reference
 
 > *"We'll tune the economy during beta."*
 
@@ -110,7 +110,7 @@ player experience.
 
 ---
 
-## MISTAKE 05 — Difficulty Without Curve Reference
+## MISTAKE 05: difficulty without curve reference
 
 > *"Players are dropping off in level 3. We don't know why."*
 
@@ -135,7 +135,7 @@ art), difficulty redesign cascades.
 
 ---
 
-## MISTAKE 06 — Game Feel as Afterthought
+## MISTAKE 06: game feel as afterthought
 
 > *"We'll add the juice in polish."*
 
@@ -156,12 +156,12 @@ games. Implementation targets the documented values. Polish adjusts from
 a documented baseline.
 
 **Production cost:** Extended polish milestone without a clear endpoint.
-Game feel tuning without reference is subjective and unstable — changes
+Game feel tuning without reference is subjective and unstable, changes
 are made, reverted, and remade without progress toward a defined target.
 
 ---
 
-## MISTAKE 07 — Platform Input Assumptions
+## MISTAKE 07: platform input assumptions
 
 > *"We designed on PC. Port to mobile later."*
 
@@ -177,7 +177,7 @@ constraints in the original brief.
 
 **Fix:** If multi-platform is planned, gather platform input reference for
 all target platforms before core mechanic design begins. Some mechanics
-are fundamentally incompatible with certain input models — discovering
+are fundamentally incompatible with certain input models, discovering
 this before implementation is far less expensive than discovering it
 during porting.
 
@@ -187,5 +187,5 @@ exceeds revenue potential after the redesign scope becomes clear.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

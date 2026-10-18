@@ -1,20 +1,20 @@
-# 3D Art — Reference Engineering Guide
+# 3D art: reference engineering guide
 
 Full methodology for gathering, analyzing, and organizing reference across
 the complete 3D production arc: from initial brief through delivery.
 
-**Contributed by:** Atharva Patil — P4inz Interactive Labs
+**Contributed by:** Atharva Patil, P4inz Interactive Labs
 **Last updated:** 2026-06-22
 
 ---
 
-## Layer 1 — Function & Context
+## Layer 1: function & context
 
-### What to Find
+### What to find
 
 **Existence reference:** Photographs and documentation of the real-world thing
 (or its closest real-world equivalent). Not renders. Not concept art. The actual
-object, material, or environment as it exists — at rest and in use.
+object, material, or environment as it exists, at rest and in use.
 
 **In-use reference:** The thing being operated, inhabited, or interacted with.
 A weapon being held. A door being opened. A building being entered. Functional
@@ -29,16 +29,16 @@ against the background.
 
 **Failure-state reference:** What the thing looks like when worn, damaged,
 aged, or broken. For any prop that appears used rather than new, failure-state
-reference is Layer 1, not Layer 6 — it defines what the asset fundamentally is.
+reference is Layer 1, not Layer 6. It defines what the asset fundamentally is.
 
-### Discipline-Specific Questions
+### Discipline-Specific questions
 
 - What does this asset do, and does it need to look like it works?
 - What is its relationship to the human body? (held, worn, inhabited, operated from a distance?)
 - Is this asset seen in motion or predominantly static?
 - What story does this asset's condition tell? (new, used, aged, damaged?)
 
-### Where to Look
+### Where to look
 
 YouTube (search behavior and use, not appearance), manufacturer documentation
 for real-world equivalents, historical archives for period-appropriate assets,
@@ -46,34 +46,34 @@ Wikimedia Commons for public domain functional photography.
 
 ---
 
-## Layer 2 — Scale & Proportion
+## Layer 2: scale & proportion
 
-### What to Find
+### What to find
 
 **Dimension documentation:** Technical specifications, engineering drawings,
 or measured photographs that give absolute dimensions. Not estimated from
-visual reference — actual measurements.
+visual reference, actual measurements.
 
 **Scale anchor:** The single reference that locks scale unambiguously. Usually
 a human figure in the frame, a door, or a known-size object. Every other
 scale decision derives from the anchor.
 
 **Orthographic reference:** Front, side, top views. Blueprints when available
-(vehicles, weapons, aircraft — these often have excellent orthographic documentation).
+(vehicles, weapons, aircraft, these often have excellent orthographic documentation).
 For characters: turnaround sheets, anatomy charts with head-count marked.
 
-**Proportion system:** For characters — head count, body proportion ratios.
-For environments — modular grid, structural bay, floor-to-floor height.
-For props — overall ratio of primary mass to secondary elements.
+**Proportion system:** For characters, head count, body proportion ratios.
+For environments: modular grid, structural bay, floor-to-floor height.
+For props, overall ratio of primary mass to secondary elements.
 
-### Discipline-Specific Questions
+### Discipline-Specific questions
 
 - What is the one dimension that, if wrong, makes everything else wrong?
 - What is my platform's polycount budget and how does it constrain the level of geometric detail at real-world proportions?
 - What is the texel density standard for this asset at its target LOD distance?
 - For characters: what head count matches the production style? What does that head count look like in the target DCC at the target camera distance?
 
-### Where to Look
+### Where to look
 
 Dimensions.com (human-scale reference), The-Blueprints.com (vehicles, weapons,
 aircraft, machinery), manufacturer technical datasheets, UE5/Unity documentation
@@ -82,9 +82,9 @@ character turnarounds.
 
 ---
 
-## Layer 3 — Stage-Appropriate Reference
+## Layer 3: stage-appropriate reference
 
-### The 3D Art Production Stages
+### The 3D art production stages
 
 Reference is not gathered all at once. It is gathered in passes, one per
 production stage. Using the wrong stage's reference for the current stage
@@ -101,12 +101,12 @@ is one of the most invisible failure modes in 3D production.
 | Hero detail | Fine-craft, micro-surface, proximity detail | Close-up photography, material macro reference |
 | Lighting / presentation | How asset reads in scene conditions | Scene lighting reference, comparable assets in similar conditions |
 
-### Gathering by Stage
+### Gathering by stage
 
 **At blockout stage:** Gather only reference that answers the blockout question:
 is the primary mass correct? Orthographic views. Side-profile silhouettes.
 Primary proportion studies. Do NOT add hero detail reference to the board
-at blockout stage — it will be used to make blockout decisions and will
+at blockout stage, it will be used to make blockout decisions and will
 produce incorrect decisions.
 
 **At UV stage:** Gather tiling seam reference. Look at how comparable assets
@@ -115,17 +115,17 @@ without visible repetition? What areas require unique UV space because pattern
 repetition would be visible?
 
 **At hero detail stage (only):** Close-up photography. Macro surface reference.
-This is when Layer 7 reference is appropriate — not before.
+This is when Layer 7 reference is appropriate. Not before.
 
 ---
 
-## Layer 4 — Governing Rules
+## Layer 4: governing rules
 
-### What to Extract
+### What to extract
 
 **Shape language:** Is the style hard-edged or soft? Geometric or organic?
 Where does the style use hard transitions and where does it use soft ones?
-What is the bevel behavior — tight and precise, or broad and soft? Write it down.
+What is the bevel behavior, tight and precise, or broad and soft? Write it down.
 
 **Detail density map:** Where is there detail and where is there rest?
 A useful format: describe the detail distribution as a percentage.
@@ -150,18 +150,18 @@ decorative surface detail that doesn't serve a functional read. It never
 uses pure black as a surface color." This list is checked against every
 decision throughout production.
 
-### Minimum Source Requirement
+### Minimum source requirement
 
 Style rules extracted from a single source carry that source's idiosyncrasies.
 Minimum three sources for any rule that will govern the whole production.
 If three sources agree, the rule is the style. If they disagree, the
-disagreement is information — investigate why before writing the rule.
+disagreement is information, investigate why before writing the rule.
 
 ---
 
-## Layer 5 — Lighting Context
+## Layer 5: lighting context
 
-### What to Find
+### What to find
 
 **Target renderer conditions:** What renderer will this asset live in?
 Real-time (UE5 Lumen, Unity HDRP, Godot)? Offline (V-Ray, Arnold, Cycles)?
@@ -178,9 +178,9 @@ calibrated only for overcast conditions will fail under harsh midday sun.
 
 **Platform rendering constraints:** Mobile has different lighting capabilities
 than console. A mobile game asset needs reference calibrated for what mobile
-renderers can actually represent — not what a path tracer would show.
+renderers can actually represent, not what a path tracer would show.
 
-### Albedo Calibration Reference
+### Albedo calibration reference
 
 Real-world albedo values in linear space are commonly misunderstood:
 
@@ -196,7 +196,7 @@ Real-world albedo values in linear space are commonly misunderstood:
 If your darkest materials are at 0.00 and your brightest at 1.00, your
 albedo map is almost certainly wrong.
 
-### Where to Look
+### Where to look
 
 Polyhaven (HDRI environments, free), Megascans preview images for PBR
 calibration reference, UE5/Unity documentation for renderer-specific
@@ -204,9 +204,9 @@ behavior, Lumen best practices documentation.
 
 ---
 
-## Layer 6 — Material & Surface
+## Layer 6: material & surface
 
-### What to Find
+### What to find
 
 **Construction reference:** How is the thing made? What are the assembly
 joints, seams, welds, stitching, and fasteners? Construction reference
@@ -220,14 +220,14 @@ Fabric frays at edges, pills at friction zones, sags at weight-bearing
 points. This behavior is what makes surfaces read as real.
 
 **PBR channel reference per material zone:** Not just one roughness value
-for the whole asset. Each material zone — metal, worn paint, exposed base
-material, rust, fabric — has its own channel targets. Gather reference
+for the whole asset. Each material zone, metal, worn paint, exposed base
+material, rust, fabric, has its own channel targets. Gather reference
 for each zone explicitly.
 
 **Wear pattern reference:** Where does the specific type of wear on this
 specific material type occur first, and in what progression?
 
-### PBR Reference by Material Class
+### PBR reference by material class
 
 | Material Class | Albedo (linear) | Roughness | Metallic | Notes |
 |---|---|---|---|---|
@@ -243,12 +243,12 @@ specific material type occur first, and in what progression?
 
 ---
 
-## Layer 7 — Precision Detail
+## Layer 7: precision detail
 
-### What to Find
+### What to find
 
 **Micro-texture reference:** Close-up photography of the real material surface.
-Not art, not renders — real-world macro photography. What is the texture
+Not art, not renders, real-world macro photography. What is the texture
 frequency? What direction does grain run? What is the pore or grain size
 relative to the object's dimensions?
 
@@ -267,7 +267,7 @@ investing in micro-texture for the full asset. The back of a character's
 jacket in a third-person game will never be seen at the distance that
 micro-texture reads.
 
-### Where to Look
+### Where to look
 
 Polyhaven (free CC0 surface photography), Quixel Megascans (free with
 UE5, reference-quality surface documentation), Unsplash/Pexels for
@@ -276,7 +276,7 @@ artifact close-up reference (CC licensed).
 
 ---
 
-## The 3D Art Reference Brief
+## The 3D art reference brief
 
 Fill this out before opening your DCC. Update it at each production milestone.
 
@@ -341,17 +341,17 @@ BRIEF VERSION: [v1.0 / v2.0 / vFinal]
 
 ---
 
-## When to Re-Run Reference Work
+## When to Re-Run reference work
 
 Re-run the brief (run Core Loop again) when:
-- Blockout is complete — does the proportion reference hold?
+- Blockout is complete: does the proportion reference hold?
 - You reach a material you haven't built yet
 - The art director gives new direction that changes Layer 4 rules
-- You discover the scale is wrong (immediately — scale errors compound)
+- You discover the scale is wrong (immediately, scale errors compound)
 - Production stalls on a decision and no reference answers it
 - You move to hero detail stage (Layer 7 reference pass)
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

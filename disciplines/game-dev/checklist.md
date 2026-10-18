@@ -1,20 +1,20 @@
-# Game Development — Reference Engineering Checklist
+# Game development: reference engineering checklist
 
 Run before first implementation. Run again at each production milestone.
-Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
 ## CONCEPT STAGE
 
-### Layer 1 — Core Loop and Fantasy
-- [ ] Core loop described with timing (not just description — frame/second counts)
+### Layer 1: core loop and fantasy
+- [ ] Core loop described with timing (not just description, frame/second counts)
 - [ ] Player fantasy stated in one sentence
 - [ ] Genre conventions listed and each tagged: honor / depart / why
 - [ ] Top 3 reference games identified
 - [ ] Top 3 reference games played with deliberate measurement intent (not from memory)
 
-### Layer 2 — Pacing and Economy
+### Layer 2: pacing and economy
 - [ ] Target session length documented
 - [ ] Core loop duration measured in reference games
 - [ ] Economy earn/spend rates measured in reference games (if applicable)
@@ -33,15 +33,15 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ## GREY-BOX STAGE
 
-### Layer 7 — Game Feel (gather NOW, not at polish)
+### Layer 7: Game Feel (gather NOW, not at polish)
 - [ ] Input latency target documented (frames)
-- [ ] Coyote time documented (frames) — if platformer
-- [ ] Jump buffer documented (frames) — if platformer
-- [ ] Hit pause documented (frames) — if combat
+- [ ] Coyote time documented (frames). If platformer
+- [ ] Jump buffer documented (frames). If platformer
+- [ ] Hit pause documented (frames). If combat
 - [ ] Screen shake parameters documented (duration/intensity/falloff)
 - [ ] Sound feedback latency target documented
 
-### Layer 5 — Platform Context
+### Layer 5: platform context
 - [ ] Target platform input model documented
 - [ ] Session context documented (mobile commute / console evening / PC session)
 - [ ] UI minimum read distance confirmed
@@ -86,12 +86,12 @@ Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 | Platformer | Layer 7 (coyote time, jump buffer), Layer 4 (platform convention analysis) |
 | Roguelite | Layer 2 (run duration pacing), Layer 1 (progression vs. randomness balance) |
 | RPG | Layer 2 (economy earn/spend rates), Layer 3 (difficulty curve) |
-| Mobile casual | Layer 5 (session context — very short loops), Layer 1 (retention hook) |
+| Mobile casual | Layer 5 (session context, very short loops), Layer 1 (retention hook) |
 | Action/combat | Layer 4 (hitbox and timing analysis), Layer 7 (hit pause) |
-| Puzzle | Layer 1 (genre conventions — undo), Layer 3 (difficulty introduction pace) |
+| Puzzle | Layer 1 (genre conventions, undo), Layer 3 (difficulty introduction pace) |
 | Open world | Layer 2 (level scale vs. traversal speed), Layer 1 (player fantasy clarity) |
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

@@ -1,6 +1,6 @@
-# Kanvaz UI v2.0 — Project Record
+# Kanvaz UI v2.0: Project Record
 
-## What Was Built
+## What was built
 
 Kanvaz v2.0: a complete UI rebuild of the Kanvaz desktop application
 (Electron, Windows). The v2.0 release replaced the v1.x UI with a new
@@ -10,13 +10,13 @@ image import).
 
 Timeline: approximately 3 months of intermittent development alongside
 other active projects (Nexus, Dead Corps, coursework).
-Team: solo developer — all design and development by Atharva Patil.
+Team: solo developer, all design and development by Atharva Patil.
 Distribution: portable EXE, GitHub releases page, free, MIT licensed.
 Current version: v2.0.1 (patch after v2.0 shipped with known bugs).
 
 ---
 
-## The Brief
+## The brief
 
 **Stated brief (internal):** Rebuild the UI to be "cleaner and more
 professional" than v1.x. Add the features users had requested in Discord.
@@ -34,7 +34,7 @@ most of the reference failures documented in this case study.
 
 ---
 
-## The Outcome
+## The outcome
 
 **What shipped:** Kanvaz v2.0 shipped. The core canvas functionality works.
 The visual design is more coherent than v1.x. The application is usable
@@ -50,7 +50,7 @@ import still intermittent. Multi-board state loss in low-priority queue.
 
 ---
 
-## What Worked
+## What worked
 
 **Canvas performance:** The v2.0 canvas implementation is significantly
 faster than v1.x at large board sizes. This was the highest-priority
@@ -64,7 +64,7 @@ annotate, save/load) is stable in v2.0.1.
 
 ---
 
-## What Failed or Was Harder Than It Should Have Been
+## What failed or was harder than it should have been
 
 **Autosave implementation:** The autosave feature was the most-requested
 community feature. It was prioritized for v2.0. It shipped broken.
@@ -85,7 +85,7 @@ answer was found.
 was calibrated on a single monitor (the development machine). Several users
 reported that on high-brightness displays or in bright ambient conditions,
 the dark theme elements have insufficient contrast. The UI was calibrated
-to one display condition — mine — without reference to the range of display
+to one display condition, mine — without reference to the range of display
 conditions the application would be used in.
 
 **"PureRef replacement" positioning not validated:** The application is
@@ -93,10 +93,10 @@ positioned as a PureRef alternative for VFX/3D artists. PureRef's workflow
 was never systematically analyzed. The features Kanvaz added or changed
 were not validated against PureRef's specific workflow advantages.
 One version 2 user noted that Kanvaz's board file format is not compatible
-with PureRef — a migration friction point that direct competitor analysis
+with PureRef, a migration friction point that direct competitor analysis
 would have flagged.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

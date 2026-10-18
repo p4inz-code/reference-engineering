@@ -1,10 +1,10 @@
-# Web Development — Reference Engineering Mistakes
+# Web development: reference engineering mistakes
 
 Eight failure modes specific to web development reference practice.
 
 ---
 
-## MISTAKE 01 — Designing for Your Own Device
+## MISTAKE 01: designing for your own device
 
 > *"It looks perfect on my setup."*
 
@@ -20,7 +20,7 @@ range was never researched or tested against.
 
 **Fix:** Before visual design begins, document the target device and
 viewport range from analytics or category benchmarks. Test on the
-actual range — not on a browser devtools viewport simulation, but on
+actual range, not on a browser devtools viewport simulation, but on
 real devices or verified emulators. Calibrate contrast ratios to the
 high end of the display brightness range in the target audience.
 
@@ -30,7 +30,7 @@ implementation revision across all affected components.
 
 ---
 
-## MISTAKE 02 — The Feature Assumption
+## MISTAKE 02: the feature assumption
 
 > *"Users obviously want [feature]. I'll add it."*
 
@@ -53,7 +53,7 @@ that silently drain development maintenance budget without delivering value.
 
 ---
 
-## MISTAKE 03 — Visual Rules Without Numbers
+## MISTAKE 03: visual rules without numbers
 
 > *"The design should feel clean and modern."*
 
@@ -75,14 +75,14 @@ exact color values with contrast ratios, exact breakpoints. Write them
 in a decision document that exists before the first component is built.
 
 **Production cost:** Incremental design debt accumulates invisibly until
-a full design system audit is required. Time lost: 1–3 days per audit
+a full design system audit is required. Time lost: 1-3 days per audit
 cycle, recurring.
 
 ---
 
-## MISTAKE 04 — Responsive Assumption
+## MISTAKE 04: responsive assumption
 
-> *"It's responsive — I added the media queries."*
+> *"It's responsive, I added the media queries."*
 
 **Symptom:** Interface has media queries but does not actually work well
 across the viewport range. Common specific failures: content overflows
@@ -96,7 +96,7 @@ The range between them was assumed to work. Layer 2 (Scale & Proportion)
 reference specified only the endpoints, not the behavior across the range.
 
 **Fix:** Define behavior at the breakpoints and the interpolation rule
-between them. Test at the actual viewport range of the target audience —
+between them. Test at the actual viewport range of the target audience
 not just at breakpoints. Use analytics viewport data to identify the
 specific sizes where the most users experience the interface.
 
@@ -106,7 +106,7 @@ architectural refactor of the responsive system.
 
 ---
 
-## MISTAKE 05 — Framework Fighting
+## MISTAKE 05: framework fighting
 
 > *"This should be simple but it's taking three times as long as expected."*
 
@@ -132,7 +132,7 @@ cost of non-standard implementations.
 
 ---
 
-## MISTAKE 06 — The Invisible Accessibility Gap
+## MISTAKE 06: the invisible accessibility gap
 
 > *"We'll add accessibility at the end."*
 
@@ -153,12 +153,12 @@ accessibility requirements in the brief at Layer 4 so they constrain
 design from the first decision, not after implementation.
 
 **Production cost:** Post-implementation accessibility audit and remediation
-is 3–5× more expensive than designing accessible from the start.
+is 3-5× more expensive than designing accessible from the start.
 Legal risk in regulated industries.
 
 ---
 
-## MISTAKE 07 — Performance Discovered at Launch
+## MISTAKE 07: performance discovered at launch
 
 > *"The Lighthouse score is 34."*
 
@@ -173,16 +173,16 @@ Performance was assumed to be acceptable until it demonstrably was not.
 **Fix:** Before implementation begins, document CWV targets as explicit
 constraints. Image size budget: established from LCP target and network
 assumption. JavaScript budget: established from INP target and device
-assumption. These are Layer 5 reference — they describe the contextual
+assumption. These are Layer 5 reference. They describe the contextual
 conditions the implementation must perform in.
 
 **Production cost:** Performance optimization retrofitted to an
-implemented site is 2–4× more expensive than designing for performance.
+implemented site is 2-4× more expensive than designing for performance.
 Revenue impact from poor CWV: measurable in e-commerce contexts.
 
 ---
 
-## MISTAKE 08 — Single-Browser Development
+## MISTAKE 08: single-browser development
 
 > *"It works in Chrome."*
 
@@ -204,10 +204,10 @@ BrowserStack) before considering any feature complete.
 
 **Production cost:** Cross-browser bug fixes at QA or post-launch.
 Safari and iOS-specific fixes are consistently underestimated. Average
-additional time for Safari compatibility: 20–40% of implementation time
+additional time for Safari compatibility: 20-40% of implementation time
 if not designed for from the start.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*

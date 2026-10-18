@@ -1,13 +1,13 @@
-# Reference Engineering — Universal Pre-Production Checklist
+# Reference engineering: universal Pre-Production checklist
 
 A standalone checklist. No AI required. Works for any discipline.
 Print it. Run it before every project. Run it again at each major milestone.
 
 ---
 
-## How to Use This Checklist
+## How to use this checklist
 
-**Before production starts:** Run the full Pre-Production Check (Sections 1–3).
+**Before production starts:** Run the full Pre-Production Check (Sections 1-3).
 
 **At each major milestone:** Run the Board Health Check (Section 4).
 
@@ -15,21 +15,21 @@ Print it. Run it before every project. Run it again at each major milestone.
 
 **Before delivery/handoff:** Run the Final Check (Section 6).
 
-Mark each item: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
+Mark each item: Complete / ~ Partial / Missing / N/A Not applicable
 
 ---
 
-## Section 1 — Foundation Check (Pyramid Layers 1–2)
+## Section 1: foundation check (pyramid layers 1-2)
 
-### Layer 1: Function & Context
+### Layer 1: function & context
 
 - [ ] I can state in one sentence what this thing *does*
 - [ ] I have reference of this thing *in use*, not just at rest
-- [ ] I have context reference — the thing in its environment
+- [ ] I have context reference. The thing in its environment
 - [ ] I know who interacts with it and how
 - [ ] I have reference of failure/wear states (if applicable)
 
-### Layer 2: Scale & Proportion
+### Layer 2: scale & proportion
 
 - [ ] I know the real-world dimensions (or the equivalent for my discipline)
 - [ ] I have at least one comparative scale reference (the thing next to a known-size object)
@@ -39,35 +39,35 @@ Mark each item: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
-## Section 2 — Structure Check (Pyramid Layers 3–4)
+## Section 2: structure check (pyramid layers 3-4)
 
-### Layer 3: Production Stage
+### Layer 3: production stage
 
 - [ ] I have identified my current production stage
 - [ ] My reference matches the current stage (silhouette reference for silhouette stage, etc.)
 - [ ] I am NOT using hero detail reference to make blockout decisions
 - [ ] I know what reference I will need at the *next* stage and have planned for it
 
-### Layer 4: Style Rules
+### Layer 4: style rules
 
 - [ ] I have identified the visual style I am working in (or establishing)
-- [ ] I have extracted at minimum 5 written style rules (not vibes — specific parameters)
+- [ ] I have extracted at minimum 5 written style rules (not vibes, specific parameters)
 - [ ] My style rules came from at minimum 3 different reference sources
 - [ ] I have written down what this style *never* does (constraints, not just examples)
 - [ ] Someone else could read my style rules and make consistent decisions without seeing my board
 
 ---
 
-## Section 3 — Context Check (Pyramid Layers 5–6)
+## Section 3: context check (pyramid layers 5-6)
 
-### Layer 5: Lighting Context
+### Layer 5: lighting context
 
 - [ ] I know the lighting conditions my output will live in
 - [ ] I have reference photographed under similar lighting conditions
 - [ ] I have checked the value read at the distance the thing will be seen from
 - [ ] I have reference for multiple lighting conditions if the output appears in multiple environments
 
-### Layer 6: Material & Surface
+### Layer 6: material & surface
 
 - [ ] I know what the thing is made of (materials, not just surfaces)
 - [ ] I have reference showing how the material *behaves* (deformation, wear, aging)
@@ -76,7 +76,7 @@ Mark each item: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
-## Section 4 — Board Health Check (Run at Every Milestone)
+## Section 4: board health check (run at every milestone)
 
 ### Coverage
 
@@ -99,7 +99,7 @@ Mark each item: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
-## Section 5 — Gap Audit (Run When Production Stalls)
+## Section 5: gap audit (run when production stalls)
 
 Fill this out when you don't know how to proceed:
 
@@ -128,12 +128,12 @@ Layer __ — [name]
 [check core/SOURCES.md and your discipline's sources.md]
 ```
 
-**Time to resolve:** This should take 15–30 minutes. If it's taking longer,
+**Time to resolve:** This should take 15-30 minutes. If it's taking longer,
 the question is not specific enough.
 
 ---
 
-## Section 6 — Final / Handoff Check
+## Section 6: final / handoff check
 
 - [ ] My reference brief reflects the actual production decisions made (not just the plan)
 - [ ] I have documented what reference I *would have* gathered if I were starting over
@@ -143,7 +143,7 @@ the question is not specific enough.
 
 ---
 
-## Common Gaps by Discipline
+## Common gaps by discipline
 
 | Discipline | Most Common Missing Layer |
 |---|---|
@@ -158,5 +158,5 @@ the question is not specific enough.
 
 ---
 
-*Part of the Reference Engineering library — github.com/p4inz-code/reference-engineering*
-*Framework by Atharva Patil — P4inz Interactive Labs — 2026*
+*Part of the Reference Engineering library, github.com/p4inz-code/reference-engineering*
+*Framework by Atharva Patil, P4inz Interactive Labs, 2026*
