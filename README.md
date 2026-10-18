@@ -6,9 +6,7 @@
 
 **Reference Engineering** is a discipline focused on references as its primary object.
 
-Not knowledge. Not research. Not documentation. Not inspiration.
-
-**References**, the specific collected materials that practitioners use to inform decisions before and during production. Reference Engineering is the discipline of working with those materials systematically.
+It is not about knowledge, research, documentation or inspiration. The subject is references: the specific collected materials that practitioners use to inform decisions before and during production. Reference Engineering is the discipline of working with those materials systematically.
 
 ---
 
@@ -16,7 +14,7 @@ Not knowledge. Not research. Not documentation. Not inspiration.
 
 Most practitioners collect references. Very few engineer them.
 
-The difference is not effort. It is methodology. A reference collector asks: *"What should I save?"* A reference engineer asks: *"What decisions does this project require, and what reference will inform each one?"*
+The difference isn't effort, it's methodology. A reference collector asks: *"What should I save?"* A reference engineer asks: *"What decisions does this project require, and what reference will inform each one?"*
 
 This repository is the canonical free library for Reference Engineering across every discipline that has a production phase. It defines the methodology, proves it with examples, and provides the tools to practice it.
 
@@ -41,7 +39,7 @@ Reference Engineering was developed by [Atharva Patil](https://github.com/p4inz-
 
 ## The reference pyramid
 
-Seven layers. Build bottom-up. The upper layers are only useful once the lower layers are established.
+The pyramid has seven layers, built from the bottom up. The upper layers are only useful once the lower ones are in place.
 
 ```
                          ▲

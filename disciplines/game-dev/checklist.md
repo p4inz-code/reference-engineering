@@ -1,7 +1,7 @@
 # Game development: reference engineering checklist
 
 Run before first implementation. Run again at each production milestone.
-Mark: Complete / ~ Partial / Missing / N/A Not applicable
+Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 

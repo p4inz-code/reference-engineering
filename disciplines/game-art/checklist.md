@@ -1,7 +1,7 @@
 # Game art: reference engineering checklist
 
 Run before opening your DCC. Run again at each production milestone.
-Mark: Complete / ~ Partial / Missing / N/A Not applicable
+Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 

@@ -162,7 +162,7 @@ WHAT THIS EFFECT NEVER DOES:
 ### Composite environment
 
 **Background plate conditions:** What lighting is in the background plate?
-The VFX must integrate: which means its color temperature, exposure,
+The VFX must integrate, which means its color temperature, exposure,
 and edge behavior must match the background plate, not just be internally
 correct. A correctly simulated fire composited over a poorly matched
 background reads as incorrect VFX even when the simulation is right.

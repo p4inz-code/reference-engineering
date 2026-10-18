@@ -1,7 +1,7 @@
 # UI/UX design: reference engineering checklist
 
 Run at each design stage. Each stage has its own reference requirements.
-Mark: Complete / ~ Partial / Missing / N/A Not applicable
+Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 

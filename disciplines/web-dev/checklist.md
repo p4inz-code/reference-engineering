@@ -1,7 +1,7 @@
 # Web development: reference engineering checklist
 
 Run before writing code. Run again at each production stage.
-Mark: Complete / ~ Partial / Missing / N/A Not applicable
+Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 

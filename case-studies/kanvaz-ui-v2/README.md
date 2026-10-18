@@ -9,7 +9,7 @@
 
 ---
 
-## What kanvaz is
+## What Kanvaz is
 
 Kanvaz is a free, offline, infinite canvas reference board desktop application
 for Windows. It is positioned as a PureRef alternative optimized for VFX and

@@ -1,7 +1,7 @@
 # VFX: reference engineering checklist
 
 Run before any simulation begins. Run again at each phase milestone.
-Mark: Complete / ~ Partial / Missing / N/A Not applicable
+Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 

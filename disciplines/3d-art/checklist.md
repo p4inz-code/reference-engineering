@@ -1,7 +1,7 @@
 # 3D art: reference engineering checklist
 
 Run before opening your DCC. Run again at each production stage.
-Mark: Complete / ~ Partial / Missing / N/A Not applicable
+Mark: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 

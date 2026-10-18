@@ -122,7 +122,7 @@ Style rules extracted:
 - Artificial light sources (inside structures) are warm; exterior is cool
 Hierarchy tier: **Secondary** (game, Eastern European post-apocalyptic, high match)
 
-### Style reference: the last of us part I/II (naughty Dog)
+### Style reference: the last of us part I/II (Naughty Dog)
 *Answers: "How does nature reclamation read as 'beautiful ruin' vs 'ugly ruin'?"*
 Observation: TLOU uses high-quality vegetation with strong color saturation to
 contrast against desaturated architecture. The ruin reads as beautiful because

@@ -15,7 +15,7 @@ Print it. Run it before every project. Run it again at each major milestone.
 
 **Before delivery/handoff:** Run the Final Check (Section 6).
 
-Mark each item: Complete / ~ Partial / Missing / N/A Not applicable
+Mark each item: ✓ Complete / ~ Partial / ✗ Missing / N/A Not applicable
 
 ---
 
