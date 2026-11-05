@@ -2,7 +2,7 @@
 
 > **The systematic process of collecting, organizing, analyzing, connecting, retrieving, and applying references to improve the quality of decisions made during production.**
 
-<!-- BANNER PLACEHOLDER — Session 3 -->
+<!-- BANNER PLACEHOLDER, Session 3 -->
 
 **Reference Engineering** is a discipline focused on references as its primary object.
 
@@ -54,7 +54,7 @@ The pyramid has seven layers, built from the bottom up. The upper layers are onl
                 /                 \ How it reads in its actual environment
                /-----------------\
               /         4         \ GOVERNING RULES
-             /                     \ Extracted parameters — written, not vibes
+             /                     \ Extracted parameters: written, not vibes
             /-----------------------\
            /            3            \ STAGE-APPROPRIATE REFERENCE
           /                           \ Right reference for the current phase
@@ -81,7 +81,7 @@ The canonical theoretical foundation. Cite [`theory/REFERENCE_ENGINEERING_THEORY
 | Document | Contents |
 |---|---|
 | [`theory/REFERENCE_ENGINEERING_THEORY.md`](./theory/REFERENCE_ENGINEERING_THEORY.md) | Complete unified theory, definition, principles, all models |
-| [`theory/REFERENCE_HIERARCHY.md`](./theory/REFERENCE_HIERARCHY.md) | Credibility model — Primary, Secondary, Tertiary tiers |
+| [`theory/REFERENCE_HIERARCHY.md`](./theory/REFERENCE_HIERARCHY.md) | Credibility model: Primary, Secondary, Tertiary tiers |
 | [`theory/REFERENCE_LIFECYCLE.md`](./theory/REFERENCE_LIFECYCLE.md) | How reference briefs age, version, and compound |
 | [`theory/REFERENCE_RELATIONSHIPS.md`](./theory/REFERENCE_RELATIONSHIPS.md) | How references relate to each other, the relationship model |
 | [`theory/REFERENCE_DECISION_MAKING.md`](./theory/REFERENCE_DECISION_MAKING.md) | How reference quality maps to decision quality |
@@ -184,7 +184,7 @@ I am an animation student and indie developer in Navi Mumbai, India. In 2026, wh
 
 This repository is the attempt to provide that language.
 
-— Atharva Patil, P4inz Interactive Labs
+Atharva Patil, P4inz Interactive Labs
 
 Cite this work: [`CITATION.md`](./CITATION.md)
 Prior art record: [`TRADEMARK_NOTE.md`](./TRADEMARK_NOTE.md)
